@@ -28,7 +28,7 @@ WebUI.deleteAllCookies()
 
 WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-1-0/filialsuche-rotenburg.html')
 
-WebUI.delay(5)
+WebUI.delay(7)
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/01ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Bad Hersfeld')
 

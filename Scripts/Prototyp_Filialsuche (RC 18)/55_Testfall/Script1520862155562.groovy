@@ -32,15 +32,15 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_Filialsuche - Strassenname Hausnummer/svg_dropdown-icons'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.mouseOver(findTestObject('Belitz_option'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Belitz_option'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.verifyElementText(findTestObject('Page_Filialsuche - Strassenname Hausnummer/01ErgebnisText'), 'Berliner Volksbank eG, Filiale Moabit')
 
