@@ -34,9 +34,11 @@ WebUI.setText(findTestObject('Filialsuche_Inputtext'), 'Ansbach')
 
 WebUI.submit(findTestObject('Filialsuche_submit_button'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.verifyTextPresent('Martin-Luther-Platz 20', false)
+
+WebUI.scrollToElement(findTestObject('Filialsuche_Inputtext'), 2)
 
 WebUI.verifyTextPresent('PSD Bank Nürnberg eG', false)
 

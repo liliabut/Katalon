@@ -28,13 +28,19 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-1-0/filialsuche-wangen-textinput.html')
 
-WebUI.delay(2)
+WebUI.delay(5)
+
+WebUI.scrollToElement(findTestObject('Filialsuche_Inputtext'), 0)
+
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('Filialsuche_Inputtext'), 'Rechberghausen')
 
+WebUI.delay(5)
+
 WebUI.submit(findTestObject('Filialsuche_submit_button'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.verifyTextPresent('Geschäftsstelle Rechberghausen', false)
 
@@ -47,6 +53,8 @@ WebUI.verifyTextPresent('Geschäftsstelle Börtlingen', false)
 WebUI.verifyTextPresent('Geschäftsstelle Uhingen-Holzhausen', false)
 
 WebUI.verifyTextPresent('Raiffeisenbank Wangen eG', false)
+
+WebUI.delay(5)
 
 WebUI.verifyTextNotPresent('Hauptstr. 56', false)
 

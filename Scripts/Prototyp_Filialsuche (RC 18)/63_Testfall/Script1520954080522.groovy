@@ -36,7 +36,7 @@ WebUI.delay(2)
 
 WebUI.submit(findTestObject('Filialsuche_submit_button'))
 
-WebUI.delay(5)
+WebUI.delay(8)
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/01ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Bad Hersfeld')
 

@@ -42,7 +42,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('03/Page_Filialsuche-rotenburg - BVR HT/div_Bad Hersfeld'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/01ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Bad Hersfeld')
 

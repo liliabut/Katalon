@@ -32,18 +32,26 @@ WebUI.delay(5)
 
 WebUI.setText(findTestObject('Filialsuche_Inputtext'), 'Berlin')
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.submit(findTestObject('Filialsuche_submit_button'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Erweiterte_Suche'))
 
 WebUI.delay(5)
 
+WebUI.scrollToElement(findTestObject('Coin_counter_checkbox'), 0)
+
+WebUI.delay(5)
+
 '1-4 Checkbox ausgewählt'
 WebUI.click(findTestObject('Coin_counter_checkbox'))
+
+WebUI.delay(5)
+
+WebUI.mouseOver(findTestObject('Coin_counter_checkbox'))
 
 WebUI.click(findTestObject('atm_checkbox'))
 
