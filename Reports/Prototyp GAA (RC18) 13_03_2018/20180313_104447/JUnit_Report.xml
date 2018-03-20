@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Prototyp GAA (RC18) 13_03_2018" time="263" tests="5" failures="5" errors="0">
+   <testsuite name="Prototyp GAA (RC18) 13_03_2018" tests="5" failures="5" errors="0" time="263" timestamp="2018-03-13 10:44:54" hostname="lbut - Unitb-Dell22.Werk.UnitB.de" id="Test Suites/Prototyp GAA (RC18) 13_03_2018">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\lbut\\Downloads\\Prototyp1_12_03\\Prototyp1\\Reports\\Prototyp GAA (RC18) 13_03_2018\\20180313_104447"/>
+         <property name="logFiles" value="C:\\Users\\lbut\\Downloads\\Prototyp1_12_03\\Prototyp1\\Reports\\Prototyp GAA (RC18) 13_03_2018\\20180313_104447\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\lbut\\Downloads\\Prototyp1_12_03\\Prototyp1\\Reports\\Prototyp GAA (RC18) 13_03_2018\\20180313_104447\\1520934391458.png, C:\\Users\\lbut\\Downloads\\Prototyp1_12_03\\Prototyp1\\Reports\\Prototyp GAA (RC18) 13_03_2018\\20180313_104447\\1520934395047.png, C:\\Users\\lbut\\Downloads\\Prototyp1_12_03\\Prototyp1\\Reports\\Prototyp GAA (RC18) 13_03_2018\\20180313_104447\\1520934424923.png, C:\\Users\\lbut\\Downloads\\Prototyp1_12_03\\Prototyp1\\Reports\\Prototyp GAA (RC18) 13_03_2018\\20180313_104447\\1520934475292.png, C:\\Users\\lbut\\Downloads\\Prototyp1_12_03\\Prototyp1\\Reports\\Prototyp GAA (RC18) 13_03_2018\\20180313_104447\\1520934540119.png"/>
+         <property name="hostName" value="lbut - Unitb-Dell22.Werk.UnitB.de"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 64.0.3282.186"/>
+         <property name="hostAddress" value="192.168.134.64"/>
+         <property name="sessionId" value="182e612446fcfb64a63d7b3930d23d4f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Prototyp_GAA_Suche (RC18)/01_Testfall" classname="Test Cases/Prototyp_GAA_Suche (RC18)/01_Testfall" status="FAILED">
+         <failure type="FAILED" message="Anzahl Maps 99 ist NICHT gleich Anzahl Filialen 100"/>
+         <system-out><![CDATA[2018-03-13 10:44:55 - [TEST_CASE][FAILED] - Test Cases/Prototyp_GAA_Suche (RC18)/01_Testfall: Test Cases/Prototyp_GAA_Suche (RC18)/01_Testfall FAILED because (of) Anzahl Maps 99 ist NICHT gleich Anzahl Filialen 100
+
+2018-03-13 10:44:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-13 10:45:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-13 10:45:03 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-03-13 10:45:06 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-03-13 10:45:06 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-13 10:45:07 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-13 10:45:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-13 10:45:21 - [MESSAGE][PASSED] - Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-13 10:45:21 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-13 10:45:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-13 10:45:26 - [TEST_STEP][PASSED] - Statement - wes1 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(gaa_map), 5): Found 99 web elements with id: 'Object Repository/gaa_map' located by 'By.xpath: //div[@class='aps-map__custom-marker aps-map__custom-marker--is-atm']' in '5' second(s)
+
+2018-03-13 10:45:27 - [TEST_STEP][PASSED] - Statement - wes2 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(loc_steet_filialsuche), 5): Found 100 web elements with id: 'Object Repository/loc_steet_filialsuche' located by 'By.xpath: //div[@class='loc-street']' in '5' second(s)
+
+2018-03-13 10:45:27 - [TEST_STEP][PASSED] - Statement - filial_maps_count = wes1.size(): null
+
+2018-03-13 10:45:27 - [TEST_STEP][PASSED] - Statement - filial_accordeon_count = wes2.size(): null
+
+2018-03-13 10:45:27 - [TEST_STEP][PASSED] - Statement - filial_count = 100: null
+
+2018-03-13 10:45:27 - [TEST_STEP][PASSED] - Statement - If (filial_maps_count != filial_count): null
+
+2018-03-13 10:45:27 - [TEST_STEP][PASSED] - comment: Anzahl Maps 99 ist NICHT gleich Anzahl Filialen 100
+
+2018-03-13 10:45:27 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-13 10:45:28 - [MESSAGE][PASSED] - Browser is closed
+
+2018-03-13 10:45:28 - [TEST_STEP][PASSED] - Statement - Throw new com.kms.katalon.core.exception.StepFailedException((((Anzahl Maps  + filial_maps_count) +  ist NICHT gleich Anzahl Filialen ) + filial_count)): null]]></system-out>
+         <system-err><![CDATA[2018-03-13 10:44:55 - [TEST_CASE][FAILED] - Test Cases/Prototyp_GAA_Suche (RC18)/01_Testfall: Test Cases/Prototyp_GAA_Suche (RC18)/01_Testfall FAILED because (of) Anzahl Maps 99 ist NICHT gleich Anzahl Filialen 100]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prototyp_GAA_Suche (RC18)/03_Testfall" classname="Test Cases/Prototyp_GAA_Suche (RC18)/03_Testfall" status="PASSED">
+         <system-out><![CDATA[2018-03-13 10:45:28 - [TEST_CASE][PASSED] - Test Cases/Prototyp_GAA_Suche (RC18)/03_Testfall: Test Cases/Prototyp_GAA_Suche (RC18)/03_Testfall
+
+2018-03-13 10:45:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-13 10:45:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-13 10:45:32 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-13 10:45:33 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-13 10:45:33 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-03-13 10:45:34 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-03-13 10:45:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-13 10:45:36 - [MESSAGE][PASSED] - Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-13 10:45:36 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-13 10:45:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-13 10:45:41 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Akkordeon_plus_filialsuche' located by 'By.xpath: //a[@class='acc-header acc-header--open']' is not present after '5' second(s)
+
+2018-03-13 10:45:42 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Akkordeon_plus_filialsuche' located by 'By.xpath: //a[@class='acc-header acc-header--open']' is not present after '5' second(s)
+
+2018-03-13 10:45:42 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-13 10:45:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prototyp_GAA_Suche (RC18)/04_Testfall" classname="Test Cases/Prototyp_GAA_Suche (RC18)/04_Testfall" status="PASSED">
+         <system-out><![CDATA[2018-03-13 10:45:43 - [TEST_CASE][PASSED] - Test Cases/Prototyp_GAA_Suche (RC18)/04_Testfall: Test Cases/Prototyp_GAA_Suche (RC18)/04_Testfall
+
+2018-03-13 10:45:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-13 10:45:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-13 10:45:47 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-03-13 10:45:50 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-03-13 10:45:50 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-13 10:45:51 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-13 10:45:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-13 10:45:53 - [MESSAGE][PASSED] - Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-13 10:45:53 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-03-13 10:46:01 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-03-13 10:46:01 - [TEST_STEP][PASSED] - Statement - wes = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(gaa_map), 5): Found 99 web elements with id: 'Object Repository/gaa_map' located by 'By.xpath: //div[@class='aps-map__custom-marker aps-map__custom-marker--is-atm']' in '5' second(s)
+
+2018-03-13 10:46:02 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < wes.size(), (i++)]): null
+
+2018-03-13 10:46:02 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:02 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:02 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:02 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:02 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:02 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:02 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:02 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:02 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:02 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:02 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:02 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-13 10:46:05 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-13 10:46:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prototyp_GAA_Suche (RC18)/05_Testfall" classname="Test Cases/Prototyp_GAA_Suche (RC18)/05_Testfall" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Entfernung_filialsuche' is not present (Root cause: Web element with id: 'Object Repository/Entfernung_filialsuche' located by 'By.xpath: //span[@class='loc-distance']' is present after '5' second(s))"/>
+         <system-out><![CDATA[2018-03-13 10:46:06 - [TEST_CASE][FAILED] - Test Cases/Prototyp_GAA_Suche (RC18)/05_Testfall: Test Cases/Prototyp_GAA_Suche (RC18)/05_Testfall FAILED because (of) Unable to verify object 'Object Repository/Entfernung_filialsuche' is not present (Root cause: Web element with id: 'Object Repository/Entfernung_filialsuche' located by 'By.xpath: //span[@class='loc-distance']' is present after '5' second(s))
+
+2018-03-13 10:46:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-13 10:46:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-13 10:46:09 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-13 10:46:10 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-13 10:46:10 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-03-13 10:46:12 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-03-13 10:46:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-13 10:46:21 - [MESSAGE][PASSED] - Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-13 10:46:21 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-13 10:46:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-13 10:46:26 - [TEST_STEP][FAILED] - verifyElementNotPresent: Unable to verify object 'Object Repository/Entfernung_filialsuche' is not present (Root cause: Web element with id: 'Object Repository/Entfernung_filialsuche' located by 'By.xpath: //span[@class='loc-distance']' is present after '5' second(s))
+
+2018-03-13 10:46:35 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Entfernung_filialsuche' located by 'By.xpath: //span[@class='loc-distance']' is present after '5' second(s)
+[[ATTACHMENT|C:\\Users\\lbut\\Downloads\\Prototyp1_12_03\\Prototyp1\\Reports\\Prototyp GAA (RC18) 13_03_2018\\20180313_104447\\1520934391458.png]]
+
+2018-03-13 10:46:37 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Entfernung_filialsuche' is not present (Root cause: Web element with id: 'Object Repository/Entfernung_filialsuche' located by 'By.xpath: //span[@class='loc-distance']' is present after '5' second(s))
+[[ATTACHMENT|C:\\Users\\lbut\\Downloads\\Prototyp1_12_03\\Prototyp1\\Reports\\Prototyp GAA (RC18) 13_03_2018\\20180313_104447\\1520934395047.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-13 10:46:06 - [TEST_CASE][FAILED] - Test Cases/Prototyp_GAA_Suche (RC18)/05_Testfall: Test Cases/Prototyp_GAA_Suche (RC18)/05_Testfall FAILED because (of) Unable to verify object 'Object Repository/Entfernung_filialsuche' is not present (Root cause: Web element with id: 'Object Repository/Entfernung_filialsuche' located by 'By.xpath: //span[@class='loc-distance']' is present after '5' second(s))]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prototyp_GAA_Suche (RC18)/06_Testfall" classname="Test Cases/Prototyp_GAA_Suche (RC18)/06_Testfall" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/002/Page_Filialsuche-rotenburg - BVR HT/svg_dropdown-icons' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;span tabindex=&quot;0&quot; id=&quot;aps-dropdown-widget-1-button&quot; role=&quot;combobox&quot; aria-expanded=&quot;false&quot; aria-autocomplete=&quot;list&quot; aria-owns=&quot;aps-dropdown-widget-1-menu&quot; aria-haspopup=&quot;true&quot; class=&quot;ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget&quot; data-api-id=&quot;aps-dropdown-widget-1&quot; aria-activedescendant=&quot;ui-id-4&quot; aria-labelledby=&quot;ui-id-4&quot; aria-disabled=&quot;false&quot;>...&lt;/span> is not clickable at point (647, 823). Other element would receive the click: &lt;div class=&quot;ogr-preloader ogr-is-visible&quot; title=&quot;Lade...&quot;>...&lt;/div>
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'UNITB-DELL22', ip: '192.168.134.64', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\lbut\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: 1ac786a2d285bb7ac07e9cfc28a07ff7)"/>
+         <system-out><![CDATA[2018-03-13 10:46:37 - [TEST_CASE][FAILED] - Test Cases/Prototyp_GAA_Suche (RC18)/06_Testfall: Test Cases/Prototyp_GAA_Suche (RC18)/06_Testfall FAILED because (of) Unable to click on object 'Object Repository/002/Page_Filialsuche-rotenburg - BVR HT/svg_dropdown-icons' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span tabindex="0" id="aps-dropdown-widget-1-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="aps-dropdown-widget-1-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget" data-api-id="aps-dropdown-widget-1" aria-activedescendant="ui-id-4" aria-labelledby="ui-id-4" aria-disabled="false">...</span> is not clickable at point (647, 823). Other element would receive the click: <div class="ogr-preloader ogr-is-visible" title="Lade...">...</div>
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'UNITB-DELL22', ip: '192.168.134.64', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\lbut\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: 1ac786a2d285bb7ac07e9cfc28a07ff7)
+
+2018-03-13 10:46:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-13 10:46:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-13 10:46:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-13 10:46:49 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-03-13 10:46:55 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-03-13 10:46:55 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-13 10:46:56 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-13 10:46:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-13 10:46:59 - [MESSAGE][PASSED] - Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-13 10:46:59 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-13 10:47:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-13 10:47:04 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/002/Page_Filialsuche-rotenburg - BVR HT/svg_dropdown-icons' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span tabindex="0" id="aps-dropdown-widget-1-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="aps-dropdown-widget-1-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget" data-api-id="aps-dropdown-widget-1" aria-activedescendant="ui-id-4" aria-labelledby="ui-id-4" aria-disabled="false">...</span> is not clickable at point (647, 823). Other element would receive the click: <div class="ogr-preloader ogr-is-visible" title="Lade...">...</div>
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'UNITB-DELL22', ip: '192.168.134.64', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\lbut\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: 1ac786a2d285bb7ac07e9cfc28a07ff7)
+
+2018-03-13 10:47:05 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/002/Page_Filialsuche-rotenburg - BVR HT/svg_dropdown-icons' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span tabindex="0" id="aps-dropdown-widget-1-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="aps-dropdown-widget-1-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget" data-api-id="aps-dropdown-widget-1" aria-activedescendant="ui-id-4" aria-labelledby="ui-id-4" aria-disabled="false">...</span> is not clickable at point (647, 823). Other element would receive the click: <div class="ogr-preloader ogr-is-visible" title="Lade...">...</div>
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'UNITB-DELL22', ip: '192.168.134.64', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\lbut\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: 1ac786a2d285bb7ac07e9cfc28a07ff7)
+[[ATTACHMENT|C:\\Users\\lbut\\Downloads\\Prototyp1_12_03\\Prototyp1\\Reports\\Prototyp GAA (RC18) 13_03_2018\\20180313_104447\\1520934424923.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-13 10:46:37 - [TEST_CASE][FAILED] - Test Cases/Prototyp_GAA_Suche (RC18)/06_Testfall: Test Cases/Prototyp_GAA_Suche (RC18)/06_Testfall FAILED because (of) Unable to click on object 'Object Repository/002/Page_Filialsuche-rotenburg - BVR HT/svg_dropdown-icons' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span tabindex="0" id="aps-dropdown-widget-1-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="aps-dropdown-widget-1-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget" data-api-id="aps-dropdown-widget-1" aria-activedescendant="ui-id-4" aria-labelledby="ui-id-4" aria-disabled="false">...</span> is not clickable at point (647, 823). Other element would receive the click: <div class="ogr-preloader ogr-is-visible" title="Lade...">...</div>
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'UNITB-DELL22', ip: '192.168.134.64', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\lbut\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: 1ac786a2d285bb7ac07e9cfc28a07ff7)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prototyp_GAA_Suche (RC18)/15_Testfall" classname="Test Cases/Prototyp_GAA_Suche (RC18)/15_Testfall" status="FAILED">
+         <failure type="FAILED" message="Unable to move mouse over object 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML/div_Berlin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML/div_Berlin' located by 'By.xpath: //div[@id = 'ui-id-5' and (text() = 'Berlin' or . = 'Berlin')]' not found)"/>
+         <system-out><![CDATA[2018-03-13 10:47:05 - [TEST_CASE][FAILED] - Test Cases/Prototyp_GAA_Suche (RC18)/15_Testfall: Test Cases/Prototyp_GAA_Suche (RC18)/15_Testfall FAILED because (of) Unable to move mouse over object 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML/div_Berlin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML/div_Berlin' located by 'By.xpath: //div[@id = 'ui-id-5' and (text() = 'Berlin' or . = 'Berlin')]' not found)
+
+2018-03-13 10:47:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-13 10:47:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-13 10:47:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-13 10:47:08 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-13 10:47:10 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-13 10:47:10 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-03-13 10:47:13 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-03-13 10:47:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-13 10:47:16 - [MESSAGE][PASSED] - Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-13 10:47:16 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-13 10:47:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-13 10:47:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML/svg_dropdown-icons' is clicked on
+
+2018-03-13 10:47:22 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML/svg_dropdown-icons' is clicked on
+
+2018-03-13 10:47:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-13 10:47:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-13 10:47:24 - [TEST_STEP][FAILED] - mouseOver: Unable to move mouse over object 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML/div_Berlin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML/div_Berlin' located by 'By.xpath: //div[@id = 'ui-id-5' and (text() = 'Berlin' or . = 'Berlin')]' not found)
+
+2018-03-13 10:47:56 - [MESSAGE][FAILED] - Unable to move mouse over object 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML/div_Berlin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML/div_Berlin' located by 'By.xpath: //div[@id = 'ui-id-5' and (text() = 'Berlin' or . = 'Berlin')]' not found)
+[[ATTACHMENT|C:\\Users\\lbut\\Downloads\\Prototyp1_12_03\\Prototyp1\\Reports\\Prototyp GAA (RC18) 13_03_2018\\20180313_104447\\1520934475292.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-13 10:47:05 - [TEST_CASE][FAILED] - Test Cases/Prototyp_GAA_Suche (RC18)/15_Testfall: Test Cases/Prototyp_GAA_Suche (RC18)/15_Testfall FAILED because (of) Unable to move mouse over object 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML/div_Berlin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML/div_Berlin' located by 'By.xpath: //div[@id = 'ui-id-5' and (text() = 'Berlin' or . = 'Berlin')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prototyp_GAA_Suche (RC18)/16_Testfall" classname="Test Cases/Prototyp_GAA_Suche (RC18)/16_Testfall" status="PASSED">
+         <system-out><![CDATA[2018-03-13 10:47:56 - [TEST_CASE][PASSED] - Test Cases/Prototyp_GAA_Suche (RC18)/16_Testfall: Test Cases/Prototyp_GAA_Suche (RC18)/16_Testfall
+
+2018-03-13 10:47:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-13 10:47:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-13 10:48:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-13 10:48:01 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-13 10:48:02 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-13 10:48:02 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-03-13 10:48:07 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-03-13 10:48:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-13 10:48:10 - [MESSAGE][PASSED] - Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-13 10:48:10 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-13 10:48:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-13 10:48:15 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-13 10:48:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-13 10:48:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_2' is clicked on
+
+2018-03-13 10:48:17 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_2' is clicked on
+
+2018-03-13 10:48:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_3' is clicked on
+
+2018-03-13 10:48:17 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_3' is clicked on
+
+2018-03-13 10:48:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_4' is clicked on
+
+2018-03-13 10:48:17 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_4' is clicked on
+
+2018-03-13 10:48:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_5' is clicked on
+
+2018-03-13 10:48:17 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_5' is clicked on
+
+2018-03-13 10:48:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_6' is clicked on
+
+2018-03-13 10:48:18 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_6' is clicked on
+
+2018-03-13 10:48:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_7' is clicked on
+
+2018-03-13 10:48:18 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_7' is clicked on
+
+2018-03-13 10:48:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_8' is clicked on
+
+2018-03-13 10:48:18 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_8' is clicked on
+
+2018-03-13 10:48:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_9' is clicked on
+
+2018-03-13 10:48:18 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_9' is clicked on
+
+2018-03-13 10:48:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_10' is clicked on
+
+2018-03-13 10:48:18 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_10' is clicked on
+
+2018-03-13 10:48:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_11' is clicked on
+
+2018-03-13 10:48:19 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_11' is clicked on
+
+2018-03-13 10:48:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_12' is clicked on
+
+2018-03-13 10:48:19 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_12' is clicked on
+
+2018-03-13 10:48:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-13 10:48:19 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-13 10:48:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-13 10:48:19 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-13 10:48:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-13 10:48:19 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-13 10:48:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-13 10:48:19 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-13 10:48:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zum Anfang' is clicked on
+
+2018-03-13 10:48:20 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zum Anfang' is clicked on
+
+2018-03-13 10:48:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zum Ende' is clicked on
+
+2018-03-13 10:48:20 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zum Ende' is clicked on
+
+2018-03-13 10:48:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/li_Zurck' is clicked on
+
+2018-03-13 10:48:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/li_Zurck' is clicked on
+
+2018-03-13 10:48:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-13 10:48:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-13 10:48:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-13 10:48:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-13 10:48:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Weiter' is clicked on
+
+2018-03-13 10:48:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Weiter' is clicked on
+
+2018-03-13 10:48:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Weiter' is clicked on
+
+2018-03-13 10:48:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Weiter' is clicked on
+
+2018-03-13 10:48:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Weiter' is clicked on
+
+2018-03-13 10:48:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Weiter' is clicked on
+
+2018-03-13 10:48:21 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-13 10:48:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prototyp_GAA_Suche (RC18)/17_Testfall" classname="Test Cases/Prototyp_GAA_Suche (RC18)/17_Testfall" status="PASSED">
+         <system-out><![CDATA[2018-03-13 10:48:22 - [TEST_CASE][PASSED] - Test Cases/Prototyp_GAA_Suche (RC18)/17_Testfall: Test Cases/Prototyp_GAA_Suche (RC18)/17_Testfall
+
+2018-03-13 10:48:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-13 10:48:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-13 10:48:26 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-13 10:48:28 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-13 10:48:28 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-03-13 10:48:28 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-03-13 10:48:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche-bundesweit.html' successfully
+
+2018-03-13 10:48:31 - [MESSAGE][PASSED] - Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche-bundesweit.html' successfully
+
+2018-03-13 10:48:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA18/Page_Geldautomatensuche-bundesweit (1)/span_Bargeld im Einzelhandel' is clicked on
+
+2018-03-13 10:48:31 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA18/Page_Geldautomatensuche-bundesweit (1)/span_Bargeld im Einzelhandel' is clicked on
+
+2018-03-13 10:48:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-13 10:48:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-13 10:48:33 - [TEST_STEP][PASSED] - setText: Text 'berlin' is set on object 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/input_city'
+
+2018-03-13 10:48:34 - [MESSAGE][PASSED] - Text 'berlin' is set on object 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/input_city'
+
+2018-03-13 10:48:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-13 10:48:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-13 10:48:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/button_Suchen' is clicked on
+
+2018-03-13 10:48:36 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/button_Suchen' is clicked on
+
+2018-03-13 10:48:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-13 10:48:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-13 10:48:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_2' is clicked on
+
+2018-03-13 10:48:39 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_2' is clicked on
+
+2018-03-13 10:48:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_3' is clicked on
+
+2018-03-13 10:48:39 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_3' is clicked on
+
+2018-03-13 10:48:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_4' is clicked on
+
+2018-03-13 10:48:39 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_4' is clicked on
+
+2018-03-13 10:48:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_5' is clicked on
+
+2018-03-13 10:48:39 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_5' is clicked on
+
+2018-03-13 10:48:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_Zum Anfang' is clicked on
+
+2018-03-13 10:48:39 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_Zum Anfang' is clicked on
+
+2018-03-13 10:48:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_Weiter' is clicked on
+
+2018-03-13 10:48:39 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_Weiter' is clicked on
+
+2018-03-13 10:48:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_Weiter' is clicked on
+
+2018-03-13 10:48:40 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_Weiter' is clicked on
+
+2018-03-13 10:48:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_Weiter' is clicked on
+
+2018-03-13 10:48:40 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_Weiter' is clicked on
+
+2018-03-13 10:48:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/li_Weiter' is clicked on
+
+2018-03-13 10:48:40 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/li_Weiter' is clicked on
+
+2018-03-13 10:48:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_Zurck' is clicked on
+
+2018-03-13 10:48:41 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_Zurck' is clicked on
+
+2018-03-13 10:48:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_Zurck' is clicked on
+
+2018-03-13 10:48:41 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_Zurck' is clicked on
+
+2018-03-13 10:48:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_Zurck' is clicked on
+
+2018-03-13 10:48:41 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_Zurck' is clicked on
+
+2018-03-13 10:48:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/li_Zum Ende' is clicked on
+
+2018-03-13 10:48:41 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/li_Zum Ende' is clicked on
+
+2018-03-13 10:48:41 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-13 10:48:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prototyp_GAA_Suche (RC18)/18_Testfall" classname="Test Cases/Prototyp_GAA_Suche (RC18)/18_Testfall" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/002/Page_Filialsuche-rotenburg - BVR HT/svg_dropdown-icons' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;span tabindex=&quot;0&quot; id=&quot;aps-dropdown-widget-1-button&quot; role=&quot;combobox&quot; aria-expanded=&quot;false&quot; aria-autocomplete=&quot;list&quot; aria-owns=&quot;aps-dropdown-widget-1-menu&quot; aria-haspopup=&quot;true&quot; class=&quot;ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget&quot; data-api-id=&quot;aps-dropdown-widget-1&quot;>...&lt;/span> is not clickable at point (647, 823). Other element would receive the click: &lt;div class=&quot;ogr-preloader ogr-is-visible&quot; title=&quot;Lade...&quot;>...&lt;/div>
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'UNITB-DELL22', ip: '192.168.134.64', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\lbut\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: 9d707e032f55943bb2582df782b826a8)"/>
+         <system-out><![CDATA[2018-03-13 10:48:42 - [TEST_CASE][FAILED] - Test Cases/Prototyp_GAA_Suche (RC18)/18_Testfall: Test Cases/Prototyp_GAA_Suche (RC18)/18_Testfall FAILED because (of) Unable to click on object 'Object Repository/002/Page_Filialsuche-rotenburg - BVR HT/svg_dropdown-icons' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span tabindex="0" id="aps-dropdown-widget-1-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="aps-dropdown-widget-1-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget" data-api-id="aps-dropdown-widget-1">...</span> is not clickable at point (647, 823). Other element would receive the click: <div class="ogr-preloader ogr-is-visible" title="Lade...">...</div>
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'UNITB-DELL22', ip: '192.168.134.64', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\lbut\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: 9d707e032f55943bb2582df782b826a8)
+
+2018-03-13 10:48:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-13 10:48:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-13 10:48:46 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-03-13 10:48:49 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-03-13 10:48:49 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-13 10:48:50 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-13 10:48:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-13 10:48:55 - [MESSAGE][PASSED] - Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-13 10:48:55 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-13 10:49:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-13 10:49:00 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/002/Page_Filialsuche-rotenburg - BVR HT/svg_dropdown-icons' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span tabindex="0" id="aps-dropdown-widget-1-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="aps-dropdown-widget-1-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget" data-api-id="aps-dropdown-widget-1">...</span> is not clickable at point (647, 823). Other element would receive the click: <div class="ogr-preloader ogr-is-visible" title="Lade...">...</div>
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'UNITB-DELL22', ip: '192.168.134.64', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\lbut\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: 9d707e032f55943bb2582df782b826a8)
+
+2018-03-13 10:49:00 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/002/Page_Filialsuche-rotenburg - BVR HT/svg_dropdown-icons' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span tabindex="0" id="aps-dropdown-widget-1-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="aps-dropdown-widget-1-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget" data-api-id="aps-dropdown-widget-1">...</span> is not clickable at point (647, 823). Other element would receive the click: <div class="ogr-preloader ogr-is-visible" title="Lade...">...</div>
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'UNITB-DELL22', ip: '192.168.134.64', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\lbut\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: 9d707e032f55943bb2582df782b826a8)
+[[ATTACHMENT|C:\\Users\\lbut\\Downloads\\Prototyp1_12_03\\Prototyp1\\Reports\\Prototyp GAA (RC18) 13_03_2018\\20180313_104447\\1520934540119.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-13 10:48:42 - [TEST_CASE][FAILED] - Test Cases/Prototyp_GAA_Suche (RC18)/18_Testfall: Test Cases/Prototyp_GAA_Suche (RC18)/18_Testfall FAILED because (of) Unable to click on object 'Object Repository/002/Page_Filialsuche-rotenburg - BVR HT/svg_dropdown-icons' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span tabindex="0" id="aps-dropdown-widget-1-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="aps-dropdown-widget-1-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget" data-api-id="aps-dropdown-widget-1">...</span> is not clickable at point (647, 823). Other element would receive the click: <div class="ogr-preloader ogr-is-visible" title="Lade...">...</div>
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'UNITB-DELL22', ip: '192.168.134.64', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\lbut\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: 9d707e032f55943bb2582df782b826a8)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prototyp_GAA_Suche (RC18)/19TF" classname="Test Cases/Prototyp_GAA_Suche (RC18)/19TF" status="PASSED">
+         <system-out><![CDATA[2018-03-13 10:49:00 - [TEST_CASE][PASSED] - Test Cases/Prototyp_GAA_Suche (RC18)/19TF: Test Cases/Prototyp_GAA_Suche (RC18)/19TF
+
+2018-03-13 10:49:00 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-13 10:49:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-13 10:49:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-13 10:49:04 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-13 10:49:05 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-13 10:49:05 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-03-13 10:49:07 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-03-13 10:49:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche-bundesweit.html' successfully
+
+2018-03-13 10:49:10 - [MESSAGE][PASSED] - Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche-bundesweit.html' successfully
+
+2018-03-13 10:49:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA18/Page_Geldautomatensuche-bundesweit (1)/span_Bargeld im Einzelhandel' is clicked on
+
+2018-03-13 10:49:10 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA18/Page_Geldautomatensuche-bundesweit (1)/span_Bargeld im Einzelhandel' is clicked on
+
+2018-03-13 10:49:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-13 10:49:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-13 10:49:12 - [TEST_STEP][PASSED] - setText: Text 'berlin' is set on object 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/input_city'
+
+2018-03-13 10:49:12 - [MESSAGE][PASSED] - Text 'berlin' is set on object 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/input_city'
+
+2018-03-13 10:49:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-13 10:49:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-13 10:49:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/button_Suchen' is clicked on
+
+2018-03-13 10:49:15 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/button_Suchen' is clicked on
+
+2018-03-13 10:49:15 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-13 10:49:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-13 10:49:17 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-13 10:49:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-13 10:44:54 - [TEST_SUITE][FAILED] - Prototyp GAA (RC18) 13_03_2018: Test Cases/Prototyp_GAA_Suche (RC18)/01_Testfall FAILED because (of) Anzahl Maps 99 ist NICHT gleich Anzahl Filialen 100]]></system-out>
+      <system-err><![CDATA[2018-03-13 10:44:54 - [TEST_SUITE][FAILED] - Prototyp GAA (RC18) 13_03_2018: Test Cases/Prototyp_GAA_Suche (RC18)/01_Testfall FAILED because (of) Anzahl Maps 99 ist NICHT gleich Anzahl Filialen 100]]></system-err>
+   </testsuite>
+</testsuites>

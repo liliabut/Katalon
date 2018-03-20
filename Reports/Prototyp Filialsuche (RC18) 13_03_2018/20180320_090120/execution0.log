@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-03-20T09:01:50</date>
+  <millis>1521532910477</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Prototyp Filialsuche (RC18) 13_03_2018</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Prototyp Filialsuche (RC18) 13_03_2018</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Prototyp Filialsuche (RC18) 13_03_2018</property>
+</record>
+<record>
+  <date>2018-03-20T09:01:50</date>
+  <millis>1521532910557</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;lbut - 192.168.0.4&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">lbut - 192.168.0.4</property>
+</record>
+<record>
+  <date>2018-03-20T09:01:50</date>
+  <millis>1521532910583</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Mac OS X 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2018-03-20T09:01:50</date>
+  <millis>1521532910585</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;192.168.0.4&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.0.4</property>
+</record>
+<record>
+  <date>2018-03-20T09:01:50</date>
+  <millis>1521532910606</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.3.1.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.3.1.1</property>
+</record>
+<record>
+  <date>2018-03-20T09:01:51</date>
+  <millis>1521532911463</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Prototyp_Filialsuche (RC 18)/01_Testfall</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Prototyp_Filialsuche (RC 18)/01_Testfall</property>
+  <property name="description">Initial: Alle Filial-Icon sind auf der Karte angezeigt</property>
+  <property name="id">Test Cases/Prototyp_Filialsuche (RC 18)/01_Testfall</property>
+  <property name="source">\\Users\\lbut\\Desktop\\KATALON\\Prototyp1_20_03\\Prototyp1\\Test Cases\\Prototyp_Filialsuche (RC 18)\\01_Testfall.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-03-20T09:01:51</date>
+  <millis>1521532911626</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+</log>

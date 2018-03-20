@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_options-switch__icons</name>
+   <tag></tag>
+   <elementGuidId>8b76ceda-f33a-4254-8b8a-4f7464bb57a4</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>options-switch__icons</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;wrapper ym-cbox-right&quot;]/div[@class=&quot;module-aps ym-clearfix&quot;]/div[@class=&quot;aps-search-area&quot;]/form[@class=&quot;module module-search ym-clearfix&quot;]/fieldset[1]/div[@class=&quot;optionsbox&quot;]/a[@class=&quot;options-switch&quot;]/svg[@class=&quot;options-switch__icons&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

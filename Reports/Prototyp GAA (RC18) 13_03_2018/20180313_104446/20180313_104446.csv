@@ -1,0 +1,193 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Prototyp GAA (RC18) 13_03_2018,Firefox 58.0,,2018-03-13 10:44:50,2018-03-13 10:50:08,"5m - 18,033s",FAILED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/01_Testfall,Firefox 58.0,Fehler:\nAkk=100\nGAA_Maps=99\n\n\nInitial: Die ersten 100 GAAs der Bank sind angezeigt\ncount=100,2018-03-13 10:44:51,2018-03-13 10:45:27,"35,695s",FAILED
+openBrowser,Firefox 58.0,,2018-03-13 10:44:52,2018-03-13 10:45:11,"19,449s",PASSED
+deleteAllCookies,Firefox 58.0,,2018-03-13 10:45:11,2018-03-13 10:45:11,"0,014s",PASSED
+maximizeWindow,Firefox 58.0,,2018-03-13 10:45:11,2018-03-13 10:45:11,"0,079s",PASSED
+navigateToUrl,Firefox 58.0,,2018-03-13 10:45:11,2018-03-13 10:45:21,"9,638s",PASSED
+delay,Firefox 58.0,,2018-03-13 10:45:21,2018-03-13 10:45:26,"5,015s",PASSED
+"Statement - wes1 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(gaa_map), 5)",Firefox 58.0,,2018-03-13 10:45:26,2018-03-13 10:45:26,"0,108s",PASSED
+"Statement - wes2 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(loc_steet_filialsuche), 5)",Firefox 58.0,,2018-03-13 10:45:26,2018-03-13 10:45:26,"0,064s",PASSED
+Statement - filial_maps_count = wes1.size(),Firefox 58.0,,2018-03-13 10:45:26,2018-03-13 10:45:26,"0,001s",PASSED
+Statement - filial_accordeon_count = wes2.size(),Firefox 58.0,,2018-03-13 10:45:26,2018-03-13 10:45:26,"0,002s",PASSED
+Statement - filial_count = 100,Firefox 58.0,,2018-03-13 10:45:26,2018-03-13 10:45:26,"0,001s",PASSED
+Statement - If (filial_maps_count != filial_count),Firefox 58.0,,2018-03-13 10:45:26,2018-03-13 10:45:27,"0,737s",PASSED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/03_Testfall,Firefox 58.0,initial: Alle Filial-Akk. sind zugeklappt,2018-03-13 10:45:27,2018-03-13 10:45:55,"28,177s",PASSED
+openBrowser,Firefox 58.0,,2018-03-13 10:45:27,2018-03-13 10:45:43,"15,794s",PASSED
+maximizeWindow,Firefox 58.0,,2018-03-13 10:45:43,2018-03-13 10:45:43,"0,047s",PASSED
+deleteAllCookies,Firefox 58.0,,2018-03-13 10:45:43,2018-03-13 10:45:43,"0,005s",PASSED
+navigateToUrl,Firefox 58.0,,2018-03-13 10:45:43,2018-03-13 10:45:49,"5,982s",PASSED
+delay,Firefox 58.0,,2018-03-13 10:45:49,2018-03-13 10:45:54,"5,002s",PASSED
+verifyElementNotPresent,Firefox 58.0,,2018-03-13 10:45:54,2018-03-13 10:45:54,"0,128s",PASSED
+closeBrowser,Firefox 58.0,,2018-03-13 10:45:54,2018-03-13 10:45:55,"1,122s",PASSED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/04_Testfall,Firefox 58.0,Alle 100 Filialen (GAA-Icons) sind auf der Karte angezeigt,2018-03-13 10:45:55,2018-03-13 10:46:05,"9,804s",FAILED
+openBrowser,Firefox 58.0,,2018-03-13 10:45:55,2018-03-13 10:46:05,"9,545s",FAILED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/05_Testfall,Firefox 58.0,Entfernungsangabe wird nicht angezeigt,2018-03-13 10:46:05,2018-03-13 10:46:52,"46,832s",PASSED
+openBrowser,Firefox 58.0,,2018-03-13 10:46:05,2018-03-13 10:46:14,"9,120s",PASSED
+maximizeWindow,Firefox 58.0,,2018-03-13 10:46:14,2018-03-13 10:46:14,"0,039s",PASSED
+deleteAllCookies,Firefox 58.0,,2018-03-13 10:46:14,2018-03-13 10:46:14,"0,014s",PASSED
+navigateToUrl,Firefox 58.0,,2018-03-13 10:46:14,2018-03-13 10:46:45,"31,207s",PASSED
+delay,Firefox 58.0,,2018-03-13 10:46:45,2018-03-13 10:46:50,"5,002s",PASSED
+verifyElementNotPresent,Firefox 58.0,,2018-03-13 10:46:50,2018-03-13 10:46:50,"0,013s",PASSED
+closeBrowser,Firefox 58.0,,2018-03-13 10:46:50,2018-03-13 10:46:52,"1,357s",PASSED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/06_Testfall,Firefox 58.0,"GAA-count=70 (Dropdown: Ergebnis bei Auswahl eines Ortes z.B. Berlin)\nAlle Filialen, bei denen im Feld \""City\"" dieser Ort steht, sind angezeigt (Akk. und Filial-Icons) ",2018-03-13 10:46:52,2018-03-13 10:47:38,"46,310s",FAILED
+openBrowser,Firefox 58.0,,2018-03-13 10:46:52,2018-03-13 10:47:10,"17,987s",PASSED
+deleteAllCookies,Firefox 58.0,,2018-03-13 10:47:10,2018-03-13 10:47:10,"0,004s",PASSED
+maximizeWindow,Firefox 58.0,,2018-03-13 10:47:10,2018-03-13 10:47:10,"0,029s",PASSED
+navigateToUrl,Firefox 58.0,,2018-03-13 10:47:10,2018-03-13 10:47:16,"6,345s",PASSED
+delay,Firefox 58.0,,2018-03-13 10:47:16,2018-03-13 10:47:21,"5,002s",PASSED
+click,Firefox 58.0,,2018-03-13 10:47:21,2018-03-13 10:47:22,"0,359s",PASSED
+delay,Firefox 58.0,,2018-03-13 10:47:22,2018-03-13 10:47:24,"2,001s",PASSED
+mouseOver,Firefox 58.0,,2018-03-13 10:47:24,2018-03-13 10:47:24,"0,169s",PASSED
+delay,Firefox 58.0,,2018-03-13 10:47:24,2018-03-13 10:47:26,"2,001s",PASSED
+click,Firefox 58.0,,2018-03-13 10:47:26,2018-03-13 10:47:26,"0,272s",PASSED
+delay,Firefox 58.0,,2018-03-13 10:47:26,2018-03-13 10:47:31,"5,003s",PASSED
+"Statement - wes1 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(gaa_map), 5)",Firefox 58.0,,2018-03-13 10:47:31,2018-03-13 10:47:31,"0,035s",PASSED
+"Statement - wes2 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(loc_steet_filialsuche), 5)",Firefox 58.0,,2018-03-13 10:47:31,2018-03-13 10:47:31,"0,026s",PASSED
+"Statement - wes3 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(filialsuche_loc_city), 5)",Firefox 58.0,,2018-03-13 10:47:31,2018-03-13 10:47:36,"5,048s",PASSED
+Statement - filial_maps_count = wes1.size(),Firefox 58.0,,2018-03-13 10:47:36,2018-03-13 10:47:36,"0,000s",PASSED
+Statement - filial_accordeon_count = wes2.size(),Firefox 58.0,,2018-03-13 10:47:36,2018-03-13 10:47:36,"0,000s",PASSED
+Statement - filial_count = 70,Firefox 58.0,,2018-03-13 10:47:36,2018-03-13 10:47:36,"0,000s",PASSED
+"Statement - city_name = ""Berlin""",Firefox 58.0,,2018-03-13 10:47:36,2018-03-13 10:47:36,"0,000s",PASSED
+Statement - If (filial_maps_count != filial_count),Firefox 58.0,,2018-03-13 10:47:36,2018-03-13 10:47:38,"1,864s",PASSED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/15_Testfall,Firefox 58.0,Es wird Paginierung bei Auswahl eines Ortes (Berlin) gepr\u00FCft,2018-03-13 10:47:38,2018-03-13 10:48:31,"52,604s",PASSED
+openBrowser,Firefox 58.0,,2018-03-13 10:47:38,2018-03-13 10:47:48,"9,987s",PASSED
+maximizeWindow,Firefox 58.0,,2018-03-13 10:47:48,2018-03-13 10:47:48,"0,042s",PASSED
+deleteAllCookies,Firefox 58.0,,2018-03-13 10:47:48,2018-03-13 10:47:48,"0,011s",PASSED
+navigateToUrl,Firefox 58.0,,2018-03-13 10:47:48,2018-03-13 10:47:59,"10,293s",PASSED
+delay,Firefox 58.0,,2018-03-13 10:47:59,2018-03-13 10:48:04,"5,001s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:04,2018-03-13 10:48:04,"0,357s",PASSED
+delay,Firefox 58.0,,2018-03-13 10:48:04,2018-03-13 10:48:06,"2,012s",PASSED
+mouseOver,Firefox 58.0,,2018-03-13 10:48:06,2018-03-13 10:48:06,"0,221s",PASSED
+delay,Firefox 58.0,,2018-03-13 10:48:06,2018-03-13 10:48:08,"2,000s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:08,2018-03-13 10:48:08,"0,294s",PASSED
+delay,Firefox 58.0,,2018-03-13 10:48:08,2018-03-13 10:48:10,"2,001s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:10,2018-03-13 10:48:11,"0,660s",PASSED
+verifyTextPresent,Firefox 58.0,,2018-03-13 10:48:11,2018-03-13 10:48:15,"3,508s",PASSED
+verifyTextPresent,Firefox 58.0,,2018-03-13 10:48:15,2018-03-13 10:48:18,"3,566s",PASSED
+verifyTextPresent,Firefox 58.0,,2018-03-13 10:48:18,2018-03-13 10:48:22,"3,596s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:22,2018-03-13 10:48:22,"0,435s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:22,2018-03-13 10:48:23,"0,428s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:23,2018-03-13 10:48:23,"0,274s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:23,2018-03-13 10:48:23,"0,413s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:23,2018-03-13 10:48:24,"0,248s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:24,2018-03-13 10:48:24,"0,238s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:24,2018-03-13 10:48:24,"0,332s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:24,2018-03-13 10:48:24,"0,302s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:24,2018-03-13 10:48:25,"0,434s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:25,2018-03-13 10:48:25,"0,574s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:25,2018-03-13 10:48:26,"0,277s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:26,2018-03-13 10:48:26,"0,255s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:26,2018-03-13 10:48:26,"0,279s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:26,2018-03-13 10:48:26,"0,240s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:26,2018-03-13 10:48:27,"0,244s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:27,2018-03-13 10:48:27,"0,245s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:27,2018-03-13 10:48:27,"0,274s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:27,2018-03-13 10:48:27,"0,259s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:27,2018-03-13 10:48:28,"0,276s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:28,2018-03-13 10:48:28,"0,274s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:28,2018-03-13 10:48:28,"0,246s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:28,2018-03-13 10:48:29,"0,277s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:29,2018-03-13 10:48:29,"0,258s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:29,2018-03-13 10:48:29,"0,244s",PASSED
+closeBrowser,Firefox 58.0,,2018-03-13 10:48:29,2018-03-13 10:48:31,"1,517s",PASSED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/16_Testfall,Firefox 58.0,Es wird Paginierung bei Auswahl eines Ortes (Berlin) gepr\u00FCft,2018-03-13 10:48:31,2018-03-13 10:48:54,"23,417s",PASSED
+openBrowser,Firefox 58.0,,2018-03-13 10:48:31,2018-03-13 10:48:37,"6,549s",PASSED
+maximizeWindow,Firefox 58.0,,2018-03-13 10:48:37,2018-03-13 10:48:37,"0,022s",PASSED
+deleteAllCookies,Firefox 58.0,,2018-03-13 10:48:37,2018-03-13 10:48:37,"0,004s",PASSED
+navigateToUrl,Firefox 58.0,,2018-03-13 10:48:37,2018-03-13 10:48:39,"1,930s",PASSED
+delay,Firefox 58.0,,2018-03-13 10:48:39,2018-03-13 10:48:44,"5,002s",PASSED
+delay,Firefox 58.0,,2018-03-13 10:48:44,2018-03-13 10:48:46,"2,000s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:46,2018-03-13 10:48:47,"0,283s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:47,2018-03-13 10:48:47,"0,311s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:47,2018-03-13 10:48:47,"0,340s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:47,2018-03-13 10:48:47,"0,279s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:47,2018-03-13 10:48:48,"0,273s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:48,2018-03-13 10:48:48,"0,260s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:48,2018-03-13 10:48:48,"0,249s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:48,2018-03-13 10:48:49,"0,275s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:49,2018-03-13 10:48:49,"0,271s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:49,2018-03-13 10:48:49,"0,408s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:49,2018-03-13 10:48:49,"0,244s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:49,2018-03-13 10:48:50,"0,248s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:50,2018-03-13 10:48:50,"0,248s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:50,2018-03-13 10:48:50,"0,248s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:50,2018-03-13 10:48:50,"0,256s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:50,2018-03-13 10:48:51,"0,295s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:51,2018-03-13 10:48:51,"0,262s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:51,2018-03-13 10:48:51,"0,255s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:51,2018-03-13 10:48:52,"0,307s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:52,2018-03-13 10:48:52,"0,249s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:52,2018-03-13 10:48:52,"0,240s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:52,2018-03-13 10:48:52,"0,248s",PASSED
+click,Firefox 58.0,,2018-03-13 10:48:52,2018-03-13 10:48:53,"0,247s",PASSED
+closeBrowser,Firefox 58.0,,2018-03-13 10:48:53,2018-03-13 10:48:54,"1,470s",PASSED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/17_Testfall,Firefox 58.0,"Es wird Paginierung nach Eingabe von Berlin gepr\u00FCft.\nCheck \""Bargeld im Einzelhandel\"" wird angeklickt.",2018-03-13 10:48:54,2018-03-13 10:49:22,"27,924s",PASSED
+openBrowser,Firefox 58.0,,2018-03-13 10:48:54,2018-03-13 10:49:05,"11,163s",PASSED
+maximizeWindow,Firefox 58.0,,2018-03-13 10:49:05,2018-03-13 10:49:05,"0,075s",PASSED
+deleteAllCookies,Firefox 58.0,,2018-03-13 10:49:05,2018-03-13 10:49:05,"0,005s",PASSED
+navigateToUrl,Firefox 58.0,,2018-03-13 10:49:05,2018-03-13 10:49:09,"3,654s",PASSED
+click,Firefox 58.0,,2018-03-13 10:49:09,2018-03-13 10:49:09,"0,426s",PASSED
+delay,Firefox 58.0,,2018-03-13 10:49:09,2018-03-13 10:49:11,"2,003s",PASSED
+setText,Firefox 58.0,,2018-03-13 10:49:11,2018-03-13 10:49:12,"0,126s",PASSED
+delay,Firefox 58.0,,2018-03-13 10:49:12,2018-03-13 10:49:14,"2,001s",PASSED
+click,Firefox 58.0,,2018-03-13 10:49:14,2018-03-13 10:49:14,"0,319s",PASSED
+delay,Firefox 58.0,,2018-03-13 10:49:14,2018-03-13 10:49:16,"2,001s",PASSED
+click,Firefox 58.0,,2018-03-13 10:49:16,2018-03-13 10:49:18,"2,341s",PASSED
+click,Firefox 58.0,,2018-03-13 10:49:18,2018-03-13 10:49:18,"0,296s",PASSED
+click,Firefox 58.0,,2018-03-13 10:49:18,2018-03-13 10:49:19,"0,306s",PASSED
+click,Firefox 58.0,,2018-03-13 10:49:19,2018-03-13 10:49:19,"0,317s",PASSED
+click,Firefox 58.0,,2018-03-13 10:49:19,2018-03-13 10:49:19,"0,243s",PASSED
+click,Firefox 58.0,,2018-03-13 10:49:19,2018-03-13 10:49:20,"0,238s",PASSED
+click,Firefox 58.0,,2018-03-13 10:49:20,2018-03-13 10:49:20,"0,232s",PASSED
+click,Firefox 58.0,,2018-03-13 10:49:20,2018-03-13 10:49:20,"0,232s",PASSED
+click,Firefox 58.0,,2018-03-13 10:49:20,2018-03-13 10:49:20,"0,240s",PASSED
+click,Firefox 58.0,,2018-03-13 10:49:20,2018-03-13 10:49:21,"0,240s",PASSED
+click,Firefox 58.0,,2018-03-13 10:49:21,2018-03-13 10:49:21,"0,256s",PASSED
+click,Firefox 58.0,,2018-03-13 10:49:21,2018-03-13 10:49:21,"0,229s",PASSED
+click,Firefox 58.0,,2018-03-13 10:49:21,2018-03-13 10:49:21,"0,283s",PASSED
+closeBrowser,Firefox 58.0,,2018-03-13 10:49:21,2018-03-13 10:49:22,"0,608s",PASSED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/18_Testfall,Firefox 58.0,"GAA-count=70 (Dropdown: Ergebnis bei Auswahl eines Ortes Potsdam (count=2))\nAlle Filialen, bei denen im Feld \""City\"" dieser Ort steht, sind angezeigt (Akk. und Filial-Icons) ",2018-03-13 10:49:22,2018-03-13 10:49:54,"32,244s",PASSED
+openBrowser,Firefox 58.0,,2018-03-13 10:49:22,2018-03-13 10:49:32,"10,009s",PASSED
+deleteAllCookies,Firefox 58.0,,2018-03-13 10:49:32,2018-03-13 10:49:32,"0,004s",PASSED
+maximizeWindow,Firefox 58.0,,2018-03-13 10:49:32,2018-03-13 10:49:32,"0,035s",PASSED
+navigateToUrl,Firefox 58.0,,2018-03-13 10:49:32,2018-03-13 10:49:34,"1,507s",PASSED
+delay,Firefox 58.0,,2018-03-13 10:49:34,2018-03-13 10:49:39,"5,009s",PASSED
+click,Firefox 58.0,,2018-03-13 10:49:39,2018-03-13 10:49:39,"0,290s",PASSED
+delay,Firefox 58.0,,2018-03-13 10:49:39,2018-03-13 10:49:41,"2,001s",PASSED
+mouseOver,Firefox 58.0,,2018-03-13 10:49:41,2018-03-13 10:49:41,"0,183s",PASSED
+delay,Firefox 58.0,,2018-03-13 10:49:41,2018-03-13 10:49:43,"2,001s",PASSED
+click,Firefox 58.0,,2018-03-13 10:49:43,2018-03-13 10:49:43,"0,238s",PASSED
+delay,Firefox 58.0,,2018-03-13 10:49:43,2018-03-13 10:49:48,"5,002s",PASSED
+"Statement - wes1 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(gaa_map), 5)",Firefox 58.0,,2018-03-13 10:49:48,2018-03-13 10:49:48,"0,024s",PASSED
+"Statement - wes2 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(loc_steet_filialsuche), 5)",Firefox 58.0,,2018-03-13 10:49:48,2018-03-13 10:49:48,"0,027s",PASSED
+"Statement - wes3 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(filialsuche_loc_city), 5)",Firefox 58.0,,2018-03-13 10:49:48,2018-03-13 10:49:53,"5,068s",PASSED
+Statement - filial_maps_count = wes1.size(),Firefox 58.0,,2018-03-13 10:49:53,2018-03-13 10:49:53,"0,000s",PASSED
+Statement - filial_accordeon_count = wes2.size(),Firefox 58.0,,2018-03-13 10:49:53,2018-03-13 10:49:53,"0,000s",PASSED
+Statement - filial_count = 2,Firefox 58.0,,2018-03-13 10:49:53,2018-03-13 10:49:53,"0,000s",PASSED
+"Statement - city_name = ""Berlin""",Firefox 58.0,,2018-03-13 10:49:53,2018-03-13 10:49:53,"0,001s",PASSED
+Statement - If (filial_maps_count != filial_count),Firefox 58.0,,2018-03-13 10:49:53,2018-03-13 10:49:53,"0,000s",PASSED
+"Statement - For ([i = 0, i < wes3.size(), (i++)])",Firefox 58.0,,2018-03-13 10:49:53,2018-03-13 10:49:53,"0,000s",PASSED
+closeBrowser,Firefox 58.0,,2018-03-13 10:49:53,2018-03-13 10:49:54,"0,702s",PASSED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/19TF,Firefox 58.0,Es wird Paginierung nach Eingabe von Berlin gepr\u00FCft,2018-03-13 10:49:54,2018-03-13 10:50:08,"14,231s",PASSED
+openBrowser,Firefox 58.0,,2018-03-13 10:49:54,2018-03-13 10:49:59,"4,533s",PASSED
+maximizeWindow,Firefox 58.0,,2018-03-13 10:49:59,2018-03-13 10:49:59,"0,033s",PASSED
+deleteAllCookies,Firefox 58.0,,2018-03-13 10:49:59,2018-03-13 10:49:59,"0,004s",PASSED
+navigateToUrl,Firefox 58.0,,2018-03-13 10:49:59,2018-03-13 10:50:01,"1,850s",PASSED
+click,Firefox 58.0,,2018-03-13 10:50:01,2018-03-13 10:50:01,"0,230s",PASSED
+delay,Firefox 58.0,,2018-03-13 10:50:01,2018-03-13 10:50:03,"2,001s",PASSED
+setText,Firefox 58.0,,2018-03-13 10:50:03,2018-03-13 10:50:03,"0,062s",PASSED
+delay,Firefox 58.0,,2018-03-13 10:50:03,2018-03-13 10:50:05,"2,000s",PASSED
+click,Firefox 58.0,,2018-03-13 10:50:05,2018-03-13 10:50:05,"0,259s",PASSED
+delay,Firefox 58.0,,2018-03-13 10:50:05,2018-03-13 10:50:07,"2,000s",PASSED
+closeBrowser,Firefox 58.0,,2018-03-13 10:50:07,2018-03-13 10:50:08,"1,166s",PASSED

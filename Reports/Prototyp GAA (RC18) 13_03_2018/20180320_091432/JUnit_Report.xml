@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Prototyp GAA (RC18) 13_03_2018" time="178" tests="8" failures="1" errors="1">
+   <testsuite name="Prototyp GAA (RC18) 13_03_2018" tests="8" failures="1" errors="1" time="178" timestamp="2018-03-20 09:35:04" hostname="lbut - 192.168.0.4" id="Test Suites/Prototyp GAA (RC18) 13_03_2018">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/lbut/Desktop/KATALON/Prototyp1_20_03/Prototyp1/Reports/Prototyp GAA (RC18) 13_03_2018/20180320_091432"/>
+         <property name="logFiles" value="/Users/lbut/Desktop/KATALON/Prototyp1_20_03/Prototyp1/Reports/Prototyp GAA (RC18) 13_03_2018/20180320_091432/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="lbut - 192.168.0.4"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Safari 11"/>
+         <property name="hostAddress" value="192.168.0.4"/>
+         <property name="sessionId" value="4239B3A4-4873-4429-A378-957C3EB195DA"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Prototyp_GAA_Suche (RC18)/01_Testfall" classname="Test Cases/Prototyp_GAA_Suche (RC18)/01_Testfall" status="ERROR">
+         <error type="ERROR" message="Test Cases/Prototyp_GAA_Suche (RC18)/01_Testfall FAILED because (of) org.openqa.selenium.WebDriverException: The driver server has unexpectedly died!
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Lilias-MacBook-Pro.local', ip: '192.168.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver"/>
+         <system-out><![CDATA[2018-03-20 09:35:06 - [TEST_CASE][ERROR] - Test Cases/Prototyp_GAA_Suche (RC18)/01_Testfall: Test Cases/Prototyp_GAA_Suche (RC18)/01_Testfall FAILED because (of) org.openqa.selenium.WebDriverException: The driver server has unexpectedly died!
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Lilias-MacBook-Pro.local', ip: '192.168.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+
+2018-03-20 09:35:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-20 09:35:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-20 09:35:36 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-03-20 09:35:36 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-03-20 09:35:36 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-20 09:35:37 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-20 09:35:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-20 09:35:39 - [MESSAGE][PASSED] - Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-20 09:35:39 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-20 09:35:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-20 09:35:44 - [TEST_STEP][PASSED] - Statement - wes1 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(gaa_map), 5): Finding web element with id: 'Object Repository/gaa_map' located by 'By.xpath: //div[@class='aps-map__custom-marker aps-map__custom-marker--is-atm']' in '5' second(s)]]></system-out>
+         <system-err><![CDATA[2018-03-20 09:35:06 - [TEST_CASE][ERROR] - Test Cases/Prototyp_GAA_Suche (RC18)/01_Testfall: Test Cases/Prototyp_GAA_Suche (RC18)/01_Testfall FAILED because (of) org.openqa.selenium.WebDriverException: The driver server has unexpectedly died!
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Lilias-MacBook-Pro.local', ip: '192.168.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prototyp_GAA_Suche (RC18)/03_Testfall" classname="Test Cases/Prototyp_GAA_Suche (RC18)/03_Testfall" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: The driver server has unexpectedly died!
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Lilias-MacBook-Pro.local', ip: '192.168.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver)"/>
+         <system-out><![CDATA[2018-03-20 09:35:50 - [TEST_CASE][FAILED] - Test Cases/Prototyp_GAA_Suche (RC18)/03_Testfall: Test Cases/Prototyp_GAA_Suche (RC18)/03_Testfall FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: The driver server has unexpectedly died!
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Lilias-MacBook-Pro.local', ip: '192.168.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver)
+
+2018-03-20 09:35:50 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: The driver server has unexpectedly died!
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Lilias-MacBook-Pro.local', ip: '192.168.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver)
+
+2018-03-20 09:35:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-20 09:35:50 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: The driver server has unexpectedly died!
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Lilias-MacBook-Pro.local', ip: '192.168.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver)]]></system-out>
+         <system-err><![CDATA[2018-03-20 09:35:50 - [TEST_CASE][FAILED] - Test Cases/Prototyp_GAA_Suche (RC18)/03_Testfall: Test Cases/Prototyp_GAA_Suche (RC18)/03_Testfall FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: The driver server has unexpectedly died!
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Lilias-MacBook-Pro.local', ip: '192.168.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prototyp_GAA_Suche (RC18)/04_Testfall" classname="Test Cases/Prototyp_GAA_Suche (RC18)/04_Testfall" status="PASSED">
+         <system-out><![CDATA[2018-03-20 09:35:50 - [TEST_CASE][PASSED] - Test Cases/Prototyp_GAA_Suche (RC18)/04_Testfall: Test Cases/Prototyp_GAA_Suche (RC18)/04_Testfall
+
+2018-03-20 09:35:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-20 09:35:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-20 09:35:53 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-03-20 09:35:53 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-03-20 09:35:53 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-20 09:35:53 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-20 09:35:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-20 09:35:54 - [MESSAGE][PASSED] - Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-20 09:35:54 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-03-20 09:36:02 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-03-20 09:36:02 - [TEST_STEP][PASSED] - Statement - wes = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(gaa_map), 5): Found 99 web elements with id: 'Object Repository/gaa_map' located by 'By.xpath: //div[@class='aps-map__custom-marker aps-map__custom-marker--is-atm']' in '5' second(s)
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < wes.size(), (i++)]): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:03 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:04 - [TEST_STEP][PASSED] - Statement - el = wes.get(i): null
+
+2018-03-20 09:36:04 - [TEST_STEP][PASSED] - Statement - If (!(el.isDisplayed())): null
+
+2018-03-20 09:36:04 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-20 09:36:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prototyp_GAA_Suche (RC18)/05_Testfall" classname="Test Cases/Prototyp_GAA_Suche (RC18)/05_Testfall" status="PASSED">
+         <system-out><![CDATA[2018-03-20 09:36:04 - [TEST_CASE][PASSED] - Test Cases/Prototyp_GAA_Suche (RC18)/05_Testfall: Test Cases/Prototyp_GAA_Suche (RC18)/05_Testfall
+
+2018-03-20 09:36:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-20 09:36:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-20 09:36:06 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-20 09:36:06 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-20 09:36:06 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-03-20 09:36:06 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-03-20 09:36:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-20 09:36:07 - [MESSAGE][PASSED] - Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-20 09:36:07 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-20 09:36:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-20 09:36:13 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Entfernung_filialsuche' located by 'By.xpath: //span[@class='loc-distance']' is not present after '5' second(s)
+
+2018-03-20 09:36:13 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Entfernung_filialsuche' located by 'By.xpath: //span[@class='loc-distance']' is not present after '5' second(s)
+
+2018-03-20 09:36:13 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-20 09:36:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prototyp_GAA_Suche (RC18)/06_Testfall" classname="Test Cases/Prototyp_GAA_Suche (RC18)/06_Testfall" status="PASSED">
+         <system-out><![CDATA[2018-03-20 09:36:13 - [TEST_CASE][PASSED] - Test Cases/Prototyp_GAA_Suche (RC18)/06_Testfall: Test Cases/Prototyp_GAA_Suche (RC18)/06_Testfall
+
+2018-03-20 09:36:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-20 09:36:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-20 09:36:15 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-03-20 09:36:15 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-03-20 09:36:15 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-20 09:36:15 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-20 09:36:15 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-20 09:36:23 - [MESSAGE][PASSED] - Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-20 09:36:23 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-20 09:36:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-20 09:36:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/002/Page_Filialsuche-rotenburg - BVR HT/svg_dropdown-icons' is clicked on
+
+2018-03-20 09:36:28 - [MESSAGE][PASSED] - Object: 'Object Repository/002/Page_Filialsuche-rotenburg - BVR HT/svg_dropdown-icons' is clicked on
+
+2018-03-20 09:36:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-20 09:36:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-20 09:36:30 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Berlin_option' is hovered
+
+2018-03-20 09:36:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Berlin_option' is hovered
+
+2018-03-20 09:36:30 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-20 09:36:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-20 09:36:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Berlin_option' is clicked on
+
+2018-03-20 09:36:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Berlin_option' is clicked on
+
+2018-03-20 09:36:32 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-20 09:36:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-20 09:36:37 - [TEST_STEP][PASSED] - Statement - wes1 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(gaa_map), 5): Found 70 web elements with id: 'Object Repository/gaa_map' located by 'By.xpath: //div[@class='aps-map__custom-marker aps-map__custom-marker--is-atm']' in '5' second(s)
+
+2018-03-20 09:36:37 - [TEST_STEP][PASSED] - Statement - wes2 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(loc_steet_filialsuche), 5): Found 70 web elements with id: 'Object Repository/loc_steet_filialsuche' located by 'By.xpath: //div[@class='loc-street']' in '5' second(s)
+
+2018-03-20 09:36:37 - [TEST_STEP][PASSED] - Statement - wes3 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(filialsuche_loc_city), 5): Finding web element with id: 'Object Repository/filialsuche_loc_city' located by 'By.xpath: /div[@class='loc-city']' in '5' second(s)
+
+2018-03-20 09:36:42 - [TEST_STEP][PASSED] - Statement - filial_maps_count = wes1.size(): null
+
+2018-03-20 09:36:42 - [TEST_STEP][PASSED] - Statement - filial_accordeon_count = wes2.size(): null
+
+2018-03-20 09:36:42 - [TEST_STEP][PASSED] - Statement - filial_count = 70: null
+
+2018-03-20 09:36:42 - [TEST_STEP][PASSED] - Statement - city_name = "Berlin": null
+
+2018-03-20 09:36:42 - [TEST_STEP][PASSED] - Statement - If (filial_maps_count != filial_count): null
+
+2018-03-20 09:36:42 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < wes3.size(), (i++)]): null
+
+2018-03-20 09:36:42 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-20 09:36:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prototyp_GAA_Suche (RC18)/15_Testfall" classname="Test Cases/Prototyp_GAA_Suche (RC18)/15_Testfall" status="PASSED">
+         <system-out><![CDATA[2018-03-20 09:36:42 - [TEST_CASE][PASSED] - Test Cases/Prototyp_GAA_Suche (RC18)/15_Testfall: Test Cases/Prototyp_GAA_Suche (RC18)/15_Testfall
+
+2018-03-20 09:36:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-20 09:36:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-20 09:36:45 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-20 09:36:45 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-20 09:36:45 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-03-20 09:36:45 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-03-20 09:36:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-20 09:36:47 - [MESSAGE][PASSED] - Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-20 09:36:47 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-20 09:36:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-20 09:36:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML/svg_dropdown-icons' is clicked on
+
+2018-03-20 09:36:52 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML/svg_dropdown-icons' is clicked on
+
+2018-03-20 09:36:52 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-20 09:36:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-20 09:36:54 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML/div_Berlin' is hovered
+
+2018-03-20 09:36:54 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML/div_Berlin' is hovered
+
+2018-03-20 09:36:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-20 09:36:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-20 09:36:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML/div_Berlin' is clicked on
+
+2018-03-20 09:36:56 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML/div_Berlin' is clicked on
+
+2018-03-20 09:36:56 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-20 09:36:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-20 09:36:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/span_Geldautomat Berliner Volk' is clicked on
+
+2018-03-20 09:36:58 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/span_Geldautomat Berliner Volk' is clicked on
+
+2018-03-20 09:36:58 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Geldautomat: Berliner Volksbank eG' is present on page 
+
+2018-03-20 09:36:58 - [MESSAGE][PASSED] - Text 'Geldautomat: Berliner Volksbank eG' is present on page 
+
+2018-03-20 09:36:58 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Adamstr. 2' is present on page 
+
+2018-03-20 09:36:58 - [MESSAGE][PASSED] - Text 'Adamstr. 2' is present on page 
+
+2018-03-20 09:36:58 - [TEST_STEP][PASSED] - verifyTextPresent: Text '13595 Berlin' is present on page 
+
+2018-03-20 09:36:59 - [MESSAGE][PASSED] - Text '13595 Berlin' is present on page 
+
+2018-03-20 09:36:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/span_Geldautomat Berliner Volk' is clicked on
+
+2018-03-20 09:36:59 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/span_Geldautomat Berliner Volk' is clicked on
+
+2018-03-20 09:36:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_2' is clicked on
+
+2018-03-20 09:36:59 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_2' is clicked on
+
+2018-03-20 09:36:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_3' is clicked on
+
+2018-03-20 09:36:59 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_3' is clicked on
+
+2018-03-20 09:36:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_4' is clicked on
+
+2018-03-20 09:36:59 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_4' is clicked on
+
+2018-03-20 09:36:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_5' is clicked on
+
+2018-03-20 09:36:59 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_5' is clicked on
+
+2018-03-20 09:36:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_6' is clicked on
+
+2018-03-20 09:36:59 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_6' is clicked on
+
+2018-03-20 09:36:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_7' is clicked on
+
+2018-03-20 09:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_7' is clicked on
+
+2018-03-20 09:37:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_8' is clicked on
+
+2018-03-20 09:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_8' is clicked on
+
+2018-03-20 09:37:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_9' is clicked on
+
+2018-03-20 09:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_9' is clicked on
+
+2018-03-20 09:37:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_10' is clicked on
+
+2018-03-20 09:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_10' is clicked on
+
+2018-03-20 09:37:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_11' is clicked on
+
+2018-03-20 09:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_11' is clicked on
+
+2018-03-20 09:37:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_12' is clicked on
+
+2018-03-20 09:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_12' is clicked on
+
+2018-03-20 09:37:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-20 09:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-20 09:37:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-20 09:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-20 09:37:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-20 09:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-20 09:37:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-20 09:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-20 09:37:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zum Anfang' is clicked on
+
+2018-03-20 09:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zum Anfang' is clicked on
+
+2018-03-20 09:37:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zum Ende' is clicked on
+
+2018-03-20 09:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zum Ende' is clicked on
+
+2018-03-20 09:37:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/li_Zurck' is clicked on
+
+2018-03-20 09:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/li_Zurck' is clicked on
+
+2018-03-20 09:37:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-20 09:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-20 09:37:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-20 09:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-20 09:37:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Weiter' is clicked on
+
+2018-03-20 09:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Weiter' is clicked on
+
+2018-03-20 09:37:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Weiter' is clicked on
+
+2018-03-20 09:37:01 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Weiter' is clicked on
+
+2018-03-20 09:37:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Weiter' is clicked on
+
+2018-03-20 09:37:01 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Weiter' is clicked on
+
+2018-03-20 09:37:01 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-20 09:37:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prototyp_GAA_Suche (RC18)/16_Testfall" classname="Test Cases/Prototyp_GAA_Suche (RC18)/16_Testfall" status="PASSED">
+         <system-out><![CDATA[2018-03-20 09:37:01 - [TEST_CASE][PASSED] - Test Cases/Prototyp_GAA_Suche (RC18)/16_Testfall: Test Cases/Prototyp_GAA_Suche (RC18)/16_Testfall
+
+2018-03-20 09:37:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-20 09:37:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-20 09:37:03 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-20 09:37:03 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-20 09:37:03 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-03-20 09:37:03 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-03-20 09:37:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-20 09:37:05 - [MESSAGE][PASSED] - Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-20 09:37:05 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-20 09:37:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-20 09:37:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-20 09:37:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-20 09:37:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_2' is clicked on
+
+2018-03-20 09:37:12 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_2' is clicked on
+
+2018-03-20 09:37:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_3' is clicked on
+
+2018-03-20 09:37:12 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_3' is clicked on
+
+2018-03-20 09:37:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_4' is clicked on
+
+2018-03-20 09:37:12 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_4' is clicked on
+
+2018-03-20 09:37:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_5' is clicked on
+
+2018-03-20 09:37:12 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_5' is clicked on
+
+2018-03-20 09:37:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_6' is clicked on
+
+2018-03-20 09:37:12 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_6' is clicked on
+
+2018-03-20 09:37:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_7' is clicked on
+
+2018-03-20 09:37:13 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_7' is clicked on
+
+2018-03-20 09:37:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_8' is clicked on
+
+2018-03-20 09:37:13 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_8' is clicked on
+
+2018-03-20 09:37:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_9' is clicked on
+
+2018-03-20 09:37:13 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_9' is clicked on
+
+2018-03-20 09:37:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_10' is clicked on
+
+2018-03-20 09:37:13 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_10' is clicked on
+
+2018-03-20 09:37:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_11' is clicked on
+
+2018-03-20 09:37:13 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_11' is clicked on
+
+2018-03-20 09:37:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_12' is clicked on
+
+2018-03-20 09:37:13 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_12' is clicked on
+
+2018-03-20 09:37:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-20 09:37:13 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-20 09:37:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-20 09:37:13 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-20 09:37:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-20 09:37:13 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-20 09:37:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-20 09:37:13 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-20 09:37:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zum Anfang' is clicked on
+
+2018-03-20 09:37:13 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zum Anfang' is clicked on
+
+2018-03-20 09:37:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zum Ende' is clicked on
+
+2018-03-20 09:37:14 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zum Ende' is clicked on
+
+2018-03-20 09:37:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/li_Zurck' is clicked on
+
+2018-03-20 09:37:14 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/li_Zurck' is clicked on
+
+2018-03-20 09:37:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-20 09:37:14 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-20 09:37:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-20 09:37:14 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck' is clicked on
+
+2018-03-20 09:37:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Weiter' is clicked on
+
+2018-03-20 09:37:14 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Weiter' is clicked on
+
+2018-03-20 09:37:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Weiter' is clicked on
+
+2018-03-20 09:37:14 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Weiter' is clicked on
+
+2018-03-20 09:37:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Weiter' is clicked on
+
+2018-03-20 09:37:14 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Weiter' is clicked on
+
+2018-03-20 09:37:14 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-20 09:37:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prototyp_GAA_Suche (RC18)/17_Testfall" classname="Test Cases/Prototyp_GAA_Suche (RC18)/17_Testfall" status="PASSED">
+         <system-out><![CDATA[2018-03-20 09:37:14 - [TEST_CASE][PASSED] - Test Cases/Prototyp_GAA_Suche (RC18)/17_Testfall: Test Cases/Prototyp_GAA_Suche (RC18)/17_Testfall
+
+2018-03-20 09:37:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-20 09:37:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-20 09:37:16 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-20 09:37:16 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-20 09:37:16 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-03-20 09:37:16 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-03-20 09:37:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche-bundesweit.html' successfully
+
+2018-03-20 09:37:20 - [MESSAGE][PASSED] - Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche-bundesweit.html' successfully
+
+2018-03-20 09:37:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA18/Page_Geldautomatensuche-bundesweit (1)/span_Bargeld im Einzelhandel' is clicked on
+
+2018-03-20 09:37:20 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA18/Page_Geldautomatensuche-bundesweit (1)/span_Bargeld im Einzelhandel' is clicked on
+
+2018-03-20 09:37:20 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-20 09:37:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-20 09:37:22 - [TEST_STEP][PASSED] - setText: Text 'berlin' is set on object 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/input_city'
+
+2018-03-20 09:37:22 - [MESSAGE][PASSED] - Text 'berlin' is set on object 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/input_city'
+
+2018-03-20 09:37:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-20 09:37:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-20 09:37:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/button_Suchen' is clicked on
+
+2018-03-20 09:37:24 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/button_Suchen' is clicked on
+
+2018-03-20 09:37:24 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-20 09:37:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-20 09:37:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_2' is clicked on
+
+2018-03-20 09:37:27 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_2' is clicked on
+
+2018-03-20 09:37:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_3' is clicked on
+
+2018-03-20 09:37:27 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_3' is clicked on
+
+2018-03-20 09:37:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_4' is clicked on
+
+2018-03-20 09:37:27 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_4' is clicked on
+
+2018-03-20 09:37:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_5' is clicked on
+
+2018-03-20 09:37:27 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_5' is clicked on
+
+2018-03-20 09:37:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_Zum Anfang' is clicked on
+
+2018-03-20 09:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_Zum Anfang' is clicked on
+
+2018-03-20 09:37:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_Weiter' is clicked on
+
+2018-03-20 09:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_Weiter' is clicked on
+
+2018-03-20 09:37:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_Weiter' is clicked on
+
+2018-03-20 09:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_Weiter' is clicked on
+
+2018-03-20 09:37:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_Weiter' is clicked on
+
+2018-03-20 09:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_Weiter' is clicked on
+
+2018-03-20 09:37:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/li_Weiter' is clicked on
+
+2018-03-20 09:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/li_Weiter' is clicked on
+
+2018-03-20 09:37:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_Zurck' is clicked on
+
+2018-03-20 09:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_Zurck' is clicked on
+
+2018-03-20 09:37:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_Zurck' is clicked on
+
+2018-03-20 09:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_Zurck' is clicked on
+
+2018-03-20 09:37:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_Zurck' is clicked on
+
+2018-03-20 09:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/a_Zurck' is clicked on
+
+2018-03-20 09:37:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/li_Zum Ende' is clicked on
+
+2018-03-20 09:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/li_Zum Ende' is clicked on
+
+2018-03-20 09:37:28 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-20 09:37:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prototyp_GAA_Suche (RC18)/18_Testfall" classname="Test Cases/Prototyp_GAA_Suche (RC18)/18_Testfall" status="PASSED">
+         <system-out><![CDATA[2018-03-20 09:37:28 - [TEST_CASE][PASSED] - Test Cases/Prototyp_GAA_Suche (RC18)/18_Testfall: Test Cases/Prototyp_GAA_Suche (RC18)/18_Testfall
+
+2018-03-20 09:37:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-20 09:37:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-20 09:37:31 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-03-20 09:37:31 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-03-20 09:37:31 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-20 09:37:31 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-20 09:37:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-20 09:37:33 - [MESSAGE][PASSED] - Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche.html' successfully
+
+2018-03-20 09:37:33 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-20 09:37:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-20 09:37:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/002/Page_Filialsuche-rotenburg - BVR HT/svg_dropdown-icons' is clicked on
+
+2018-03-20 09:37:38 - [MESSAGE][PASSED] - Object: 'Object Repository/002/Page_Filialsuche-rotenburg - BVR HT/svg_dropdown-icons' is clicked on
+
+2018-03-20 09:37:38 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-20 09:37:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-20 09:37:40 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Potsdam_option' is hovered
+
+2018-03-20 09:37:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Potsdam_option' is hovered
+
+2018-03-20 09:37:40 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-20 09:37:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-20 09:37:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Potsdam_option' is clicked on
+
+2018-03-20 09:37:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Potsdam_option' is clicked on
+
+2018-03-20 09:37:42 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-20 09:37:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-20 09:37:47 - [TEST_STEP][PASSED] - Statement - wes1 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(gaa_map), 5): Found 2 web elements with id: 'Object Repository/gaa_map' located by 'By.xpath: //div[@class='aps-map__custom-marker aps-map__custom-marker--is-atm']' in '5' second(s)
+
+2018-03-20 09:37:47 - [TEST_STEP][PASSED] - Statement - wes2 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(loc_steet_filialsuche), 5): Found 2 web elements with id: 'Object Repository/loc_steet_filialsuche' located by 'By.xpath: //div[@class='loc-street']' in '5' second(s)
+
+2018-03-20 09:37:47 - [TEST_STEP][PASSED] - Statement - wes3 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(filialsuche_loc_city), 5): Finding web element with id: 'Object Repository/filialsuche_loc_city' located by 'By.xpath: /div[@class='loc-city']' in '5' second(s)
+
+2018-03-20 09:37:52 - [TEST_STEP][PASSED] - Statement - filial_maps_count = wes1.size(): null
+
+2018-03-20 09:37:52 - [TEST_STEP][PASSED] - Statement - filial_accordeon_count = wes2.size(): null
+
+2018-03-20 09:37:52 - [TEST_STEP][PASSED] - Statement - filial_count = 2: null
+
+2018-03-20 09:37:52 - [TEST_STEP][PASSED] - Statement - city_name = "Berlin": null
+
+2018-03-20 09:37:52 - [TEST_STEP][PASSED] - Statement - If (filial_maps_count != filial_count): null
+
+2018-03-20 09:37:52 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < wes3.size(), (i++)]): null
+
+2018-03-20 09:37:52 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-20 09:37:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prototyp_GAA_Suche (RC18)/19TF" classname="Test Cases/Prototyp_GAA_Suche (RC18)/19TF" status="PASSED">
+         <system-out><![CDATA[2018-03-20 09:37:53 - [TEST_CASE][PASSED] - Test Cases/Prototyp_GAA_Suche (RC18)/19TF: Test Cases/Prototyp_GAA_Suche (RC18)/19TF
+
+2018-03-20 09:37:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-20 09:37:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-20 09:37:55 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-20 09:37:55 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-20 09:37:55 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-03-20 09:37:55 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-03-20 09:37:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche-bundesweit.html' successfully
+
+2018-03-20 09:37:57 - [MESSAGE][PASSED] - Navigate to 'http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche-bundesweit.html' successfully
+
+2018-03-20 09:37:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA18/Page_Geldautomatensuche-bundesweit (1)/span_Bargeld im Einzelhandel' is clicked on
+
+2018-03-20 09:37:57 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA18/Page_Geldautomatensuche-bundesweit (1)/span_Bargeld im Einzelhandel' is clicked on
+
+2018-03-20 09:37:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-20 09:37:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-20 09:37:59 - [TEST_STEP][PASSED] - setText: Text 'berlin' is set on object 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/input_city'
+
+2018-03-20 09:37:59 - [MESSAGE][PASSED] - Text 'berlin' is set on object 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/input_city'
+
+2018-03-20 09:37:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-20 09:38:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-20 09:38:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/button_Suchen' is clicked on
+
+2018-03-20 09:38:01 - [MESSAGE][PASSED] - Object: 'Object Repository/GAA17/Page_Geldautomatensuche-bundesweit/button_Suchen' is clicked on
+
+2018-03-20 09:38:01 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-20 09:38:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-20 09:38:03 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-20 09:38:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-20 09:35:04 - [TEST_SUITE][ERROR] - Prototyp GAA (RC18) 13_03_2018: Test Cases/Prototyp_GAA_Suche (RC18)/01_Testfall FAILED because (of) org.openqa.selenium.WebDriverException: The driver server has unexpectedly died!
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Lilias-MacBook-Pro.local', ip: '192.168.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver]]></system-out>
+      <system-err><![CDATA[2018-03-20 09:35:04 - [TEST_SUITE][ERROR] - Prototyp GAA (RC18) 13_03_2018: Test Cases/Prototyp_GAA_Suche (RC18)/01_Testfall FAILED because (of) org.openqa.selenium.WebDriverException: The driver server has unexpectedly died!
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Lilias-MacBook-Pro.local', ip: '192.168.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver]]></system-err>
+   </testsuite>
+</testsuites>

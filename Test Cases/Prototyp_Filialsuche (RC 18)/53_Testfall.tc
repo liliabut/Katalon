@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Seitenaddresse: 
+http://kundentest.dev-unitb.de/vr/ogrhtmlprototyp/detail.html
+
+Test ob die Ergebnisse bei Suche nach Ortsnamen (z.B. Berlin) der verlinkten Filialsuchseite korrekt nach Straßenname und Hausnummer sortiert sind in dem mit einer vorgegebenen Liste verglichen wird.
+
+Zugehöriges Repository ist:
+OGRPrototypFilialsuche - Marginalspalte</description>
+   <name>53_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>09f5a809-6d53-421c-947f-bd817bdbadfe</testCaseGuid>
+</TestCaseEntity>

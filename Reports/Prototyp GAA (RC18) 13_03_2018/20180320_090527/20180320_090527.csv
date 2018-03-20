@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Prototyp GAA (RC18) 13_03_2018,Safari 11,,2018-03-20 09:05:41,2018-03-20 09:06:58,"1m - 16,515s",FAILED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/01_Testfall,Safari 11,Fehler:\nAkk=100\nGAA_Maps=99\n\n\nInitial: Die ersten 100 GAAs der Bank sind angezeigt\ncount=100,2018-03-20 09:05:42,2018-03-20 09:06:10,"28,032s",FAILED
+openBrowser,Safari 11,,2018-03-20 09:05:44,2018-03-20 09:05:58,"14,513s",PASSED
+deleteAllCookies,Safari 11,,2018-03-20 09:05:58,2018-03-20 09:05:58,"0,115s",PASSED
+maximizeWindow,Safari 11,,2018-03-20 09:05:58,2018-03-20 09:05:58,"0,136s",PASSED
+navigateToUrl,Safari 11,,2018-03-20 09:05:58,2018-03-20 09:06:04,"5,561s",PASSED
+delay,Safari 11,,2018-03-20 09:06:04,2018-03-20 09:06:09,"5,082s",PASSED
+"Statement - wes1 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(gaa_map), 5)",Safari 11,,2018-03-20 09:06:09,2018-03-20 09:06:09,"0,301s",PASSED
+"Statement - wes2 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(loc_steet_filialsuche), 5)",Safari 11,,2018-03-20 09:06:10,2018-03-20 09:06:10,"0,556s",PASSED
+Statement - filial_maps_count = wes1.size(),Safari 11,,2018-03-20 09:06:10,2018-03-20 09:06:10,"0,004s",PASSED
+Statement - filial_accordeon_count = wes2.size(),Safari 11,,2018-03-20 09:06:10,2018-03-20 09:06:10,"0,002s",PASSED
+Statement - filial_count = 100,Safari 11,,2018-03-20 09:06:10,2018-03-20 09:06:10,"0,001s",PASSED
+Statement - If (filial_maps_count != filial_count),Safari 11,,2018-03-20 09:06:10,2018-03-20 09:06:10,"0,388s",PASSED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/03_Testfall,Safari 11,initial: Alle Filial-Akk. sind zugeklappt,2018-03-20 09:06:11,2018-03-20 09:06:48,"37,903s",FAILED
+openBrowser,Safari 11,,2018-03-20 09:06:11,2018-03-20 09:06:48,"37,101s",FAILED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/04_Testfall,Safari 11,Alle 100 Filialen (GAA-Icons) sind auf der Karte angezeigt,2018-03-20 09:06:48,2018-03-20 09:06:52,"4,061s",FAILED
+openBrowser,Safari 11,,2018-03-20 09:06:49,2018-03-20 09:06:52,"3,656s",FAILED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/05_Testfall,Safari 11,Entfernungsangabe wird nicht angezeigt,2018-03-20 09:06:53,2018-03-20 09:06:53,"0,654s",FAILED
+openBrowser,Safari 11,,2018-03-20 09:06:53,2018-03-20 09:06:53,"0,478s",FAILED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/06_Testfall,Safari 11,"GAA-count=70 (Dropdown: Ergebnis bei Auswahl eines Ortes z.B. Berlin)\n\nAlle Filialen, bei denen im Feld \""City\"" dieser Ort steht, sind angezeigt (Akk. und Filial-Icons) ",2018-03-20 09:06:53,2018-03-20 09:06:54,"0,884s",FAILED
+openBrowser,Safari 11,,2018-03-20 09:06:53,2018-03-20 09:06:54,"0,601s",FAILED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/15_Testfall,Safari 11,Es wird Paginierung bei Auswahl eines Ortes (Berlin) gepr\u00FCft,2018-03-20 09:06:54,2018-03-20 09:06:55,"0,856s",FAILED
+openBrowser,Safari 11,,2018-03-20 09:06:54,2018-03-20 09:06:55,"0,673s",FAILED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/16_Testfall,Safari 11,Es wird Paginierung bei Auswahl eines Ortes (Berlin) gepr\u00FCft,2018-03-20 09:06:55,2018-03-20 09:06:56,"0,648s",FAILED
+openBrowser,Safari 11,,2018-03-20 09:06:55,2018-03-20 09:06:56,"0,422s",FAILED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/17_Testfall,Safari 11,"Es wird Paginierung nach Eingabe von Berlin gepr\u00FCft.\nCheck \""Bargeld im Einzelhandel\"" wird angeklickt.",2018-03-20 09:06:56,2018-03-20 09:06:57,"0,879s",FAILED
+openBrowser,Safari 11,,2018-03-20 09:06:56,2018-03-20 09:06:57,"0,664s",FAILED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/18_Testfall,Safari 11,"GAA-count=70 (Dropdown: Ergebnis bei Auswahl eines Ortes Potsdam (count=2))\nAlle Filialen, bei denen im Feld \""City\"" dieser Ort steht, sind angezeigt (Akk. und Filial-Icons) ",2018-03-20 09:06:57,2018-03-20 09:06:57,"0,648s",FAILED
+openBrowser,Safari 11,,2018-03-20 09:06:57,2018-03-20 09:06:57,"0,404s",FAILED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/19TF,Safari 11,Es wird Paginierung nach Eingabe von Berlin gepr\u00FCft,2018-03-20 09:06:57,2018-03-20 09:06:58,"0,505s",FAILED
+openBrowser,Safari 11,,2018-03-20 09:06:57,2018-03-20 09:06:58,"0,395s",FAILED
