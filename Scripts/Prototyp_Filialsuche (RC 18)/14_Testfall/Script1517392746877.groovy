@@ -38,11 +38,11 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('002/Page_Filialsuche-rotenburg - BVR HT/svg_dropdown-icons'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.mouseOver(findTestObject('Belitz_option'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Belitz_option'))
 

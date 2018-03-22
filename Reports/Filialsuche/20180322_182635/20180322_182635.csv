@@ -1,0 +1,1453 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Filialsuche,Safari 11,,2018-03-22 18:26:59,2018-03-22 18:50:19,"23m - 20,495s",FAILED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/01_Testfall,Safari 11,Initial: Alle Filial-Icon sind auf der Karte angezeigt,2018-03-22 18:27:00,2018-03-22 18:27:22,"22,351s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:27:00,2018-03-22 18:27:14,"13,446s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:27:14,2018-03-22 18:27:14,"0,070s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:27:14,2018-03-22 18:27:14,"0,082s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:27:14,2018-03-22 18:27:16,"1,779s",PASSED
+delay,Safari 11,,2018-03-22 18:27:16,2018-03-22 18:27:21,"5,072s",PASSED
+"Statement - wes = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(filial_map), 5)",Safari 11,,2018-03-22 18:27:21,2018-03-22 18:27:21,"0,092s",PASSED
+"Statement - For ([i = 0, i < wes.size(), (i++)])",Safari 11,,2018-03-22 18:27:21,2018-03-22 18:27:22,"1,098s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:27:22,2018-03-22 18:27:22,"0,152s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/02_Testfall,Safari 11,Initial: Alle Filial-Icon sind auf der Karte angezeigt,2018-03-22 18:27:22,2018-03-22 18:27:31,"9,325s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:27:22,2018-03-22 18:27:25,"2,408s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:27:25,2018-03-22 18:27:25,"0,007s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:27:25,2018-03-22 18:27:25,"0,020s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:27:25,2018-03-22 18:27:26,"1,412s",PASSED
+delay,Safari 11,,2018-03-22 18:27:26,2018-03-22 18:27:31,"5,004s",PASSED
+"Statement - wes = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(filial_map), 5)",Safari 11,,2018-03-22 18:27:31,2018-03-22 18:27:31,"0,053s",PASSED
+"Statement - For ([i = 0, i < wes.size(), (i++)])",Safari 11,,2018-03-22 18:27:31,2018-03-22 18:27:31,"0,035s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:27:31,2018-03-22 18:27:31,"0,076s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/03_Testfall,Safari 11,Initial: Alle Filial-Icon sind auf der Karte angezeigt,2018-03-22 18:27:31,2018-03-22 18:27:40,"8,876s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:27:32,2018-03-22 18:27:34,"2,056s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:27:34,2018-03-22 18:27:34,"0,007s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:27:34,2018-03-22 18:27:34,"0,027s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:27:34,2018-03-22 18:27:35,"1,178s",PASSED
+delay,Safari 11,,2018-03-22 18:27:35,2018-03-22 18:27:40,"5,038s",PASSED
+"Statement - wes = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(filial_map), 5)",Safari 11,,2018-03-22 18:27:40,2018-03-22 18:27:40,"0,040s",PASSED
+"Statement - For ([i = 0, i < wes.size(), (i++)])",Safari 11,,2018-03-22 18:27:40,2018-03-22 18:27:40,"0,174s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:27:40,2018-03-22 18:27:40,"0,071s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/04_Testfall,Safari 11,Initial: Alle Filial-Icon sind auf der Karte angezeigt,2018-03-22 18:27:40,2018-03-22 18:27:49,"9,169s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:27:40,2018-03-22 18:27:43,"2,158s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:27:43,2018-03-22 18:27:43,"0,007s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:27:43,2018-03-22 18:27:43,"0,029s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:27:43,2018-03-22 18:27:44,"1,531s",PASSED
+delay,Safari 11,,2018-03-22 18:27:44,2018-03-22 18:27:49,"5,008s",PASSED
+"Statement - wes = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(filial_map), 5)",Safari 11,,2018-03-22 18:27:49,2018-03-22 18:27:49,"0,056s",PASSED
+"Statement - For ([i = 0, i < wes.size(), (i++)])",Safari 11,,2018-03-22 18:27:49,2018-03-22 18:27:49,"0,083s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:27:49,2018-03-22 18:27:49,"0,067s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/05_Testfall,Safari 11,initial: Alle Filial-Akk. sind zugeklappt,2018-03-22 18:27:49,2018-03-22 18:28:03,"13,803s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:27:50,2018-03-22 18:27:52,"2,083s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:27:52,2018-03-22 18:27:52,"0,022s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:27:52,2018-03-22 18:27:52,"0,006s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:27:52,2018-03-22 18:27:53,"1,158s",PASSED
+delay,Safari 11,,2018-03-22 18:27:53,2018-03-22 18:27:58,"5,033s",PASSED
+verifyElementNotPresent,Safari 11,,2018-03-22 18:27:58,2018-03-22 18:28:03,"5,195s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:28:03,2018-03-22 18:28:03,"0,067s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/06_Testfall,Safari 11,initial: Alle Filial-Akk. sind zugeklappt,2018-03-22 18:28:03,2018-03-22 18:28:13,"9,591s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:28:03,2018-03-22 18:28:05,"2,060s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:28:05,2018-03-22 18:28:05,"0,027s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:28:05,2018-03-22 18:28:06,"0,006s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:28:06,2018-03-22 18:28:08,"2,200s",PASSED
+delay,Safari 11,,2018-03-22 18:28:08,2018-03-22 18:28:13,"5,006s",PASSED
+verifyElementNotPresent,Safari 11,,2018-03-22 18:28:13,2018-03-22 18:28:13,"0,050s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:28:13,2018-03-22 18:28:13,"0,086s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/07_Testfall,Safari 11,initial: Alle Filial-Akk. sind zugeklappt,2018-03-22 18:28:13,2018-03-22 18:28:22,"9,594s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:28:13,2018-03-22 18:28:16,"2,413s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:28:16,2018-03-22 18:28:16,"0,021s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:28:16,2018-03-22 18:28:16,"0,006s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:28:16,2018-03-22 18:28:17,"1,652s",PASSED
+delay,Safari 11,,2018-03-22 18:28:17,2018-03-22 18:28:22,"5,041s",PASSED
+verifyElementNotPresent,Safari 11,,2018-03-22 18:28:22,2018-03-22 18:28:22,"0,132s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:28:22,2018-03-22 18:28:22,"0,087s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/08_Testfall,Safari 11,initial: Alle Filial-Akk. sind zugeklappt,2018-03-22 18:28:22,2018-03-22 18:28:36,"13,820s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:28:23,2018-03-22 18:28:25,"2,086s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:28:25,2018-03-22 18:28:25,"0,022s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:28:25,2018-03-22 18:28:25,"0,006s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:28:25,2018-03-22 18:28:31,"6,349s",PASSED
+delay,Safari 11,,2018-03-22 18:28:31,2018-03-22 18:28:36,"5,040s",PASSED
+verifyElementNotPresent,Safari 11,,2018-03-22 18:28:36,2018-03-22 18:28:36,"0,051s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:28:36,2018-03-22 18:28:36,"0,080s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/09_Testfall,Safari 11,"\u00DCberpr\u00FCfen, ob Entfernung in km nicht angezeigt wind ",2018-03-22 18:28:36,2018-03-22 18:28:50,"13,994s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:28:36,2018-03-22 18:28:39,"2,103s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:28:39,2018-03-22 18:28:39,"0,024s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:28:39,2018-03-22 18:28:39,"0,006s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:28:39,2018-03-22 18:28:44,"4,903s",PASSED
+delay,Safari 11,,2018-03-22 18:28:44,2018-03-22 18:28:49,"5,045s",PASSED
+verifyElementNotPresent,Safari 11,,2018-03-22 18:28:49,2018-03-22 18:28:50,"1,684s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:28:50,2018-03-22 18:28:50,"0,078s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/10_Testfall,Safari 11,"\u00DCberpr\u00FCfen, ob Entfernung in km nicht angezeigt wind ",2018-03-22 18:28:50,2018-03-22 18:29:05,"15,079s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:28:51,2018-03-22 18:28:53,"2,380s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:28:53,2018-03-22 18:28:53,"0,022s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:28:53,2018-03-22 18:28:53,"0,007s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:28:53,2018-03-22 18:28:56,"3,097s",PASSED
+delay,Safari 11,,2018-03-22 18:28:56,2018-03-22 18:29:01,"5,003s",PASSED
+verifyElementNotPresent,Safari 11,,2018-03-22 18:29:01,2018-03-22 18:29:05,"4,245s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:29:05,2018-03-22 18:29:05,"0,089s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/11_Testfall,Safari 11,"\u00DCberpr\u00FCfen, ob Entfernung in km nicht angezeigt wind ",2018-03-22 18:29:05,2018-03-22 18:29:19,"13,511s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:29:06,2018-03-22 18:29:08,"2,090s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:29:08,2018-03-22 18:29:08,"0,027s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:29:08,2018-03-22 18:29:08,"0,006s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:29:08,2018-03-22 18:29:12,"4,493s",PASSED
+delay,Safari 11,,2018-03-22 18:29:12,2018-03-22 18:29:17,"5,037s",PASSED
+verifyElementNotPresent,Safari 11,,2018-03-22 18:29:17,2018-03-22 18:29:19,"1,593s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:29:19,2018-03-22 18:29:19,"0,075s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/12_Testfall,Safari 11,"\u00DCberpr\u00FCfen, ob Entfernung in km nicht angezeigt wind ",2018-03-22 18:29:19,2018-03-22 18:29:33,"14,278s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:29:19,2018-03-22 18:29:22,"2,456s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:29:22,2018-03-22 18:29:22,"0,027s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:29:22,2018-03-22 18:29:22,"0,005s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:29:22,2018-03-22 18:29:28,"6,544s",PASSED
+delay,Safari 11,,2018-03-22 18:29:28,2018-03-22 18:29:33,"5,017s",PASSED
+verifyElementNotPresent,Safari 11,,2018-03-22 18:29:33,2018-03-22 18:29:33,"0,029s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:29:33,2018-03-22 18:29:33,"0,063s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/13_Testfall,Safari 11,Filial-count=54\nInitial sind alle Filialen einer Bank angezeigt\n(Akk. und Filial-Icons),2018-03-22 18:29:33,2018-03-22 18:29:48,"14,381s",FAILED
+openBrowser,Safari 11,,2018-03-22 18:29:34,2018-03-22 18:29:36,"2,365s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:29:36,2018-03-22 18:29:36,"0,006s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:29:36,2018-03-22 18:29:36,"0,019s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:29:36,2018-03-22 18:29:42,"6,031s",PASSED
+delay,Safari 11,,2018-03-22 18:29:42,2018-03-22 18:29:47,"5,005s",PASSED
+"Statement - wes1 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(filial_map), 5)",Safari 11,,2018-03-22 18:29:47,2018-03-22 18:29:48,"0,580s",PASSED
+"Statement - wes2 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(loc_steet_filialsuche), 5)",Safari 11,,2018-03-22 18:29:48,2018-03-22 18:29:48,"0,043s",PASSED
+Statement - filial_maps_count = wes1.size(),Safari 11,,2018-03-22 18:29:48,2018-03-22 18:29:48,"0,000s",PASSED
+Statement - filial_accordeon_count = wes2.size(),Safari 11,,2018-03-22 18:29:48,2018-03-22 18:29:48,"0,001s",PASSED
+Statement - filial_count = 61,Safari 11,,2018-03-22 18:29:48,2018-03-22 18:29:48,"0,000s",PASSED
+Statement - If (filial_maps_count != filial_count),Safari 11,,2018-03-22 18:29:48,2018-03-22 18:29:48,"0,084s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/14_Testfall,Safari 11,"Filial-count=37 (Dropdown: Ergebnis bei Auswahl eines Ortes z.B. Berlin)\nAlle Filialen, bei denen im Feld \""City\"" dieser Ort steht, sind angezeigt (Akk. und Filial-Icons)\n\n\n\n\n\n",2018-03-22 18:29:48,2018-03-22 18:30:05,"17,475s",FAILED
+openBrowser,Safari 11,,2018-03-22 18:29:48,2018-03-22 18:29:50,"2,389s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:29:50,2018-03-22 18:29:50,"0,007s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:29:50,2018-03-22 18:29:50,"0,020s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:29:50,2018-03-22 18:29:55,"4,925s",PASSED
+delay,Safari 11,,2018-03-22 18:29:55,2018-03-22 18:30:00,"5,018s",PASSED
+click,Safari 11,,2018-03-22 18:30:00,2018-03-22 18:30:00,"0,161s",PASSED
+delay,Safari 11,,2018-03-22 18:30:00,2018-03-22 18:30:02,"2,003s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:30:02,2018-03-22 18:30:03,"0,072s",PASSED
+delay,Safari 11,,2018-03-22 18:30:03,2018-03-22 18:30:05,"2,002s",PASSED
+click,Safari 11,,2018-03-22 18:30:05,2018-03-22 18:30:05,"0,639s",FAILED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/15_Testfall,Safari 11,"Sortierung nach entfernung beim Eingabe \""Berlin\""",2018-03-22 18:30:05,2018-03-22 18:30:22,"16,632s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:30:05,2018-03-22 18:30:08,"2,543s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:30:08,2018-03-22 18:30:08,"0,031s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:30:08,2018-03-22 18:30:08,"0,005s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:30:08,2018-03-22 18:30:12,"4,374s",PASSED
+delay,Safari 11,,2018-03-22 18:30:12,2018-03-22 18:30:17,"5,004s",PASSED
+setText,Safari 11,,2018-03-22 18:30:17,2018-03-22 18:30:18,"0,206s",PASSED
+delay,Safari 11,,2018-03-22 18:30:18,2018-03-22 18:30:20,"2,044s",PASSED
+submit,Safari 11,,2018-03-22 18:30:20,2018-03-22 18:30:20,"0,059s",PASSED
+delay,Safari 11,,2018-03-22 18:30:20,2018-03-22 18:30:22,"2,005s",PASSED
+"Statement - wes = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Filialsuche_loc_distance), 5)",Safari 11,,2018-03-22 18:30:22,2018-03-22 18:30:22,"0,052s",PASSED
+"Statement - For ([i = 1, i < wes.size(), (i++)])",Safari 11,,2018-03-22 18:30:22,2018-03-22 18:30:22,"0,001s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:30:22,2018-03-22 18:30:22,"0,077s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/16_Testfall,Safari 11,"Es wird gepr\u00FCft, ob Entfernung in km angezeigt wird",2018-03-22 18:30:22,2018-03-22 18:30:42,"20,091s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:30:22,2018-03-22 18:30:24,"2,388s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:30:24,2018-03-22 18:30:24,"0,024s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:30:24,2018-03-22 18:30:24,"0,007s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:30:24,2018-03-22 18:30:28,"4,088s",PASSED
+delay,Safari 11,,2018-03-22 18:30:28,2018-03-22 18:30:33,"5,008s",PASSED
+setText,Safari 11,,2018-03-22 18:30:33,2018-03-22 18:30:34,"0,255s",PASSED
+delay,Safari 11,,2018-03-22 18:30:34,2018-03-22 18:30:37,"3,037s",PASSED
+submit,Safari 11,,2018-03-22 18:30:37,2018-03-22 18:30:37,"0,042s",PASSED
+delay,Safari 11,,2018-03-22 18:30:37,2018-03-22 18:30:42,"5,003s",PASSED
+verifyElementVisible,Safari 11,,2018-03-22 18:30:42,2018-03-22 18:30:42,"0,071s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:30:42,2018-03-22 18:30:42,"0,072s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/17_Testfall,Safari 11,Akkordeons und Paginierung beim Klick funktionieren richtig. Es werden noch Stra\u00DFen und Hausnummern mit Prototyp verglichen.,2018-03-22 18:30:42,2018-03-22 18:32:11,"1m - 29,266s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:30:42,2018-03-22 18:30:45,"2,395s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:30:45,2018-03-22 18:30:45,"0,008s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:30:45,2018-03-22 18:30:45,"0,024s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:30:45,2018-03-22 18:30:47,"2,618s",PASSED
+delay,Safari 11,,2018-03-22 18:30:47,2018-03-22 18:30:49,"2,005s",PASSED
+waitForPageLoad,Safari 11,,2018-03-22 18:30:49,2018-03-22 18:30:49,"0,027s",PASSED
+delay,Safari 11,,2018-03-22 18:30:49,2018-03-22 18:30:51,"2,028s",PASSED
+click,Safari 11,,2018-03-22 18:30:51,2018-03-22 18:30:52,"0,194s",PASSED
+delay,Safari 11,,2018-03-22 18:30:52,2018-03-22 18:30:54,"2,005s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:30:54,2018-03-22 18:30:54,"0,053s",PASSED
+delay,Safari 11,,2018-03-22 18:30:54,2018-03-22 18:30:59,"5,035s",PASSED
+click,Safari 11,,2018-03-22 18:30:59,2018-03-22 18:30:59,"0,024s",PASSED
+delay,Safari 11,,2018-03-22 18:30:59,2018-03-22 18:31:04,"5,002s",PASSED
+click,Safari 11,,2018-03-22 18:31:04,2018-03-22 18:31:04,"0,067s",PASSED
+delay,Safari 11,,2018-03-22 18:31:04,2018-03-22 18:31:06,"2,039s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:06,2018-03-22 18:31:06,"0,042s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:06,2018-03-22 18:31:06,"0,021s",PASSED
+click,Safari 11,,2018-03-22 18:31:06,2018-03-22 18:31:06,"0,047s",PASSED
+delay,Safari 11,,2018-03-22 18:31:06,2018-03-22 18:31:08,"2,004s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:08,2018-03-22 18:31:08,"0,022s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:08,2018-03-22 18:31:08,"0,027s",PASSED
+click,Safari 11,,2018-03-22 18:31:08,2018-03-22 18:31:08,"0,054s",PASSED
+delay,Safari 11,,2018-03-22 18:31:08,2018-03-22 18:31:10,"2,002s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:10,2018-03-22 18:31:10,"0,021s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:10,2018-03-22 18:31:10,"0,018s",PASSED
+click,Safari 11,,2018-03-22 18:31:10,2018-03-22 18:31:10,"0,069s",PASSED
+delay,Safari 11,,2018-03-22 18:31:10,2018-03-22 18:31:12,"2,005s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:12,2018-03-22 18:31:12,"0,025s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:12,2018-03-22 18:31:12,"0,018s",PASSED
+click,Safari 11,,2018-03-22 18:31:12,2018-03-22 18:31:12,"0,058s",PASSED
+delay,Safari 11,,2018-03-22 18:31:12,2018-03-22 18:31:14,"2,001s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:14,2018-03-22 18:31:14,"0,019s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:14,2018-03-22 18:31:14,"0,018s",PASSED
+scrollToElement,Safari 11,,2018-03-22 18:31:14,2018-03-22 18:31:14,"0,073s",PASSED
+click,Safari 11,,2018-03-22 18:31:14,2018-03-22 18:31:14,"0,029s",PASSED
+delay,Safari 11,,2018-03-22 18:31:14,2018-03-22 18:31:16,"2,006s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:16,2018-03-22 18:31:16,"0,022s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:16,2018-03-22 18:31:16,"0,026s",PASSED
+click,Safari 11,,2018-03-22 18:31:16,2018-03-22 18:31:17,"0,073s",PASSED
+click,Safari 11,,2018-03-22 18:31:17,2018-03-22 18:31:17,"0,121s",PASSED
+delay,Safari 11,,2018-03-22 18:31:17,2018-03-22 18:31:19,"2,002s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:19,2018-03-22 18:31:19,"0,025s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:19,2018-03-22 18:31:19,"0,020s",PASSED
+click,Safari 11,,2018-03-22 18:31:19,2018-03-22 18:31:19,"0,057s",PASSED
+delay,Safari 11,,2018-03-22 18:31:19,2018-03-22 18:31:21,"2,007s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:21,2018-03-22 18:31:21,"0,024s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:21,2018-03-22 18:31:21,"0,026s",PASSED
+click,Safari 11,,2018-03-22 18:31:21,2018-03-22 18:31:21,"0,061s",PASSED
+delay,Safari 11,,2018-03-22 18:31:21,2018-03-22 18:31:23,"2,002s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:23,2018-03-22 18:31:23,"0,022s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:23,2018-03-22 18:31:23,"0,020s",PASSED
+click,Safari 11,,2018-03-22 18:31:23,2018-03-22 18:31:23,"0,051s",PASSED
+delay,Safari 11,,2018-03-22 18:31:23,2018-03-22 18:31:25,"2,020s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:25,2018-03-22 18:31:25,"0,021s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:25,2018-03-22 18:31:25,"0,022s",PASSED
+click,Safari 11,,2018-03-22 18:31:25,2018-03-22 18:31:25,"0,047s",PASSED
+delay,Safari 11,,2018-03-22 18:31:25,2018-03-22 18:31:27,"2,003s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:27,2018-03-22 18:31:27,"0,021s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:27,2018-03-22 18:31:27,"0,019s",PASSED
+click,Safari 11,,2018-03-22 18:31:27,2018-03-22 18:31:27,"0,047s",PASSED
+delay,Safari 11,,2018-03-22 18:31:27,2018-03-22 18:31:29,"2,007s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:29,2018-03-22 18:31:29,"0,022s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:29,2018-03-22 18:31:29,"0,025s",PASSED
+click,Safari 11,,2018-03-22 18:31:29,2018-03-22 18:31:29,"0,068s",PASSED
+click,Safari 11,,2018-03-22 18:31:29,2018-03-22 18:31:29,"0,079s",PASSED
+delay,Safari 11,,2018-03-22 18:31:29,2018-03-22 18:31:31,"2,002s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:31,2018-03-22 18:31:31,"0,021s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:31,2018-03-22 18:31:31,"0,020s",PASSED
+click,Safari 11,,2018-03-22 18:31:31,2018-03-22 18:31:31,"0,053s",PASSED
+click,Safari 11,,2018-03-22 18:31:31,2018-03-22 18:31:32,"0,102s",PASSED
+delay,Safari 11,,2018-03-22 18:31:32,2018-03-22 18:31:34,"2,037s",PASSED
+click,Safari 11,,2018-03-22 18:31:34,2018-03-22 18:31:34,"0,046s",PASSED
+delay,Safari 11,,2018-03-22 18:31:34,2018-03-22 18:31:36,"2,003s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:36,2018-03-22 18:31:36,"0,024s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:36,2018-03-22 18:31:36,"0,020s",PASSED
+click,Safari 11,,2018-03-22 18:31:36,2018-03-22 18:31:36,"0,051s",PASSED
+click,Safari 11,,2018-03-22 18:31:36,2018-03-22 18:31:36,"0,113s",PASSED
+delay,Safari 11,,2018-03-22 18:31:36,2018-03-22 18:31:38,"2,007s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:38,2018-03-22 18:31:38,"0,022s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:38,2018-03-22 18:31:38,"0,025s",PASSED
+click,Safari 11,,2018-03-22 18:31:38,2018-03-22 18:31:38,"0,055s",PASSED
+click,Safari 11,,2018-03-22 18:31:38,2018-03-22 18:31:38,"0,092s",PASSED
+delay,Safari 11,,2018-03-22 18:31:38,2018-03-22 18:31:40,"2,002s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:40,2018-03-22 18:31:40,"0,022s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:40,2018-03-22 18:31:40,"0,023s",PASSED
+click,Safari 11,,2018-03-22 18:31:40,2018-03-22 18:31:40,"0,065s",PASSED
+delay,Safari 11,,2018-03-22 18:31:40,2018-03-22 18:31:42,"2,005s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:42,2018-03-22 18:31:42,"0,026s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:42,2018-03-22 18:31:42,"0,022s",PASSED
+click,Safari 11,,2018-03-22 18:31:42,2018-03-22 18:31:42,"0,053s",PASSED
+click,Safari 11,,2018-03-22 18:31:42,2018-03-22 18:31:42,"0,096s",PASSED
+delay,Safari 11,,2018-03-22 18:31:42,2018-03-22 18:31:44,"2,004s",PASSED
+click,Safari 11,,2018-03-22 18:31:44,2018-03-22 18:31:44,"0,053s",PASSED
+click,Safari 11,,2018-03-22 18:31:44,2018-03-22 18:31:45,"0,111s",PASSED
+delay,Safari 11,,2018-03-22 18:31:45,2018-03-22 18:31:47,"2,003s",PASSED
+click,Safari 11,,2018-03-22 18:31:47,2018-03-22 18:31:47,"0,053s",PASSED
+click,Safari 11,,2018-03-22 18:31:47,2018-03-22 18:31:47,"0,084s",PASSED
+click,Safari 11,,2018-03-22 18:31:47,2018-03-22 18:31:47,"0,132s",PASSED
+delay,Safari 11,,2018-03-22 18:31:47,2018-03-22 18:31:49,"2,008s",PASSED
+click,Safari 11,,2018-03-22 18:31:49,2018-03-22 18:31:49,"0,068s",PASSED
+click,Safari 11,,2018-03-22 18:31:49,2018-03-22 18:31:49,"0,115s",PASSED
+delay,Safari 11,,2018-03-22 18:31:49,2018-03-22 18:31:51,"2,048s",PASSED
+click,Safari 11,,2018-03-22 18:31:51,2018-03-22 18:31:51,"0,040s",PASSED
+delay,Safari 11,,2018-03-22 18:31:51,2018-03-22 18:31:56,"5,003s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:56,2018-03-22 18:31:56,"0,025s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:56,2018-03-22 18:31:56,"0,027s",PASSED
+click,Safari 11,,2018-03-22 18:31:56,2018-03-22 18:31:56,"0,057s",PASSED
+delay,Safari 11,,2018-03-22 18:31:56,2018-03-22 18:31:58,"2,037s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:58,2018-03-22 18:31:58,"0,022s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:31:58,2018-03-22 18:31:58,"0,017s",PASSED
+click,Safari 11,,2018-03-22 18:31:58,2018-03-22 18:31:58,"0,055s",PASSED
+click,Safari 11,,2018-03-22 18:31:58,2018-03-22 18:31:58,"0,082s",PASSED
+click,Safari 11,,2018-03-22 18:31:58,2018-03-22 18:31:59,"0,102s",PASSED
+delay,Safari 11,,2018-03-22 18:31:59,2018-03-22 18:32:01,"2,006s",PASSED
+click,Safari 11,,2018-03-22 18:32:01,2018-03-22 18:32:01,"0,062s",PASSED
+delay,Safari 11,,2018-03-22 18:32:01,2018-03-22 18:32:03,"2,005s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:32:03,2018-03-22 18:32:03,"0,019s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:32:03,2018-03-22 18:32:03,"0,022s",PASSED
+click,Safari 11,,2018-03-22 18:32:03,2018-03-22 18:32:03,"0,048s",PASSED
+delay,Safari 11,,2018-03-22 18:32:03,2018-03-22 18:32:05,"2,002s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:32:05,2018-03-22 18:32:05,"0,020s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:32:05,2018-03-22 18:32:05,"0,018s",PASSED
+click,Safari 11,,2018-03-22 18:32:05,2018-03-22 18:32:05,"0,048s",PASSED
+click,Safari 11,,2018-03-22 18:32:05,2018-03-22 18:32:05,"0,128s",PASSED
+delay,Safari 11,,2018-03-22 18:32:05,2018-03-22 18:32:07,"2,043s",PASSED
+click,Safari 11,,2018-03-22 18:32:07,2018-03-22 18:32:07,"0,042s",PASSED
+delay,Safari 11,,2018-03-22 18:32:07,2018-03-22 18:32:09,"2,002s",PASSED
+click,Safari 11,,2018-03-22 18:32:09,2018-03-22 18:32:09,"0,105s",PASSED
+delay,Safari 11,,2018-03-22 18:32:09,2018-03-22 18:32:11,"2,007s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:32:11,2018-03-22 18:32:11,"0,019s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:32:11,2018-03-22 18:32:11,"0,017s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:32:11,2018-03-22 18:32:11,"0,100s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/18_Testfall,Safari 11,"Es werden Funktionalit\u00E4ten gepr\u00FCft:\nDropdown, Akk. , Anfahrt/Zur\u00FCck-Buttons, Eingabefelder (street/city) etc.",2018-03-22 18:32:11,2018-03-22 18:32:49,"37,552s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:32:12,2018-03-22 18:32:20,"8,447s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:32:20,2018-03-22 18:32:20,"0,006s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:32:20,2018-03-22 18:32:20,"0,026s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:32:20,2018-03-22 18:32:23,"2,789s",PASSED
+waitForPageLoad,Safari 11,,2018-03-22 18:32:23,2018-03-22 18:32:24,"1,548s",PASSED
+delay,Safari 11,,2018-03-22 18:32:24,2018-03-22 18:32:28,"4,039s",PASSED
+click,Safari 11,,2018-03-22 18:32:28,2018-03-22 18:32:29,"0,224s",PASSED
+delay,Safari 11,,2018-03-22 18:32:29,2018-03-22 18:32:34,"5,001s",PASSED
+scrollToElement,Safari 11,,2018-03-22 18:32:34,2018-03-22 18:32:34,"0,050s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:32:34,2018-03-22 18:32:34,"0,022s",PASSED
+delay,Safari 11,,2018-03-22 18:32:34,2018-03-22 18:32:36,"2,006s",PASSED
+click,Safari 11,,2018-03-22 18:32:36,2018-03-22 18:32:36,"0,050s",PASSED
+delay,Safari 11,,2018-03-22 18:32:36,2018-03-22 18:32:38,"2,046s",PASSED
+click,Safari 11,,2018-03-22 18:32:38,2018-03-22 18:32:38,"0,050s",PASSED
+delay,Safari 11,,2018-03-22 18:32:38,2018-03-22 18:32:40,"2,005s",PASSED
+click,Safari 11,,2018-03-22 18:32:40,2018-03-22 18:32:40,"0,053s",PASSED
+setText,Safari 11,,2018-03-22 18:32:40,2018-03-22 18:32:40,"0,184s",PASSED
+setText,Safari 11,,2018-03-22 18:32:40,2018-03-22 18:32:41,"0,401s",PASSED
+setText,Safari 11,,2018-03-22 18:32:41,2018-03-22 18:32:41,"0,179s",PASSED
+click,Safari 11,,2018-03-22 18:32:41,2018-03-22 18:32:41,"0,052s",PASSED
+click,Safari 11,,2018-03-22 18:32:41,2018-03-22 18:32:41,"0,137s",PASSED
+click,Safari 11,,2018-03-22 18:32:41,2018-03-22 18:32:42,"0,613s",PASSED
+click,Safari 11,,2018-03-22 18:32:42,2018-03-22 18:32:42,"0,069s",PASSED
+delay,Safari 11,,2018-03-22 18:32:42,2018-03-22 18:32:44,"2,005s",PASSED
+click,Safari 11,,2018-03-22 18:32:44,2018-03-22 18:32:44,"0,066s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:32:44,2018-03-22 18:32:44,"0,031s",PASSED
+click,Safari 11,,2018-03-22 18:32:44,2018-03-22 18:32:44,"0,026s",PASSED
+delay,Safari 11,,2018-03-22 18:32:44,2018-03-22 18:32:49,"5,036s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:32:49,2018-03-22 18:32:49,"0,019s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:32:49,2018-03-22 18:32:49,"0,066s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/19_Testfall,Safari 11,Paginierung soll beim Klick richtig funktionieren,2018-03-22 18:32:49,2018-03-22 18:32:59,"9,778s",FAILED
+openBrowser,Safari 11,,2018-03-22 18:32:49,2018-03-22 18:32:52,"2,581s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:32:52,2018-03-22 18:32:52,"0,021s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:32:52,2018-03-22 18:32:54,"2,154s",PASSED
+delay,Safari 11,,2018-03-22 18:32:54,2018-03-22 18:32:56,"2,004s",PASSED
+click,Safari 11,,2018-03-22 18:32:56,2018-03-22 18:32:58,"1,868s",PASSED
+click,Safari 11,,2018-03-22 18:32:58,2018-03-22 18:32:59,"0,955s",FAILED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/20_Testfall,Safari 11,"Es wird gepr\u00FCft, ob Entfernung in km angezeigt wird",2018-03-22 18:32:59,2018-03-22 18:33:17,"17,992s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:32:59,2018-03-22 18:33:01,"2,175s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:33:01,2018-03-22 18:33:01,"0,024s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:33:01,2018-03-22 18:33:01,"0,005s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:33:01,2018-03-22 18:33:03,"2,200s",PASSED
+delay,Safari 11,,2018-03-22 18:33:03,2018-03-22 18:33:08,"5,010s",PASSED
+setText,Safari 11,,2018-03-22 18:33:08,2018-03-22 18:33:08,"0,251s",PASSED
+delay,Safari 11,,2018-03-22 18:33:08,2018-03-22 18:33:11,"3,034s",PASSED
+submit,Safari 11,,2018-03-22 18:33:11,2018-03-22 18:33:12,"0,033s",PASSED
+delay,Safari 11,,2018-03-22 18:33:12,2018-03-22 18:33:17,"5,007s",PASSED
+verifyElementVisible,Safari 11,,2018-03-22 18:33:17,2018-03-22 18:33:17,"0,058s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:33:17,2018-03-22 18:33:17,"0,073s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/21_Testfall,Safari 11,Ergebnis bei Auswahl eines Ortes:\n z.B Berlin => Ergebnisliste: Alle Filialen sind zugeklappt,2018-03-22 18:33:17,2018-03-22 18:33:44,"27,330s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:33:17,2018-03-22 18:33:19,"2,361s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:33:19,2018-03-22 18:33:19,"0,032s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:33:19,2018-03-22 18:33:19,"0,006s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:33:19,2018-03-22 18:33:22,"2,891s",PASSED
+waitForPageLoad,Safari 11,,2018-03-22 18:33:22,2018-03-22 18:33:24,"1,550s",PASSED
+delay,Safari 11,,2018-03-22 18:33:24,2018-03-22 18:33:29,"5,001s",PASSED
+click,Safari 11,,2018-03-22 18:33:29,2018-03-22 18:33:29,"0,129s",PASSED
+delay,Safari 11,,2018-03-22 18:33:29,2018-03-22 18:33:34,"5,041s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:33:34,2018-03-22 18:33:34,"0,033s",PASSED
+delay,Safari 11,,2018-03-22 18:33:34,2018-03-22 18:33:39,"5,003s",PASSED
+click,Safari 11,,2018-03-22 18:33:39,2018-03-22 18:33:39,"0,023s",PASSED
+delay,Safari 11,,2018-03-22 18:33:39,2018-03-22 18:33:44,"5,040s",PASSED
+verifyElementNotPresent,Safari 11,,2018-03-22 18:33:44,2018-03-22 18:33:44,"0,026s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:33:44,2018-03-22 18:33:44,"0,070s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/22_Testfall,Safari 11,"\""s. Widget in der Kontakt-Box\nErgebnis bei Auswahl eines Ortes:\n z.B Berlin => Ergebnisliste: Alle Filialen sind zugeklappt\""",2018-03-22 18:33:44,2018-03-22 18:34:01,"17,446s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:33:44,2018-03-22 18:33:47,"2,424s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:33:47,2018-03-22 18:33:47,"0,027s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:33:47,2018-03-22 18:33:47,"0,005s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:33:47,2018-03-22 18:33:50,"3,502s",PASSED
+waitForPageLoad,Safari 11,,2018-03-22 18:33:50,2018-03-22 18:33:50,"0,041s",PASSED
+delay,Safari 11,,2018-03-22 18:33:50,2018-03-22 18:33:52,"2,006s",PASSED
+click,Safari 11,,2018-03-22 18:33:52,2018-03-22 18:33:52,"0,056s",PASSED
+delay,Safari 11,,2018-03-22 18:33:52,2018-03-22 18:33:54,"2,005s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:33:54,2018-03-22 18:33:54,"0,050s",PASSED
+delay,Safari 11,,2018-03-22 18:33:54,2018-03-22 18:33:56,"2,041s",PASSED
+click,Safari 11,,2018-03-22 18:33:56,2018-03-22 18:33:56,"0,033s",PASSED
+delay,Safari 11,,2018-03-22 18:33:56,2018-03-22 18:34:01,"5,004s",PASSED
+verifyElementNotPresent,Safari 11,,2018-03-22 18:34:01,2018-03-22 18:34:01,"0,042s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:34:01,2018-03-22 18:34:01,"0,070s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/23_Testfall,Safari 11,s. Widget in der Marginalspalte\nErgebnis bei Auswahl eines Ortes:\n z.B Berlin => Ergebnisliste: Alle Filialen sind zugeklappt,2018-03-22 18:34:01,2018-03-22 18:34:30,"28,504s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:34:02,2018-03-22 18:34:04,"2,108s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:34:04,2018-03-22 18:34:04,"0,033s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:34:04,2018-03-22 18:34:04,"0,006s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:34:04,2018-03-22 18:34:19,"14,693s",PASSED
+waitForPageLoad,Safari 11,,2018-03-22 18:34:19,2018-03-22 18:34:19,"0,011s",PASSED
+delay,Safari 11,,2018-03-22 18:34:19,2018-03-22 18:34:21,"2,009s",PASSED
+click,Safari 11,,2018-03-22 18:34:21,2018-03-22 18:34:21,"0,059s",PASSED
+delay,Safari 11,,2018-03-22 18:34:21,2018-03-22 18:34:23,"2,012s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:34:23,2018-03-22 18:34:23,"0,052s",PASSED
+delay,Safari 11,,2018-03-22 18:34:23,2018-03-22 18:34:25,"2,008s",PASSED
+click,Safari 11,,2018-03-22 18:34:25,2018-03-22 18:34:25,"0,027s",PASSED
+delay,Safari 11,,2018-03-22 18:34:25,2018-03-22 18:34:30,"5,043s",PASSED
+verifyElementNotPresent,Safari 11,,2018-03-22 18:34:30,2018-03-22 18:34:30,"0,146s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:34:30,2018-03-22 18:34:30,"0,121s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/24_Testfall,Safari 11,s. Widget im Footer\nErgebnis bei Auswahl eines Ortes:\n z.B Berlin => Ergebnisliste: Alle Filialen sind zugeklappt,2018-03-22 18:34:30,2018-03-22 18:34:56,"26,146s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:34:30,2018-03-22 18:34:33,"2,465s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:34:33,2018-03-22 18:34:33,"0,031s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:34:33,2018-03-22 18:34:33,"0,006s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:34:33,2018-03-22 18:34:35,"2,624s",PASSED
+waitForPageLoad,Safari 11,,2018-03-22 18:34:35,2018-03-22 18:34:36,"0,539s",PASSED
+delay,Safari 11,,2018-03-22 18:34:36,2018-03-22 18:34:41,"5,041s",PASSED
+click,Safari 11,,2018-03-22 18:34:41,2018-03-22 18:34:41,"0,054s",PASSED
+delay,Safari 11,,2018-03-22 18:34:41,2018-03-22 18:34:46,"5,003s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:34:46,2018-03-22 18:34:46,"0,056s",PASSED
+delay,Safari 11,,2018-03-22 18:34:46,2018-03-22 18:34:51,"5,010s",PASSED
+click,Safari 11,,2018-03-22 18:34:51,2018-03-22 18:34:51,"0,029s",PASSED
+delay,Safari 11,,2018-03-22 18:34:51,2018-03-22 18:34:56,"5,048s",PASSED
+verifyElementNotPresent,Safari 11,,2018-03-22 18:34:56,2018-03-22 18:34:56,"0,026s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:34:56,2018-03-22 18:34:56,"0,064s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/25_Testfall,Safari 11,"\""Ergebnis bei Auswahl eines Ortes:\n z.B Berlin => Karte: \u00DCbersichtsansicht aller Filialen\""",2018-03-22 18:34:56,2018-03-22 18:35:20,"23,661s",FAILED
+openBrowser,Safari 11,,2018-03-22 18:34:56,2018-03-22 18:34:59,"2,420s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:34:59,2018-03-22 18:34:59,"0,006s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:34:59,2018-03-22 18:34:59,"0,021s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:34:59,2018-03-22 18:35:02,"3,240s",PASSED
+waitForPageLoad,Safari 11,,2018-03-22 18:35:02,2018-03-22 18:35:04,"2,050s",PASSED
+delay,Safari 11,,2018-03-22 18:35:04,2018-03-22 18:35:09,"5,004s",PASSED
+click,Safari 11,,2018-03-22 18:35:09,2018-03-22 18:35:09,"0,088s",PASSED
+delay,Safari 11,,2018-03-22 18:35:09,2018-03-22 18:35:14,"5,038s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:35:14,2018-03-22 18:35:14,"0,028s",PASSED
+delay,Safari 11,,2018-03-22 18:35:14,2018-03-22 18:35:19,"5,011s",PASSED
+click,Safari 11,,2018-03-22 18:35:19,2018-03-22 18:35:20,"0,492s",FAILED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/26_Testfall,Safari 11,"\""s. Widget in der Kontakt-Box\nErgebnis bei Auswahl eines Ortes:\n z.B Berlin => Karte: \u00DCbersichtsansicht aller Filialen\""",2018-03-22 18:35:20,2018-03-22 18:35:39,"19,487s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:35:20,2018-03-22 18:35:22,"2,471s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:35:22,2018-03-22 18:35:22,"0,006s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:35:22,2018-03-22 18:35:23,"0,019s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:35:23,2018-03-22 18:35:27,"4,853s",PASSED
+waitForPageLoad,Safari 11,,2018-03-22 18:35:27,2018-03-22 18:35:27,"0,079s",PASSED
+delay,Safari 11,,2018-03-22 18:35:27,2018-03-22 18:35:29,"2,006s",PASSED
+click,Safari 11,,2018-03-22 18:35:29,2018-03-22 18:35:30,"0,057s",PASSED
+delay,Safari 11,,2018-03-22 18:35:30,2018-03-22 18:35:32,"2,006s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:35:32,2018-03-22 18:35:32,"0,047s",PASSED
+delay,Safari 11,,2018-03-22 18:35:32,2018-03-22 18:35:34,"2,003s",PASSED
+click,Safari 11,,2018-03-22 18:35:34,2018-03-22 18:35:34,"0,025s",PASSED
+delay,Safari 11,,2018-03-22 18:35:34,2018-03-22 18:35:39,"5,041s",PASSED
+"Statement - wes = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(filial_map), 5)",Safari 11,,2018-03-22 18:35:39,2018-03-22 18:35:39,"0,043s",PASSED
+"Statement - For ([i = 0, i < wes.size(), (i++)])",Safari 11,,2018-03-22 18:35:39,2018-03-22 18:35:39,"0,598s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:35:39,2018-03-22 18:35:39,"0,068s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/27_Testfall,Safari 11,"\""s. Widget in der Marginalspalte\nErgebnis bei Auswahl eines Ortes:\n z.B Berlin => Karte: \u00DCbersichtsansicht aller Filialen\""",2018-03-22 18:35:39,2018-03-22 18:36:05,"25,469s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:35:40,2018-03-22 18:35:42,"2,176s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:35:42,2018-03-22 18:35:42,"0,006s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:35:42,2018-03-22 18:35:42,"0,019s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:35:42,2018-03-22 18:35:53,"11,395s",PASSED
+waitForPageLoad,Safari 11,,2018-03-22 18:35:53,2018-03-22 18:35:53,"0,008s",PASSED
+delay,Safari 11,,2018-03-22 18:35:53,2018-03-22 18:35:55,"2,011s",PASSED
+click,Safari 11,,2018-03-22 18:35:55,2018-03-22 18:35:55,"0,068s",PASSED
+delay,Safari 11,,2018-03-22 18:35:55,2018-03-22 18:35:57,"2,003s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:35:57,2018-03-22 18:35:57,"0,046s",PASSED
+delay,Safari 11,,2018-03-22 18:35:57,2018-03-22 18:35:59,"2,006s",PASSED
+click,Safari 11,,2018-03-22 18:35:59,2018-03-22 18:35:59,"0,026s",PASSED
+delay,Safari 11,,2018-03-22 18:35:59,2018-03-22 18:36:04,"5,041s",PASSED
+"Statement - wes = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(filial_map), 5)",Safari 11,,2018-03-22 18:36:04,2018-03-22 18:36:04,"0,039s",PASSED
+"Statement - For ([i = 0, i < wes.size(), (i++)])",Safari 11,,2018-03-22 18:36:04,2018-03-22 18:36:05,"0,336s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:36:05,2018-03-22 18:36:05,"0,107s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/28_Testfall,Safari 11,s. Widget im Footer\nErgebnis bei Auswahl eines Ortes:\n z.B Berlin => Karte: \u00DCbersichtsansicht aller Filialen,2018-03-22 18:36:05,2018-03-22 18:36:32,"26,957s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:36:05,2018-03-22 18:36:08,"2,439s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:36:08,2018-03-22 18:36:08,"0,008s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:36:08,2018-03-22 18:36:08,"0,019s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:36:08,2018-03-22 18:36:09,"1,865s",PASSED
+waitForPageLoad,Safari 11,,2018-03-22 18:36:09,2018-03-22 18:36:10,"0,539s",PASSED
+delay,Safari 11,,2018-03-22 18:36:10,2018-03-22 18:36:15,"5,116s",PASSED
+click,Safari 11,,2018-03-22 18:36:15,2018-03-22 18:36:15,"0,106s",PASSED
+delay,Safari 11,,2018-03-22 18:36:15,2018-03-22 18:36:20,"5,011s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:36:20,2018-03-22 18:36:20,"0,043s",PASSED
+delay,Safari 11,,2018-03-22 18:36:20,2018-03-22 18:36:25,"5,006s",PASSED
+click,Safari 11,,2018-03-22 18:36:25,2018-03-22 18:36:25,"0,067s",PASSED
+delay,Safari 11,,2018-03-22 18:36:25,2018-03-22 18:36:31,"6,045s",PASSED
+"Statement - wes = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(filial_map), 5)",Safari 11,,2018-03-22 18:36:31,2018-03-22 18:36:31,"0,035s",PASSED
+"Statement - For ([i = 0, i < wes.size(), (i++)])",Safari 11,,2018-03-22 18:36:31,2018-03-22 18:36:32,"0,296s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:36:32,2018-03-22 18:36:32,"0,085s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/29_Testfall,Safari 11,Ergebnis bei Auswahl eines Ortes:\n z.B Berlin => Ergebnisliste: Ohne Entfernungsangabe,2018-03-22 18:36:32,2018-03-22 18:36:57,"24,867s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:36:32,2018-03-22 18:36:34,"2,444s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:36:34,2018-03-22 18:36:34,"0,030s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:36:34,2018-03-22 18:36:34,"0,006s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:36:34,2018-03-22 18:36:36,"1,807s",PASSED
+delay,Safari 11,,2018-03-22 18:36:36,2018-03-22 18:36:41,"5,003s",PASSED
+click,Safari 11,,2018-03-22 18:36:41,2018-03-22 18:36:41,"0,130s",PASSED
+delay,Safari 11,,2018-03-22 18:36:41,2018-03-22 18:36:46,"5,050s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:36:46,2018-03-22 18:36:47,"0,034s",PASSED
+delay,Safari 11,,2018-03-22 18:36:47,2018-03-22 18:36:52,"5,006s",PASSED
+click,Safari 11,,2018-03-22 18:36:52,2018-03-22 18:36:52,"0,031s",PASSED
+delay,Safari 11,,2018-03-22 18:36:52,2018-03-22 18:36:57,"5,039s",PASSED
+verifyElementNotPresent,Safari 11,,2018-03-22 18:36:57,2018-03-22 18:36:57,"0,026s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:36:57,2018-03-22 18:36:57,"0,073s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/30_Testfall,Safari 11,s. Widget in der Kontakt-Box\nErgebnis bei Auswahl eines Ortes:\n z.B Berlin => Ergebnisliste: Ohne Entfernungsangabe,2018-03-22 18:36:57,2018-03-22 18:37:17,"20,436s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:36:57,2018-03-22 18:36:59,"2,101s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:36:59,2018-03-22 18:36:59,"0,020s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:36:59,2018-03-22 18:36:59,"0,005s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:36:59,2018-03-22 18:37:01,"2,306s",PASSED
+delay,Safari 11,,2018-03-22 18:37:01,2018-03-22 18:37:06,"5,002s",PASSED
+click,Safari 11,,2018-03-22 18:37:06,2018-03-22 18:37:06,"0,058s",PASSED
+delay,Safari 11,,2018-03-22 18:37:06,2018-03-22 18:37:08,"2,002s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:37:08,2018-03-22 18:37:08,"0,042s",PASSED
+delay,Safari 11,,2018-03-22 18:37:08,2018-03-22 18:37:10,"2,006s",PASSED
+click,Safari 11,,2018-03-22 18:37:10,2018-03-22 18:37:10,"0,032s",PASSED
+delay,Safari 11,,2018-03-22 18:37:10,2018-03-22 18:37:15,"5,010s",PASSED
+verifyElementNotPresent,Safari 11,,2018-03-22 18:37:15,2018-03-22 18:37:17,"1,667s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:37:17,2018-03-22 18:37:17,"0,060s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/31_Testfall,Safari 11,"\""s. Widget in der Marginalspalte\nErgebnis bei Auswahl eines Ortes:\n z.B Berlin => Ergebnisliste:  Ohne Entfernungsangabe\""",2018-03-22 18:37:17,2018-03-22 18:37:46,"29,303s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:37:17,2018-03-22 18:37:20,"2,389s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:37:20,2018-03-22 18:37:20,"0,022s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:37:20,2018-03-22 18:37:20,"0,005s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:37:20,2018-03-22 18:37:32,"12,422s",PASSED
+delay,Safari 11,,2018-03-22 18:37:32,2018-03-22 18:37:37,"5,010s",PASSED
+click,Safari 11,,2018-03-22 18:37:37,2018-03-22 18:37:37,"0,064s",PASSED
+delay,Safari 11,,2018-03-22 18:37:37,2018-03-22 18:37:39,"2,008s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:37:39,2018-03-22 18:37:39,"0,049s",PASSED
+delay,Safari 11,,2018-03-22 18:37:39,2018-03-22 18:37:41,"2,003s",PASSED
+click,Safari 11,,2018-03-22 18:37:41,2018-03-22 18:37:41,"0,023s",PASSED
+delay,Safari 11,,2018-03-22 18:37:41,2018-03-22 18:37:46,"5,041s",PASSED
+verifyElementNotPresent,Safari 11,,2018-03-22 18:37:46,2018-03-22 18:37:46,"0,059s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:37:46,2018-03-22 18:37:46,"0,074s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/32_Testfall,Safari 11,"\""s. Widget im Footer\nErgebnis bei Auswahl eines Ortes:\n z.B Berlin =>  Ohne Entfernungsangabe\""",2018-03-22 18:37:47,2018-03-22 18:38:14,"27,428s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:37:47,2018-03-22 18:37:49,"2,385s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:37:49,2018-03-22 18:37:49,"0,024s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:37:49,2018-03-22 18:37:49,"0,005s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:37:49,2018-03-22 18:37:53,"4,223s",PASSED
+delay,Safari 11,,2018-03-22 18:37:53,2018-03-22 18:37:58,"5,044s",PASSED
+click,Safari 11,,2018-03-22 18:37:58,2018-03-22 18:37:59,"0,299s",PASSED
+delay,Safari 11,,2018-03-22 18:37:59,2018-03-22 18:38:04,"5,006s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:38:04,2018-03-22 18:38:04,"0,041s",PASSED
+delay,Safari 11,,2018-03-22 18:38:04,2018-03-22 18:38:09,"5,010s",PASSED
+click,Safari 11,,2018-03-22 18:38:09,2018-03-22 18:38:09,"0,025s",PASSED
+delay,Safari 11,,2018-03-22 18:38:09,2018-03-22 18:38:14,"5,042s",PASSED
+verifyElementNotPresent,Safari 11,,2018-03-22 18:38:14,2018-03-22 18:38:14,"0,092s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:38:14,2018-03-22 18:38:14,"0,094s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/33_Testfall,Safari 11,"\""Initial: \nKeine Treffer sind angezeigt (keine Filial-Akk., keine Filial-Icons, keine Entfernung\""",2018-03-22 18:38:14,2018-03-22 18:38:25,"10,969s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:38:14,2018-03-22 18:38:17,"2,373s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:38:17,2018-03-22 18:38:17,"0,023s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:38:17,2018-03-22 18:38:17,"0,007s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:38:17,2018-03-22 18:38:20,"3,160s",PASSED
+delay,Safari 11,,2018-03-22 18:38:20,2018-03-22 18:38:25,"5,008s",PASSED
+Statement - Try,Safari 11,,2018-03-22 18:38:25,2018-03-22 18:38:25,"0,064s",PASSED
+verifyElementNotPresent,Safari 11,,2018-03-22 18:38:25,2018-03-22 18:38:25,"0,039s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:38:25,2018-03-22 18:38:25,"0,076s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/34_Testfall,Safari 11,Nach Eingabe (z.B Berlin): \nAlle Filialen sind zugeklappt,2018-03-22 18:38:25,2018-03-22 18:38:34,"8,840s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:38:25,2018-03-22 18:38:27,"1,876s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:38:27,2018-03-22 18:38:27,"0,022s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:38:27,2018-03-22 18:38:27,"0,005s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:38:27,2018-03-22 18:38:28,"1,354s",PASSED
+delay,Safari 11,,2018-03-22 18:38:28,2018-03-22 18:38:30,"2,038s",PASSED
+setText,Safari 11,,2018-03-22 18:38:30,2018-03-22 18:38:31,"0,215s",PASSED
+click,Safari 11,,2018-03-22 18:38:31,2018-03-22 18:38:31,"0,088s",PASSED
+delay,Safari 11,,2018-03-22 18:38:31,2018-03-22 18:38:34,"3,011s",PASSED
+verifyElementNotPresent,Safari 11,,2018-03-22 18:38:34,2018-03-22 18:38:34,"0,045s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:38:34,2018-03-22 18:38:34,"0,068s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/35_Testfall,Safari 11,"Es wird gepr\u00FCft, ob Entfernung in km angezeigt wird",2018-03-22 18:38:34,2018-03-22 18:38:48,"14,362s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:38:34,2018-03-22 18:38:36,"2,074s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:38:36,2018-03-22 18:38:36,"0,029s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:38:36,2018-03-22 18:38:36,"0,005s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:38:36,2018-03-22 18:38:38,"1,674s",PASSED
+delay,Safari 11,,2018-03-22 18:38:38,2018-03-22 18:38:43,"5,001s",PASSED
+setText,Safari 11,,2018-03-22 18:38:43,2018-03-22 18:38:43,"0,271s",PASSED
+submit,Safari 11,,2018-03-22 18:38:43,2018-03-22 18:38:43,"0,031s",PASSED
+delay,Safari 11,,2018-03-22 18:38:43,2018-03-22 18:38:48,"5,048s",PASSED
+verifyElementVisible,Safari 11,,2018-03-22 18:38:48,2018-03-22 18:38:48,"0,046s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:38:48,2018-03-22 18:38:48,"0,064s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/36_Testfall,Safari 11,Nach Eingabe (z.B Bad Hersfeld): \nAlle Filialen sind zugeklappt,2018-03-22 18:38:48,2018-03-22 18:39:00,"11,359s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:38:48,2018-03-22 18:38:51,"2,366s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:38:51,2018-03-22 18:38:51,"0,032s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:38:51,2018-03-22 18:38:51,"0,005s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:38:51,2018-03-22 18:38:54,"3,406s",PASSED
+delay,Safari 11,,2018-03-22 18:38:54,2018-03-22 18:38:56,"2,011s",PASSED
+setText,Safari 11,,2018-03-22 18:38:56,2018-03-22 18:38:56,"0,227s",PASSED
+click,Safari 11,,2018-03-22 18:38:56,2018-03-22 18:38:56,"0,056s",PASSED
+delay,Safari 11,,2018-03-22 18:38:56,2018-03-22 18:38:59,"3,003s",PASSED
+verifyElementNotPresent,Safari 11,,2018-03-22 18:38:59,2018-03-22 18:38:59,"0,044s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:38:59,2018-03-22 18:39:00,"0,108s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/37_Testfall,Safari 11,"Es wird gepr\u00FCft, ob Entfernung in km angezeigt wird",2018-03-22 18:39:00,2018-03-22 18:39:22,"22,355s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:39:00,2018-03-22 18:39:02,"2,322s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:39:02,2018-03-22 18:39:02,"0,026s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:39:02,2018-03-22 18:39:02,"0,005s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:39:02,2018-03-22 18:39:06,"4,416s",PASSED
+delay,Safari 11,,2018-03-22 18:39:06,2018-03-22 18:39:12,"5,031s",PASSED
+setText,Safari 11,,2018-03-22 18:39:12,2018-03-22 18:39:12,"0,191s",PASSED
+delay,Safari 11,,2018-03-22 18:39:12,2018-03-22 18:39:17,"5,004s",PASSED
+submit,Safari 11,,2018-03-22 18:39:17,2018-03-22 18:39:17,"0,048s",PASSED
+delay,Safari 11,,2018-03-22 18:39:17,2018-03-22 18:39:22,"5,045s",PASSED
+verifyElementVisible,Safari 11,,2018-03-22 18:39:22,2018-03-22 18:39:22,"0,042s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:39:22,2018-03-22 18:39:22,"0,065s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/38_Testfall,Safari 11,"Ergebnis, initialer Aufruf:\nSortiert nach\na) Ortsname (1.) und Stra\u00DFenname (2.) ",2018-03-22 18:39:22,2018-03-22 18:39:39,"17,027s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:39:22,2018-03-22 18:39:24,"2,102s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:39:24,2018-03-22 18:39:24,"0,007s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:39:24,2018-03-22 18:39:24,"0,026s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:39:24,2018-03-22 18:39:27,"2,561s",PASSED
+delay,Safari 11,,2018-03-22 18:39:27,2018-03-22 18:39:29,"2,009s",PASSED
+click,Safari 11,,2018-03-22 18:39:29,2018-03-22 18:39:30,"0,643s",PASSED
+delay,Safari 11,,2018-03-22 18:39:30,2018-03-22 18:39:32,"2,007s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:39:32,2018-03-22 18:39:32,"0,019s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:39:32,2018-03-22 18:39:32,"0,017s",PASSED
+click,Safari 11,,2018-03-22 18:39:32,2018-03-22 18:39:32,"0,057s",PASSED
+delay,Safari 11,,2018-03-22 18:39:32,2018-03-22 18:39:34,"2,005s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:39:34,2018-03-22 18:39:34,"0,025s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:39:34,2018-03-22 18:39:34,"0,016s",PASSED
+scrollToElement,Safari 11,,2018-03-22 18:39:34,2018-03-22 18:39:34,"0,048s",PASSED
+click,Safari 11,,2018-03-22 18:39:34,2018-03-22 18:39:34,"0,030s",PASSED
+delay,Safari 11,,2018-03-22 18:39:34,2018-03-22 18:39:37,"3,044s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:39:37,2018-03-22 18:39:37,"0,018s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:39:37,2018-03-22 18:39:37,"0,017s",PASSED
+scrollToElement,Safari 11,,2018-03-22 18:39:37,2018-03-22 18:39:37,"0,031s",PASSED
+click,Safari 11,,2018-03-22 18:39:37,2018-03-22 18:39:37,"0,027s",PASSED
+delay,Safari 11,,2018-03-22 18:39:37,2018-03-22 18:39:39,"2,007s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:39:39,2018-03-22 18:39:39,"0,018s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:39:39,2018-03-22 18:39:39,"0,016s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:39:39,2018-03-22 18:39:39,"0,064s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/39_Testfall,Safari 11,"\""Ergebnis bei Auswahl eines Ortes (z.B. Berlin):\nSortiert nach Stra\u00DFenname (1.) und Hausnummer (2.)\""\n\nWichtig: Es werden nur 3 Buchstaben  bei Stra\u00DFenname alphabetisch verglichen!!!",2018-03-22 18:39:39,2018-03-22 18:40:21,"41,944s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:39:39,2018-03-22 18:39:42,"2,403s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:39:42,2018-03-22 18:39:42,"0,033s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:39:42,2018-03-22 18:39:42,"0,005s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:39:42,2018-03-22 18:39:47,"5,196s",PASSED
+delay,Safari 11,,2018-03-22 18:39:47,2018-03-22 18:39:52,"5,044s",PASSED
+click,Safari 11,,2018-03-22 18:39:52,2018-03-22 18:39:52,"0,153s",PASSED
+delay,Safari 11,,2018-03-22 18:39:52,2018-03-22 18:39:54,"2,008s",PASSED
+scrollToElement,Safari 11,,2018-03-22 18:39:54,2018-03-22 18:39:54,"0,030s",PASSED
+delay,Safari 11,,2018-03-22 18:39:54,2018-03-22 18:39:56,"2,006s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:39:56,2018-03-22 18:39:56,"0,018s",PASSED
+delay,Safari 11,,2018-03-22 18:39:56,2018-03-22 18:39:58,"2,003s",PASSED
+click,Safari 11,,2018-03-22 18:39:58,2018-03-22 18:39:58,"0,023s",PASSED
+delay,Safari 11,,2018-03-22 18:39:58,2018-03-22 18:40:03,"5,036s",PASSED
+"Statement - wes = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(loc_steet_filialsuche), 5)",Safari 11,,2018-03-22 18:40:03,2018-03-22 18:40:03,"0,038s",PASSED
+"Statement - For ([i = 1, i < wes.size(), (i++)])",Safari 11,,2018-03-22 18:40:03,2018-03-22 18:40:21,"17,593s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:40:21,2018-03-22 18:40:21,"0,071s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/40_Testfall,Safari 11,"\""Es wird gepr\u00FCft, ob Dropdown, Akkordeons rchtig funktionieren und Ort/Stra\u00DFe mit Prototyp verglichen\n\""",2018-03-22 18:40:21,2018-03-22 18:41:52,"1m - 30,799s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:40:21,2018-03-22 18:40:24,"2,685s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:40:24,2018-03-22 18:40:24,"0,006s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:40:24,2018-03-22 18:40:24,"0,025s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:40:24,2018-03-22 18:40:26,"2,239s",PASSED
+delay,Safari 11,,2018-03-22 18:40:26,2018-03-22 18:40:31,"5,004s",PASSED
+click,Safari 11,,2018-03-22 18:40:31,2018-03-22 18:40:31,"0,141s",PASSED
+delay,Safari 11,,2018-03-22 18:40:31,2018-03-22 18:40:35,"4,002s",PASSED
+scrollToElement,Safari 11,,2018-03-22 18:40:35,2018-03-22 18:40:35,"0,047s",PASSED
+delay,Safari 11,,2018-03-22 18:40:35,2018-03-22 18:40:40,"5,006s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:40:40,2018-03-22 18:40:40,"0,015s",PASSED
+delay,Safari 11,,2018-03-22 18:40:40,2018-03-22 18:40:45,"5,031s",PASSED
+click,Safari 11,,2018-03-22 18:40:45,2018-03-22 18:40:45,"0,028s",PASSED
+delay,Safari 11,,2018-03-22 18:40:45,2018-03-22 18:40:50,"5,006s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:40:50,2018-03-22 18:40:50,"0,021s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:40:50,2018-03-22 18:40:51,"0,035s",PASSED
+verifyTextNotPresent,Safari 11,,2018-03-22 18:40:51,2018-03-22 18:40:51,"0,037s",PASSED
+verifyTextNotPresent,Safari 11,,2018-03-22 18:40:51,2018-03-22 18:40:51,"0,019s",PASSED
+verifyTextNotPresent,Safari 11,,2018-03-22 18:40:51,2018-03-22 18:40:51,"0,017s",PASSED
+verifyTextNotPresent,Safari 11,,2018-03-22 18:40:51,2018-03-22 18:40:51,"0,021s",PASSED
+verifyTextNotPresent,Safari 11,,2018-03-22 18:40:51,2018-03-22 18:40:51,"0,019s",PASSED
+verifyTextNotPresent,Safari 11,,2018-03-22 18:40:51,2018-03-22 18:40:51,"0,018s",PASSED
+delay,Safari 11,,2018-03-22 18:40:51,2018-03-22 18:40:53,"2,006s",PASSED
+click,Safari 11,,2018-03-22 18:40:53,2018-03-22 18:40:53,"0,074s",PASSED
+delay,Safari 11,,2018-03-22 18:40:53,2018-03-22 18:40:58,"5,041s",PASSED
+scrollToElement,Safari 11,,2018-03-22 18:40:58,2018-03-22 18:40:58,"0,040s",PASSED
+delay,Safari 11,,2018-03-22 18:40:58,2018-03-22 18:41:03,"5,007s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:41:03,2018-03-22 18:41:03,"0,014s",PASSED
+delay,Safari 11,,2018-03-22 18:41:03,2018-03-22 18:41:08,"5,010s",PASSED
+click,Safari 11,,2018-03-22 18:41:08,2018-03-22 18:41:08,"0,023s",PASSED
+delay,Safari 11,,2018-03-22 18:41:08,2018-03-22 18:41:13,"5,004s",PASSED
+verifyTextNotPresent,Safari 11,,2018-03-22 18:41:13,2018-03-22 18:41:13,"0,027s",PASSED
+verifyTextNotPresent,Safari 11,,2018-03-22 18:41:13,2018-03-22 18:41:13,"0,035s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:41:13,2018-03-22 18:41:13,"0,017s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:41:13,2018-03-22 18:41:13,"0,015s",PASSED
+verifyTextNotPresent,Safari 11,,2018-03-22 18:41:13,2018-03-22 18:41:13,"0,015s",PASSED
+verifyTextNotPresent,Safari 11,,2018-03-22 18:41:13,2018-03-22 18:41:13,"0,015s",PASSED
+verifyTextNotPresent,Safari 11,,2018-03-22 18:41:13,2018-03-22 18:41:13,"0,016s",PASSED
+verifyTextNotPresent,Safari 11,,2018-03-22 18:41:13,2018-03-22 18:41:13,"0,015s",PASSED
+delay,Safari 11,,2018-03-22 18:41:13,2018-03-22 18:41:15,"2,006s",PASSED
+click,Safari 11,,2018-03-22 18:41:15,2018-03-22 18:41:15,"0,169s",PASSED
+delay,Safari 11,,2018-03-22 18:41:15,2018-03-22 18:41:20,"5,010s",PASSED
+scrollToElement,Safari 11,,2018-03-22 18:41:20,2018-03-22 18:41:20,"0,048s",PASSED
+delay,Safari 11,,2018-03-22 18:41:20,2018-03-22 18:41:22,"2,005s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:41:22,2018-03-22 18:41:22,"0,015s",PASSED
+delay,Safari 11,,2018-03-22 18:41:22,2018-03-22 18:41:27,"5,002s",PASSED
+click,Safari 11,,2018-03-22 18:41:27,2018-03-22 18:41:27,"0,022s",PASSED
+delay,Safari 11,,2018-03-22 18:41:27,2018-03-22 18:41:29,"2,011s",PASSED
+verifyTextNotPresent,Safari 11,,2018-03-22 18:41:29,2018-03-22 18:41:29,"0,017s",PASSED
+verifyTextNotPresent,Safari 11,,2018-03-22 18:41:29,2018-03-22 18:41:29,"0,015s",PASSED
+verifyTextNotPresent,Safari 11,,2018-03-22 18:41:29,2018-03-22 18:41:29,"0,016s",PASSED
+verifyTextNotPresent,Safari 11,,2018-03-22 18:41:29,2018-03-22 18:41:29,"0,015s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:41:29,2018-03-22 18:41:29,"0,015s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:41:29,2018-03-22 18:41:29,"0,015s",PASSED
+verifyTextNotPresent,Safari 11,,2018-03-22 18:41:29,2018-03-22 18:41:29,"0,015s",PASSED
+verifyTextNotPresent,Safari 11,,2018-03-22 18:41:29,2018-03-22 18:41:29,"0,015s",PASSED
+delay,Safari 11,,2018-03-22 18:41:29,2018-03-22 18:41:31,"2,005s",PASSED
+click,Safari 11,,2018-03-22 18:41:31,2018-03-22 18:41:31,"0,055s",PASSED
+delay,Safari 11,,2018-03-22 18:41:31,2018-03-22 18:41:36,"5,007s",PASSED
+scrollToElement,Safari 11,,2018-03-22 18:41:36,2018-03-22 18:41:37,"0,047s",PASSED
+delay,Safari 11,,2018-03-22 18:41:37,2018-03-22 18:41:42,"5,004s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:41:42,2018-03-22 18:41:42,"0,015s",PASSED
+delay,Safari 11,,2018-03-22 18:41:42,2018-03-22 18:41:47,"5,005s",PASSED
+click,Safari 11,,2018-03-22 18:41:47,2018-03-22 18:41:47,"0,022s",PASSED
+delay,Safari 11,,2018-03-22 18:41:47,2018-03-22 18:41:52,"5,007s",PASSED
+verifyTextNotPresent,Safari 11,,2018-03-22 18:41:52,2018-03-22 18:41:52,"0,020s",PASSED
+verifyTextNotPresent,Safari 11,,2018-03-22 18:41:52,2018-03-22 18:41:52,"0,016s",PASSED
+verifyTextNotPresent,Safari 11,,2018-03-22 18:41:52,2018-03-22 18:41:52,"0,015s",PASSED
+verifyTextNotPresent,Safari 11,,2018-03-22 18:41:52,2018-03-22 18:41:52,"0,018s",PASSED
+verifyTextNotPresent,Safari 11,,2018-03-22 18:41:52,2018-03-22 18:41:52,"0,016s",PASSED
+verifyTextNotPresent,Safari 11,,2018-03-22 18:41:52,2018-03-22 18:41:52,"0,018s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:41:52,2018-03-22 18:41:52,"0,019s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:41:52,2018-03-22 18:41:52,"0,020s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:41:52,2018-03-22 18:41:52,"0,042s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/41_Testfall,Safari 11,Es werden immer nur 2 bestimmte Ergebnisse pro Suche angezeigt.,2018-03-22 18:41:52,2018-03-22 18:42:27,"35,462s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:41:52,2018-03-22 18:41:59,"6,731s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:41:59,2018-03-22 18:41:59,"0,006s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:41:59,2018-03-22 18:41:59,"0,019s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:41:59,2018-03-22 18:42:01,"2,154s",PASSED
+delay,Safari 11,,2018-03-22 18:42:01,2018-03-22 18:42:06,"5,008s",PASSED
+setText,Safari 11,,2018-03-22 18:42:06,2018-03-22 18:42:06,"0,188s",PASSED
+submit,Safari 11,,2018-03-22 18:42:06,2018-03-22 18:42:06,"0,048s",PASSED
+delay,Safari 11,,2018-03-22 18:42:06,2018-03-22 18:42:11,"5,006s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:11,2018-03-22 18:42:11,"0,020s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:11,2018-03-22 18:42:11,"0,017s",PASSED
+setText,Safari 11,,2018-03-22 18:42:11,2018-03-22 18:42:12,"0,168s",PASSED
+submit,Safari 11,,2018-03-22 18:42:12,2018-03-22 18:42:12,"0,017s",PASSED
+delay,Safari 11,,2018-03-22 18:42:12,2018-03-22 18:42:17,"5,001s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:17,2018-03-22 18:42:17,"0,031s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:17,2018-03-22 18:42:17,"0,017s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:17,2018-03-22 18:42:17,"0,018s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:17,2018-03-22 18:42:17,"0,016s",PASSED
+setText,Safari 11,,2018-03-22 18:42:17,2018-03-22 18:42:17,"0,193s",PASSED
+submit,Safari 11,,2018-03-22 18:42:17,2018-03-22 18:42:17,"0,017s",PASSED
+delay,Safari 11,,2018-03-22 18:42:17,2018-03-22 18:42:22,"5,043s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:22,2018-03-22 18:42:22,"0,023s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:22,2018-03-22 18:42:22,"0,016s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:22,2018-03-22 18:42:22,"0,015s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:22,2018-03-22 18:42:22,"0,016s",PASSED
+setText,Safari 11,,2018-03-22 18:42:22,2018-03-22 18:42:22,"0,187s",PASSED
+submit,Safari 11,,2018-03-22 18:42:22,2018-03-22 18:42:22,"0,016s",PASSED
+delay,Safari 11,,2018-03-22 18:42:22,2018-03-22 18:42:27,"5,004s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:27,2018-03-22 18:42:27,"0,017s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:27,2018-03-22 18:42:27,"0,015s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:27,2018-03-22 18:42:27,"0,015s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:27,2018-03-22 18:42:27,"0,017s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:42:27,2018-03-22 18:42:27,"0,076s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/42_Testfall,Safari 11,"Es wird gepr\u00FCft, ob Dropdown, Akk., Paginierung  richtig funktionieren und Ort/Stra\u00DFe mit Prototyp verglichen",2018-03-22 18:42:27,2018-03-22 18:43:12,"44,418s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:42:28,2018-03-22 18:42:31,"3,142s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:42:31,2018-03-22 18:42:31,"0,006s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:42:31,2018-03-22 18:42:31,"0,030s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:42:31,2018-03-22 18:42:34,"3,058s",PASSED
+delay,Safari 11,,2018-03-22 18:42:34,2018-03-22 18:42:36,"2,010s",PASSED
+click,Safari 11,,2018-03-22 18:42:36,2018-03-22 18:42:38,"2,266s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:38,2018-03-22 18:42:38,"0,100s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:38,2018-03-22 18:42:38,"0,066s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:38,2018-03-22 18:42:38,"0,030s",PASSED
+click,Safari 11,,2018-03-22 18:42:38,2018-03-22 18:42:38,"0,043s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:38,2018-03-22 18:42:38,"0,089s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:38,2018-03-22 18:42:38,"0,019s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:38,2018-03-22 18:42:38,"0,019s",PASSED
+click,Safari 11,,2018-03-22 18:42:38,2018-03-22 18:42:39,"0,059s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:39,2018-03-22 18:42:39,"0,092s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:39,2018-03-22 18:42:39,"0,022s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:39,2018-03-22 18:42:39,"0,018s",PASSED
+click,Safari 11,,2018-03-22 18:42:39,2018-03-22 18:42:39,"0,084s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:39,2018-03-22 18:42:39,"0,115s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:39,2018-03-22 18:42:39,"0,045s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:39,2018-03-22 18:42:39,"0,033s",PASSED
+click,Safari 11,,2018-03-22 18:42:39,2018-03-22 18:42:39,"0,170s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:39,2018-03-22 18:42:39,"0,108s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:39,2018-03-22 18:42:39,"0,039s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:39,2018-03-22 18:42:39,"0,051s",PASSED
+click,Safari 11,,2018-03-22 18:42:39,2018-03-22 18:42:39,"0,071s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:39,2018-03-22 18:42:39,"0,051s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:39,2018-03-22 18:42:39,"0,047s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:39,2018-03-22 18:42:40,"0,018s",PASSED
+click,Safari 11,,2018-03-22 18:42:40,2018-03-22 18:42:40,"0,052s",PASSED
+click,Safari 11,,2018-03-22 18:42:40,2018-03-22 18:42:40,"0,080s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:40,2018-03-22 18:42:40,"0,083s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:40,2018-03-22 18:42:40,"0,024s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:40,2018-03-22 18:42:40,"0,017s",PASSED
+click,Safari 11,,2018-03-22 18:42:40,2018-03-22 18:42:40,"0,055s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:40,2018-03-22 18:42:40,"0,054s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:40,2018-03-22 18:42:40,"0,047s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:40,2018-03-22 18:42:40,"0,031s",PASSED
+click,Safari 11,,2018-03-22 18:42:40,2018-03-22 18:42:40,"0,045s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:40,2018-03-22 18:42:40,"0,050s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:40,2018-03-22 18:42:40,"0,053s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:40,2018-03-22 18:42:40,"0,022s",PASSED
+click,Safari 11,,2018-03-22 18:42:40,2018-03-22 18:42:40,"0,070s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:40,2018-03-22 18:42:40,"0,093s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:40,2018-03-22 18:42:40,"0,058s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:40,2018-03-22 18:42:40,"0,029s",PASSED
+click,Safari 11,,2018-03-22 18:42:40,2018-03-22 18:42:41,"0,158s",PASSED
+delay,Safari 11,,2018-03-22 18:42:41,2018-03-22 18:42:43,"2,002s",PASSED
+click,Safari 11,,2018-03-22 18:42:43,2018-03-22 18:42:43,"0,064s",PASSED
+delay,Safari 11,,2018-03-22 18:42:43,2018-03-22 18:42:45,"2,008s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:42:45,2018-03-22 18:42:45,"0,052s",PASSED
+click,Safari 11,,2018-03-22 18:42:45,2018-03-22 18:42:45,"0,022s",PASSED
+delay,Safari 11,,2018-03-22 18:42:45,2018-03-22 18:42:47,"2,002s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:47,2018-03-22 18:42:47,"0,019s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:47,2018-03-22 18:42:47,"0,015s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:47,2018-03-22 18:42:47,"0,016s",PASSED
+click,Safari 11,,2018-03-22 18:42:47,2018-03-22 18:42:47,"0,023s",PASSED
+delay,Safari 11,,2018-03-22 18:42:47,2018-03-22 18:42:49,"2,011s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:42:49,2018-03-22 18:42:49,"0,044s",PASSED
+click,Safari 11,,2018-03-22 18:42:49,2018-03-22 18:42:49,"0,022s",PASSED
+delay,Safari 11,,2018-03-22 18:42:49,2018-03-22 18:42:51,"2,008s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:51,2018-03-22 18:42:51,"0,016s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:51,2018-03-22 18:42:51,"0,015s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:51,2018-03-22 18:42:51,"0,015s",PASSED
+click,Safari 11,,2018-03-22 18:42:51,2018-03-22 18:42:51,"0,021s",PASSED
+delay,Safari 11,,2018-03-22 18:42:51,2018-03-22 18:42:53,"2,004s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:42:53,2018-03-22 18:42:53,"0,042s",PASSED
+click,Safari 11,,2018-03-22 18:42:53,2018-03-22 18:42:53,"0,020s",PASSED
+delay,Safari 11,,2018-03-22 18:42:53,2018-03-22 18:42:55,"2,002s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:55,2018-03-22 18:42:55,"0,020s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:55,2018-03-22 18:42:55,"0,015s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:55,2018-03-22 18:42:55,"0,013s",PASSED
+click,Safari 11,,2018-03-22 18:42:55,2018-03-22 18:42:55,"0,020s",PASSED
+delay,Safari 11,,2018-03-22 18:42:55,2018-03-22 18:42:57,"2,010s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:42:57,2018-03-22 18:42:57,"0,047s",PASSED
+click,Safari 11,,2018-03-22 18:42:57,2018-03-22 18:42:57,"0,021s",PASSED
+delay,Safari 11,,2018-03-22 18:42:57,2018-03-22 18:42:59,"2,010s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:59,2018-03-22 18:42:59,"0,018s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:59,2018-03-22 18:42:59,"0,015s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:42:59,2018-03-22 18:42:59,"0,015s",PASSED
+click,Safari 11,,2018-03-22 18:42:59,2018-03-22 18:42:59,"0,021s",PASSED
+delay,Safari 11,,2018-03-22 18:42:59,2018-03-22 18:43:01,"2,005s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:43:01,2018-03-22 18:43:01,"0,047s",PASSED
+click,Safari 11,,2018-03-22 18:43:01,2018-03-22 18:43:01,"0,022s",PASSED
+delay,Safari 11,,2018-03-22 18:43:01,2018-03-22 18:43:03,"2,008s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:43:03,2018-03-22 18:43:03,"0,016s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:43:03,2018-03-22 18:43:03,"0,015s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:43:03,2018-03-22 18:43:03,"0,023s",PASSED
+click,Safari 11,,2018-03-22 18:43:03,2018-03-22 18:43:03,"0,023s",PASSED
+delay,Safari 11,,2018-03-22 18:43:03,2018-03-22 18:43:05,"2,011s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:43:05,2018-03-22 18:43:05,"0,045s",PASSED
+click,Safari 11,,2018-03-22 18:43:05,2018-03-22 18:43:05,"0,022s",PASSED
+delay,Safari 11,,2018-03-22 18:43:05,2018-03-22 18:43:07,"2,008s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:43:07,2018-03-22 18:43:07,"0,016s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:43:07,2018-03-22 18:43:07,"0,015s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:43:07,2018-03-22 18:43:07,"0,015s",PASSED
+click,Safari 11,,2018-03-22 18:43:07,2018-03-22 18:43:08,"0,022s",PASSED
+delay,Safari 11,,2018-03-22 18:43:08,2018-03-22 18:43:10,"2,005s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:43:10,2018-03-22 18:43:10,"0,046s",PASSED
+click,Safari 11,,2018-03-22 18:43:10,2018-03-22 18:43:10,"0,020s",PASSED
+delay,Safari 11,,2018-03-22 18:43:10,2018-03-22 18:43:12,"2,045s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:43:12,2018-03-22 18:43:12,"0,018s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:43:12,2018-03-22 18:43:12,"0,015s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:43:12,2018-03-22 18:43:12,"0,015s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:43:12,2018-03-22 18:43:12,"0,061s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/43_Testfall,Safari 11,"\""Initial sind alle Filialen einer Bank angezeigt\n\nFilial-count=10\n\n(Akk. und Filial-Icons)\""",2018-03-22 18:43:12,2018-03-22 18:43:25,"12,794s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:43:12,2018-03-22 18:43:16,"3,948s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:43:16,2018-03-22 18:43:16,"0,007s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:43:16,2018-03-22 18:43:16,"0,024s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:43:16,2018-03-22 18:43:19,"3,420s",PASSED
+delay,Safari 11,,2018-03-22 18:43:19,2018-03-22 18:43:24,"5,004s",PASSED
+"Statement - wes1 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(filial_map), 5)",Safari 11,,2018-03-22 18:43:24,2018-03-22 18:43:24,"0,041s",PASSED
+"Statement - wes2 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(loc_steet_filialsuche), 5)",Safari 11,,2018-03-22 18:43:24,2018-03-22 18:43:24,"0,025s",PASSED
+Statement - filial_maps_count = wes1.size(),Safari 11,,2018-03-22 18:43:24,2018-03-22 18:43:24,"0,000s",PASSED
+Statement - filial_accordeon_count = wes2.size(),Safari 11,,2018-03-22 18:43:24,2018-03-22 18:43:24,"0,000s",PASSED
+Statement - filial_count = 10,Safari 11,,2018-03-22 18:43:24,2018-03-22 18:43:24,"0,000s",PASSED
+Statement - If (filial_maps_count != filial_count),Safari 11,,2018-03-22 18:43:24,2018-03-22 18:43:24,"0,000s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:43:24,2018-03-22 18:43:25,"0,083s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/44-Testfall,Safari 11,Initial sind alle Filialen einer Bank angezeigt\nFilial-count=4\n(Akk. und Filial-Icons),2018-03-22 18:43:25,2018-03-22 18:43:35,"10,924s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:43:25,2018-03-22 18:43:26,"1,267s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:43:26,2018-03-22 18:43:26,"0,005s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:43:26,2018-03-22 18:43:26,"0,021s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:43:26,2018-03-22 18:43:30,"4,395s",PASSED
+delay,Safari 11,,2018-03-22 18:43:30,2018-03-22 18:43:35,"5,009s",PASSED
+"Statement - wes1 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(filial_map), 5)",Safari 11,,2018-03-22 18:43:35,2018-03-22 18:43:35,"0,012s",PASSED
+"Statement - wes2 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(loc_steet_filialsuche), 5)",Safari 11,,2018-03-22 18:43:35,2018-03-22 18:43:35,"0,009s",PASSED
+Statement - filial_maps_count = wes1.size(),Safari 11,,2018-03-22 18:43:35,2018-03-22 18:43:35,"0,001s",PASSED
+Statement - filial_accordeon_count = wes2.size(),Safari 11,,2018-03-22 18:43:35,2018-03-22 18:43:35,"0,000s",PASSED
+Statement - filial_count = 4,Safari 11,,2018-03-22 18:43:35,2018-03-22 18:43:35,"0,000s",PASSED
+Statement - If (filial_maps_count != filial_count),Safari 11,,2018-03-22 18:43:35,2018-03-22 18:43:35,"0,001s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:43:35,2018-03-22 18:43:35,"0,061s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/45_Testfall,Safari 11,"Nach Eingabe \""berlin\"" sind alle Filialen einer Bank angezeigt\nFilial-count=25\n(Akk. und Filial-Icons)",2018-03-22 18:43:36,2018-03-22 18:43:48,"12,396s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:43:36,2018-03-22 18:43:37,"1,296s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:43:37,2018-03-22 18:43:37,"0,005s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:43:37,2018-03-22 18:43:37,"0,019s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:43:37,2018-03-22 18:43:40,"2,585s",PASSED
+delay,Safari 11,,2018-03-22 18:43:40,2018-03-22 18:43:45,"5,007s",PASSED
+setText,Safari 11,,2018-03-22 18:43:45,2018-03-22 18:43:45,"0,157s",PASSED
+click,Safari 11,,2018-03-22 18:43:45,2018-03-22 18:43:45,"0,044s",PASSED
+delay,Safari 11,,2018-03-22 18:43:45,2018-03-22 18:43:48,"3,005s",PASSED
+"Statement - wes1 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(filial_map), 5)",Safari 11,,2018-03-22 18:43:48,2018-03-22 18:43:48,"0,018s",PASSED
+"Statement - wes2 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(loc_steet_filialsuche), 5)",Safari 11,,2018-03-22 18:43:48,2018-03-22 18:43:48,"0,011s",PASSED
+Statement - filial_maps_count = wes1.size(),Safari 11,,2018-03-22 18:43:48,2018-03-22 18:43:48,"0,001s",PASSED
+Statement - filial_accordeon_count = wes2.size(),Safari 11,,2018-03-22 18:43:48,2018-03-22 18:43:48,"0,000s",PASSED
+Statement - filial_count = 25,Safari 11,,2018-03-22 18:43:48,2018-03-22 18:43:48,"0,000s",PASSED
+Statement - If (filial_maps_count != filial_count),Safari 11,,2018-03-22 18:43:48,2018-03-22 18:43:48,"0,001s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:43:48,2018-03-22 18:43:48,"0,065s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/46_Testfall,Safari 11,"Wenn es nach B\u00F6rtlingen, Rechberghausen, Uhingen wird gesucht, dann 1 Akk (kann nicht erstes sein) auf ist, rest zu. Es wird durch TextVerify (Ort/Stra\u00DFe) gepr\u00FCft",2018-03-22 18:43:48,2018-03-22 18:44:23,"35,475s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:43:48,2018-03-22 18:43:49,"1,255s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:43:49,2018-03-22 18:43:49,"0,026s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:43:49,2018-03-22 18:43:49,"0,005s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:43:49,2018-03-22 18:43:52,"2,689s",PASSED
+delay,Safari 11,,2018-03-22 18:43:52,2018-03-22 18:43:57,"5,005s",PASSED
+setText,Safari 11,,2018-03-22 18:43:57,2018-03-22 18:43:57,"0,256s",PASSED
+delay,Safari 11,,2018-03-22 18:43:57,2018-03-22 18:43:59,"2,009s",PASSED
+submit,Safari 11,,2018-03-22 18:43:59,2018-03-22 18:43:59,"0,043s",PASSED
+delay,Safari 11,,2018-03-22 18:43:59,2018-03-22 18:44:04,"5,039s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:44:04,2018-03-22 18:44:04,"0,017s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:44:04,2018-03-22 18:44:04,"0,016s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:44:04,2018-03-22 18:44:04,"0,015s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:44:04,2018-03-22 18:44:04,"0,015s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:44:04,2018-03-22 18:44:04,"0,018s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:44:04,2018-03-22 18:44:04,"0,017s",PASSED
+delay,Safari 11,,2018-03-22 18:44:04,2018-03-22 18:44:06,"2,004s",PASSED
+setText,Safari 11,,2018-03-22 18:44:06,2018-03-22 18:44:07,"0,213s",PASSED
+delay,Safari 11,,2018-03-22 18:44:07,2018-03-22 18:44:09,"2,010s",PASSED
+submit,Safari 11,,2018-03-22 18:44:09,2018-03-22 18:44:09,"0,044s",PASSED
+delay,Safari 11,,2018-03-22 18:44:09,2018-03-22 18:44:14,"5,051s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:44:14,2018-03-22 18:44:14,"0,017s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:44:14,2018-03-22 18:44:14,"0,015s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:44:14,2018-03-22 18:44:14,"0,015s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:44:14,2018-03-22 18:44:14,"0,015s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:44:14,2018-03-22 18:44:14,"0,015s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:44:14,2018-03-22 18:44:14,"0,015s",PASSED
+delay,Safari 11,,2018-03-22 18:44:14,2018-03-22 18:44:16,"2,012s",PASSED
+setText,Safari 11,,2018-03-22 18:44:16,2018-03-22 18:44:16,"0,276s",PASSED
+delay,Safari 11,,2018-03-22 18:44:16,2018-03-22 18:44:18,"2,010s",PASSED
+submit,Safari 11,,2018-03-22 18:44:18,2018-03-22 18:44:18,"0,016s",PASSED
+delay,Safari 11,,2018-03-22 18:44:18,2018-03-22 18:44:23,"5,040s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:44:23,2018-03-22 18:44:23,"0,018s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:44:23,2018-03-22 18:44:23,"0,014s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:44:23,2018-03-22 18:44:23,"0,016s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:44:23,2018-03-22 18:44:23,"0,020s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:44:23,2018-03-22 18:44:23,"0,019s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:44:23,2018-03-22 18:44:23,"0,016s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:44:23,2018-03-22 18:44:23,"0,084s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/47_Testfall,Safari 11,Seitenaddresse: \nhttp://kundentest.dev-unitb.de/ogrhtmlprototyp/ogrhtmlprototyp/filialsuche-textinput.html\n\nTest ob die Ergebnisse korrekt nach Abstand zum Zentrum Berlins sortiert sind in dem mit einer vorgegebenen Liste verglichen wird.\n\nZugeh\u00F6riges Repository ist:\nOGRPrototypFilialsuche - Berlin Zentrum,2018-03-22 18:44:23,2018-03-22 18:44:54,"30,660s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:44:24,2018-03-22 18:44:29,"5,395s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:44:29,2018-03-22 18:44:29,"0,033s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:44:29,2018-03-22 18:44:29,"0,005s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:44:29,2018-03-22 18:44:34,"5,295s",PASSED
+delay,Safari 11,,2018-03-22 18:44:34,2018-03-22 18:44:39,"5,005s",PASSED
+setText,Safari 11,,2018-03-22 18:44:39,2018-03-22 18:44:40,"0,177s",PASSED
+sendKeys,Safari 11,,2018-03-22 18:44:40,2018-03-22 18:44:40,"0,383s",PASSED
+delay,Safari 11,,2018-03-22 18:44:40,2018-03-22 18:44:45,"5,005s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:44:45,2018-03-22 18:44:45,"0,168s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:44:45,2018-03-22 18:44:45,"0,035s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:44:45,2018-03-22 18:44:45,"0,047s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:44:45,2018-03-22 18:44:45,"0,039s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:44:45,2018-03-22 18:44:45,"0,039s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:44:45,2018-03-22 18:44:45,"0,037s",PASSED
+click,Safari 11,,2018-03-22 18:44:45,2018-03-22 18:44:45,"0,058s",PASSED
+delay,Safari 11,,2018-03-22 18:44:45,2018-03-22 18:44:47,"2,006s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:44:47,2018-03-22 18:44:47,"0,042s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:44:47,2018-03-22 18:44:48,"0,021s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:44:48,2018-03-22 18:44:48,"0,015s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:44:48,2018-03-22 18:44:48,"0,026s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:44:48,2018-03-22 18:44:48,"0,017s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:44:48,2018-03-22 18:44:48,"0,023s",PASSED
+click,Safari 11,,2018-03-22 18:44:48,2018-03-22 18:44:48,"0,020s",PASSED
+delay,Safari 11,,2018-03-22 18:44:48,2018-03-22 18:44:50,"2,001s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:44:50,2018-03-22 18:44:50,"0,038s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:44:50,2018-03-22 18:44:50,"0,030s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:44:50,2018-03-22 18:44:50,"0,020s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:44:50,2018-03-22 18:44:50,"0,025s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:44:50,2018-03-22 18:44:50,"0,027s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:44:50,2018-03-22 18:44:50,"0,026s",PASSED
+click,Safari 11,,2018-03-22 18:44:50,2018-03-22 18:44:50,"0,020s",PASSED
+delay,Safari 11,,2018-03-22 18:44:50,2018-03-22 18:44:52,"2,006s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:44:52,2018-03-22 18:44:52,"0,036s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:44:52,2018-03-22 18:44:52,"0,026s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:44:52,2018-03-22 18:44:52,"0,019s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:44:52,2018-03-22 18:44:52,"0,023s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:44:52,2018-03-22 18:44:52,"0,025s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:44:52,2018-03-22 18:44:52,"0,018s",PASSED
+click,Safari 11,,2018-03-22 18:44:52,2018-03-22 18:44:52,"0,024s",PASSED
+delay,Safari 11,,2018-03-22 18:44:52,2018-03-22 18:44:54,"2,008s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:44:54,2018-03-22 18:44:54,"0,047s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:44:54,2018-03-22 18:44:54,"0,068s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/48_Testfall,Safari 11,Seitenaddresse: \nhttp://kundentest.dev-unitb.de/vr/ogrhtmlprototyp/filialsuche-nuernberg.html\n\nTest ob die Ergebnisse korrekt nach Abstand zur Zentralbank N\u00FCrnberg sortiert sind in dem mit einer vorgegebenen Liste verglichen wird.\n\nZugeh\u00F6riges Repository ist:\nOGRPrototypFilialsuche - DistanzNuernberg,2018-03-22 18:44:54,2018-03-22 18:45:08,"14,219s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:44:54,2018-03-22 18:44:56,"1,781s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:44:56,2018-03-22 18:44:56,"0,006s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:44:56,2018-03-22 18:45:01,"4,896s",PASSED
+delay,Safari 11,,2018-03-22 18:45:01,2018-03-22 18:45:06,"5,002s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:06,2018-03-22 18:45:06,"0,045s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:06,2018-03-22 18:45:06,"0,022s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:06,2018-03-22 18:45:06,"0,019s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:06,2018-03-22 18:45:06,"0,020s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:06,2018-03-22 18:45:06,"0,020s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:06,2018-03-22 18:45:06,"0,017s",PASSED
+click,Safari 11,,2018-03-22 18:45:06,2018-03-22 18:45:06,"0,029s",PASSED
+delay,Safari 11,,2018-03-22 18:45:06,2018-03-22 18:45:08,"2,005s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:08,2018-03-22 18:45:08,"0,044s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:08,2018-03-22 18:45:08,"0,027s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:08,2018-03-22 18:45:08,"0,019s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:08,2018-03-22 18:45:08,"0,020s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:45:08,2018-03-22 18:45:08,"0,077s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/49_Testfall,Safari 11,Seitenaddresse: \nhttp://kundentest.dev-unitb.de/vr/ogrhtmlprototyp/filialsuche-rotenburg.html\n\nTest ob die Ergebnisse korrekt nach Abstand zur Zentralbank Rotenburg sortiert sind in dem mit einer vorgegebenen Liste verglichen wird.\n\nZugeh\u00F6riges Repository ist:\nOGRPrototypFilialsuche - DistanzRotenburg,2018-03-22 18:45:08,2018-03-22 18:45:23,"14,704s",FAILED
+openBrowser,Safari 11,,2018-03-22 18:45:09,2018-03-22 18:45:10,"1,447s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:45:10,2018-03-22 18:45:10,"0,027s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:45:10,2018-03-22 18:45:10,"0,006s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:45:10,2018-03-22 18:45:15,"5,290s",PASSED
+delay,Safari 11,,2018-03-22 18:45:15,2018-03-22 18:45:22,"7,038s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:22,2018-03-22 18:45:23,"0,742s",FAILED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/50_Testfall,Safari 11,Seitenaddresse: \nhttp://kundentest.dev-unitb.de/vr/ogrhtmlprototyp/filialsuche.html\n\nTest ob die Ergebnisse  bei Suche nach Ortsnamen (z.B. Berlin) der verlinkten Filialsuchseite korrekt nach Stra\u00DFenname und Hausnummer sortiert sind in dem mit einer vorgegebenen Liste verglichen wird.\n\nZugeh\u00F6riges Repository ist:\nOGRPrototypFilialsuche - Footer,2018-03-22 18:45:23,2018-03-22 18:45:49,"25,616s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:45:23,2018-03-22 18:45:26,"2,502s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:45:26,2018-03-22 18:45:26,"0,023s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:45:26,2018-03-22 18:45:26,"0,005s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:45:26,2018-03-22 18:45:28,"2,384s",PASSED
+delay,Safari 11,,2018-03-22 18:45:28,2018-03-22 18:45:33,"5,004s",PASSED
+click,Safari 11,,2018-03-22 18:45:33,2018-03-22 18:45:33,"0,136s",PASSED
+delay,Safari 11,,2018-03-22 18:45:33,2018-03-22 18:45:35,"2,027s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:45:35,2018-03-22 18:45:35,"0,035s",PASSED
+delay,Safari 11,,2018-03-22 18:45:35,2018-03-22 18:45:37,"2,007s",PASSED
+click,Safari 11,,2018-03-22 18:45:37,2018-03-22 18:45:37,"0,025s",PASSED
+delay,Safari 11,,2018-03-22 18:45:37,2018-03-22 18:45:39,"2,008s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:39,2018-03-22 18:45:39,"0,050s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:39,2018-03-22 18:45:39,"0,021s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:39,2018-03-22 18:45:39,"0,021s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:39,2018-03-22 18:45:40,"0,025s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:40,2018-03-22 18:45:40,"0,023s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:40,2018-03-22 18:45:40,"0,015s",PASSED
+click,Safari 11,,2018-03-22 18:45:40,2018-03-22 18:45:40,"0,056s",PASSED
+delay,Safari 11,,2018-03-22 18:45:40,2018-03-22 18:45:42,"2,008s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:42,2018-03-22 18:45:42,"0,047s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:42,2018-03-22 18:45:42,"0,023s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:42,2018-03-22 18:45:42,"0,022s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:42,2018-03-22 18:45:42,"0,023s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:42,2018-03-22 18:45:42,"0,027s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:42,2018-03-22 18:45:42,"0,023s",PASSED
+click,Safari 11,,2018-03-22 18:45:42,2018-03-22 18:45:42,"0,020s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:42,2018-03-22 18:45:42,"0,057s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:42,2018-03-22 18:45:42,"0,027s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:42,2018-03-22 18:45:42,"0,014s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:42,2018-03-22 18:45:42,"0,027s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:42,2018-03-22 18:45:42,"0,028s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:42,2018-03-22 18:45:42,"0,026s",PASSED
+click,Safari 11,,2018-03-22 18:45:42,2018-03-22 18:45:42,"0,020s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:42,2018-03-22 18:45:42,"0,052s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:42,2018-03-22 18:45:42,"0,021s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:42,2018-03-22 18:45:42,"0,019s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:42,2018-03-22 18:45:42,"0,028s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:42,2018-03-22 18:45:42,"0,023s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:42,2018-03-22 18:45:42,"0,021s",PASSED
+click,Safari 11,,2018-03-22 18:45:42,2018-03-22 18:45:42,"0,021s",PASSED
+delay,Safari 11,,2018-03-22 18:45:42,2018-03-22 18:45:44,"2,010s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:44,2018-03-22 18:45:44,"0,051s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:44,2018-03-22 18:45:44,"0,025s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:44,2018-03-22 18:45:44,"0,020s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:44,2018-03-22 18:45:44,"0,020s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:44,2018-03-22 18:45:44,"0,020s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:44,2018-03-22 18:45:44,"0,026s",PASSED
+click,Safari 11,,2018-03-22 18:45:44,2018-03-22 18:45:44,"0,050s",PASSED
+delay,Safari 11,,2018-03-22 18:45:44,2018-03-22 18:45:46,"2,046s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:46,2018-03-22 18:45:46,"0,033s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:46,2018-03-22 18:45:47,"0,024s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:47,2018-03-22 18:45:47,"0,023s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:47,2018-03-22 18:45:47,"0,024s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:47,2018-03-22 18:45:47,"0,026s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:47,2018-03-22 18:45:47,"0,021s",PASSED
+click,Safari 11,,2018-03-22 18:45:47,2018-03-22 18:45:47,"0,020s",PASSED
+delay,Safari 11,,2018-03-22 18:45:47,2018-03-22 18:45:49,"2,005s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:49,2018-03-22 18:45:49,"0,019s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:45:49,2018-03-22 18:45:49,"0,066s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/51_Testfall,Safari 11,"Seitenaddresse: \nhttp://kundentest.dev-unitb.de/vr/ogrhtmlprototyp/filialsuche.html\n\nTest ob die Ergebnisse bei Suche \""Alle Orte anzeigen\"" korrekt nach Abstand zur Zentralbank sortiert sind in dem mit einer vorgegebenen Liste verglichen wird.\n\nZugeh\u00F6riges Repository ist:\nOGRPrototypFilialsuche - DistanzZentralbank",2018-03-22 18:45:49,2018-03-22 18:46:21,"32,584s",FAILED
+openBrowser,Safari 11,,2018-03-22 18:45:49,2018-03-22 18:45:51,"2,185s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:45:51,2018-03-22 18:45:51,"0,022s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:45:51,2018-03-22 18:45:51,"0,005s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:45:51,2018-03-22 18:45:53,"1,407s",PASSED
+delay,Safari 11,,2018-03-22 18:45:53,2018-03-22 18:45:58,"5,040s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:58,2018-03-22 18:45:58,"0,041s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:58,2018-03-22 18:45:58,"0,039s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:58,2018-03-22 18:45:58,"0,032s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:58,2018-03-22 18:45:58,"0,020s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:58,2018-03-22 18:45:58,"0,027s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:45:58,2018-03-22 18:45:58,"0,015s",PASSED
+click,Safari 11,,2018-03-22 18:45:58,2018-03-22 18:45:58,"0,115s",PASSED
+delay,Safari 11,,2018-03-22 18:45:58,2018-03-22 18:46:00,"2,006s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:00,2018-03-22 18:46:00,"0,043s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:00,2018-03-22 18:46:00,"0,028s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:00,2018-03-22 18:46:00,"0,024s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:00,2018-03-22 18:46:00,"0,022s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:00,2018-03-22 18:46:00,"0,024s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:00,2018-03-22 18:46:00,"0,024s",PASSED
+click,Safari 11,,2018-03-22 18:46:00,2018-03-22 18:46:00,"0,020s",PASSED
+delay,Safari 11,,2018-03-22 18:46:00,2018-03-22 18:46:02,"2,004s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:02,2018-03-22 18:46:02,"0,050s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:02,2018-03-22 18:46:02,"0,022s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:02,2018-03-22 18:46:02,"0,025s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:02,2018-03-22 18:46:02,"0,018s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:02,2018-03-22 18:46:02,"0,018s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:02,2018-03-22 18:46:02,"0,020s",PASSED
+click,Safari 11,,2018-03-22 18:46:02,2018-03-22 18:46:02,"0,020s",PASSED
+delay,Safari 11,,2018-03-22 18:46:02,2018-03-22 18:46:04,"2,006s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:04,2018-03-22 18:46:04,"0,048s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:04,2018-03-22 18:46:04,"0,015s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:04,2018-03-22 18:46:04,"0,028s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:04,2018-03-22 18:46:04,"0,018s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:04,2018-03-22 18:46:04,"0,022s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:04,2018-03-22 18:46:04,"0,023s",PASSED
+click,Safari 11,,2018-03-22 18:46:04,2018-03-22 18:46:04,"0,019s",PASSED
+delay,Safari 11,,2018-03-22 18:46:04,2018-03-22 18:46:06,"2,006s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:06,2018-03-22 18:46:06,"0,049s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:06,2018-03-22 18:46:06,"0,029s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:06,2018-03-22 18:46:07,"0,029s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:07,2018-03-22 18:46:07,"0,024s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:07,2018-03-22 18:46:07,"0,021s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:07,2018-03-22 18:46:07,"0,024s",PASSED
+click,Safari 11,,2018-03-22 18:46:07,2018-03-22 18:46:07,"0,020s",PASSED
+delay,Safari 11,,2018-03-22 18:46:07,2018-03-22 18:46:09,"2,001s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:09,2018-03-22 18:46:09,"0,046s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:09,2018-03-22 18:46:09,"0,023s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:09,2018-03-22 18:46:09,"0,020s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:09,2018-03-22 18:46:09,"0,021s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:09,2018-03-22 18:46:09,"0,027s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:09,2018-03-22 18:46:09,"0,022s",PASSED
+click,Safari 11,,2018-03-22 18:46:09,2018-03-22 18:46:09,"0,027s",PASSED
+delay,Safari 11,,2018-03-22 18:46:09,2018-03-22 18:46:11,"2,004s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:11,2018-03-22 18:46:11,"0,051s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:11,2018-03-22 18:46:11,"0,020s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:11,2018-03-22 18:46:11,"0,024s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:11,2018-03-22 18:46:11,"0,028s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:11,2018-03-22 18:46:11,"0,026s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:11,2018-03-22 18:46:11,"0,025s",PASSED
+click,Safari 11,,2018-03-22 18:46:11,2018-03-22 18:46:11,"0,019s",PASSED
+delay,Safari 11,,2018-03-22 18:46:11,2018-03-22 18:46:13,"2,007s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:13,2018-03-22 18:46:13,"0,046s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:13,2018-03-22 18:46:13,"0,022s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:13,2018-03-22 18:46:13,"0,022s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:13,2018-03-22 18:46:13,"0,021s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:13,2018-03-22 18:46:13,"0,028s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:13,2018-03-22 18:46:13,"0,029s",PASSED
+click,Safari 11,,2018-03-22 18:46:13,2018-03-22 18:46:13,"0,022s",PASSED
+delay,Safari 11,,2018-03-22 18:46:13,2018-03-22 18:46:15,"2,008s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:15,2018-03-22 18:46:15,"0,038s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:15,2018-03-22 18:46:15,"0,038s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:15,2018-03-22 18:46:15,"0,036s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:15,2018-03-22 18:46:15,"0,042s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:15,2018-03-22 18:46:15,"0,047s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:15,2018-03-22 18:46:15,"0,050s",PASSED
+click,Safari 11,,2018-03-22 18:46:15,2018-03-22 18:46:15,"0,023s",PASSED
+delay,Safari 11,,2018-03-22 18:46:15,2018-03-22 18:46:20,"5,002s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:20,2018-03-22 18:46:21,"0,043s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:21,2018-03-22 18:46:21,"0,028s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:21,2018-03-22 18:46:21,"0,029s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:21,2018-03-22 18:46:21,"0,027s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:21,2018-03-22 18:46:21,"0,717s",FAILED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/52_Testfall,Safari 11,Seitenaddresse: \nhttp://kundentest.dev-unitb.de/vr/ogrhtmlprototyp/home-6-filialsuche.html\n\nTest ob die Ergebnisse  bei Suche nach Ortsnamen (z.B. Berlin) der verlinkten Filialsuchseite korrekt nach Stra\u00DFenname und Hausnummer sortiert sind in dem mit einer vorgegebenen Liste verglichen wird.\n\nZugeh\u00F6riges Repository ist:\nOGRPrototypFilialsuche - Kontakt-Box,2018-03-22 18:46:21,2018-03-22 18:46:45,"23,669s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:46:22,2018-03-22 18:46:25,"3,761s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:46:25,2018-03-22 18:46:25,"0,022s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:46:25,2018-03-22 18:46:25,"0,005s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:46:25,2018-03-22 18:46:29,"3,390s",PASSED
+delay,Safari 11,,2018-03-22 18:46:29,2018-03-22 18:46:34,"5,004s",PASSED
+click,Safari 11,,2018-03-22 18:46:34,2018-03-22 18:46:34,"0,050s",PASSED
+delay,Safari 11,,2018-03-22 18:46:34,2018-03-22 18:46:36,"2,004s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:46:36,2018-03-22 18:46:36,"0,044s",PASSED
+delay,Safari 11,,2018-03-22 18:46:36,2018-03-22 18:46:38,"2,001s",PASSED
+click,Safari 11,,2018-03-22 18:46:38,2018-03-22 18:46:38,"0,024s",PASSED
+delay,Safari 11,,2018-03-22 18:46:38,2018-03-22 18:46:42,"4,029s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:42,2018-03-22 18:46:43,"1,192s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:43,2018-03-22 18:46:43,"0,197s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:43,2018-03-22 18:46:44,"0,292s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:44,2018-03-22 18:46:44,"0,078s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:44,2018-03-22 18:46:44,"0,033s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:44,2018-03-22 18:46:44,"0,015s",PASSED
+click,Safari 11,,2018-03-22 18:46:44,2018-03-22 18:46:44,"0,076s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:44,2018-03-22 18:46:44,"0,074s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:44,2018-03-22 18:46:44,"0,032s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:44,2018-03-22 18:46:44,"0,025s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:44,2018-03-22 18:46:44,"0,047s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:44,2018-03-22 18:46:44,"0,022s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:44,2018-03-22 18:46:44,"0,015s",PASSED
+click,Safari 11,,2018-03-22 18:46:44,2018-03-22 18:46:44,"0,020s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:44,2018-03-22 18:46:44,"0,067s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:44,2018-03-22 18:46:44,"0,033s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:44,2018-03-22 18:46:44,"0,027s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:44,2018-03-22 18:46:44,"0,032s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:44,2018-03-22 18:46:44,"0,033s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:44,2018-03-22 18:46:44,"0,022s",PASSED
+click,Safari 11,,2018-03-22 18:46:44,2018-03-22 18:46:44,"0,022s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:44,2018-03-22 18:46:44,"0,055s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:44,2018-03-22 18:46:44,"0,038s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:44,2018-03-22 18:46:44,"0,028s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:44,2018-03-22 18:46:44,"0,016s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:44,2018-03-22 18:46:44,"0,031s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:44,2018-03-22 18:46:44,"0,030s",PASSED
+click,Safari 11,,2018-03-22 18:46:44,2018-03-22 18:46:44,"0,028s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:44,2018-03-22 18:46:45,"0,050s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:45,2018-03-22 18:46:45,"0,019s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:45,2018-03-22 18:46:45,"0,044s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:45,2018-03-22 18:46:45,"0,024s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:45,2018-03-22 18:46:45,"0,018s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:45,2018-03-22 18:46:45,"0,031s",PASSED
+click,Safari 11,,2018-03-22 18:46:45,2018-03-22 18:46:45,"0,025s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:45,2018-03-22 18:46:45,"0,058s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:45,2018-03-22 18:46:45,"0,016s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:45,2018-03-22 18:46:45,"0,029s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:45,2018-03-22 18:46:45,"0,023s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:45,2018-03-22 18:46:45,"0,015s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:45,2018-03-22 18:46:45,"0,026s",PASSED
+click,Safari 11,,2018-03-22 18:46:45,2018-03-22 18:46:45,"0,020s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:46:45,2018-03-22 18:46:45,"0,071s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:46:45,2018-03-22 18:46:45,"0,086s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/53_Testfall,Safari 11,Seitenaddresse: \nhttp://kundentest.dev-unitb.de/vr/ogrhtmlprototyp/detail.html\n\nTest ob die Ergebnisse bei Suche nach Ortsnamen (z.B. Berlin) der verlinkten Filialsuchseite korrekt nach Stra\u00DFenname und Hausnummer sortiert sind in dem mit einer vorgegebenen Liste verglichen wird.\n\nZugeh\u00F6riges Repository ist:\nOGRPrototypFilialsuche - Marginalspalte,2018-03-22 18:46:45,2018-03-22 18:47:13,"27,961s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:46:45,2018-03-22 18:46:48,"2,448s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:46:48,2018-03-22 18:46:48,"0,022s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:46:48,2018-03-22 18:46:48,"0,005s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:46:48,2018-03-22 18:46:56,"8,674s",PASSED
+delay,Safari 11,,2018-03-22 18:46:56,2018-03-22 18:47:01,"5,002s",PASSED
+click,Safari 11,,2018-03-22 18:47:01,2018-03-22 18:47:01,"0,051s",PASSED
+delay,Safari 11,,2018-03-22 18:47:01,2018-03-22 18:47:03,"2,006s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:47:03,2018-03-22 18:47:03,"0,026s",PASSED
+delay,Safari 11,,2018-03-22 18:47:03,2018-03-22 18:47:05,"2,007s",PASSED
+click,Safari 11,,2018-03-22 18:47:05,2018-03-22 18:47:06,"0,021s",PASSED
+delay,Safari 11,,2018-03-22 18:47:06,2018-03-22 18:47:11,"5,042s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:11,2018-03-22 18:47:11,"0,033s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:11,2018-03-22 18:47:11,"0,048s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:11,2018-03-22 18:47:11,"0,025s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:11,2018-03-22 18:47:11,"0,419s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:11,2018-03-22 18:47:11,"0,197s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:11,2018-03-22 18:47:12,"0,301s",PASSED
+click,Safari 11,,2018-03-22 18:47:12,2018-03-22 18:47:12,"0,138s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:12,2018-03-22 18:47:12,"0,079s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:12,2018-03-22 18:47:12,"0,189s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:12,2018-03-22 18:47:12,"0,056s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:12,2018-03-22 18:47:12,"0,020s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:12,2018-03-22 18:47:12,"0,021s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:12,2018-03-22 18:47:12,"0,025s",PASSED
+click,Safari 11,,2018-03-22 18:47:12,2018-03-22 18:47:12,"0,023s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:12,2018-03-22 18:47:12,"0,057s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:12,2018-03-22 18:47:12,"0,029s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:12,2018-03-22 18:47:12,"0,028s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:12,2018-03-22 18:47:12,"0,027s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:12,2018-03-22 18:47:12,"0,027s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:12,2018-03-22 18:47:12,"0,025s",PASSED
+click,Safari 11,,2018-03-22 18:47:12,2018-03-22 18:47:12,"0,025s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:12,2018-03-22 18:47:12,"0,053s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:12,2018-03-22 18:47:12,"0,024s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:12,2018-03-22 18:47:12,"0,035s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:12,2018-03-22 18:47:12,"0,027s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:12,2018-03-22 18:47:13,"0,020s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:13,2018-03-22 18:47:13,"0,024s",PASSED
+click,Safari 11,,2018-03-22 18:47:13,2018-03-22 18:47:13,"0,019s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:13,2018-03-22 18:47:13,"0,048s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:13,2018-03-22 18:47:13,"0,017s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:13,2018-03-22 18:47:13,"0,018s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:13,2018-03-22 18:47:13,"0,016s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:13,2018-03-22 18:47:13,"0,015s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:13,2018-03-22 18:47:13,"0,027s",PASSED
+click,Safari 11,,2018-03-22 18:47:13,2018-03-22 18:47:13,"0,022s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:13,2018-03-22 18:47:13,"0,065s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:13,2018-03-22 18:47:13,"0,023s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:13,2018-03-22 18:47:13,"0,031s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:13,2018-03-22 18:47:13,"0,029s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:13,2018-03-22 18:47:13,"0,015s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:13,2018-03-22 18:47:13,"0,030s",PASSED
+click,Safari 11,,2018-03-22 18:47:13,2018-03-22 18:47:13,"0,023s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:13,2018-03-22 18:47:13,"0,056s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:47:13,2018-03-22 18:47:13,"0,068s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/54_Testfall,Safari 11,Seitenaddresse: \nhttp://rc-ogrhtmlprototyp.testintern/18-1-0/filialsuche-wangen.html\n\nTest ob die Ergebnisse bei Suche korrekt nach Ortsnamen sortiert sind in dem mit einer vorgegebenen Liste verglichen wird.\n\nZugeh\u00F6riges Repository ist:\nOGRPrototypFilialsuche - Ort\n,2018-03-22 18:47:13,2018-03-22 18:47:23,"10,369s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:47:13,2018-03-22 18:47:16,"2,544s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:47:16,2018-03-22 18:47:16,"0,024s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:47:16,2018-03-22 18:47:16,"0,005s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:47:16,2018-03-22 18:47:18,"2,484s",PASSED
+delay,Safari 11,,2018-03-22 18:47:18,2018-03-22 18:47:23,"5,008s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:23,2018-03-22 18:47:23,"0,046s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:23,2018-03-22 18:47:23,"0,023s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:23,2018-03-22 18:47:23,"0,018s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:23,2018-03-22 18:47:23,"0,022s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:47:23,2018-03-22 18:47:23,"0,059s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/55_Testfall,Safari 11,Seitenaddresse: \nhttp://kundentest.dev-unitb.de/vr/ogrhtmlprototyp/filialsuche.html\n\nTest ob die Ergebnisse bei Suche nach Ortsnamen (z.B. Berlin) der Filialsuchseite korrekt nach Stra\u00DFenname und Hausnummer sortiert sind in dem mit einer vorgegebenen Liste verglichen wird.\n\nZugeh\u00F6riges Repository ist:\nOGRPrototypFilialsuche - Strassenname Hausnummer\n\nTODO: xpath anpassen,2018-03-22 18:47:23,2018-03-22 18:47:50,"26,046s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:47:24,2018-03-22 18:47:25,"1,374s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:47:25,2018-03-22 18:47:25,"0,026s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:47:25,2018-03-22 18:47:25,"0,005s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:47:25,2018-03-22 18:47:28,"2,737s",PASSED
+delay,Safari 11,,2018-03-22 18:47:28,2018-03-22 18:47:33,"5,011s",PASSED
+click,Safari 11,,2018-03-22 18:47:33,2018-03-22 18:47:33,"0,378s",PASSED
+delay,Safari 11,,2018-03-22 18:47:33,2018-03-22 18:47:38,"5,019s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:47:38,2018-03-22 18:47:38,"0,031s",PASSED
+delay,Safari 11,,2018-03-22 18:47:38,2018-03-22 18:47:43,"5,009s",PASSED
+click,Safari 11,,2018-03-22 18:47:43,2018-03-22 18:47:43,"0,023s",PASSED
+delay,Safari 11,,2018-03-22 18:47:43,2018-03-22 18:47:48,"5,003s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:48,2018-03-22 18:47:48,"0,042s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:48,2018-03-22 18:47:48,"0,021s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:48,2018-03-22 18:47:48,"0,028s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:48,2018-03-22 18:47:48,"0,020s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:48,2018-03-22 18:47:48,"0,013s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:48,2018-03-22 18:47:48,"0,027s",PASSED
+click,Safari 11,,2018-03-22 18:47:48,2018-03-22 18:47:48,"0,057s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:48,2018-03-22 18:47:48,"0,056s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:48,2018-03-22 18:47:49,"0,041s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,023s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,020s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,023s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,016s",PASSED
+click,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,019s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,059s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,021s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,023s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,020s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,028s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,024s",PASSED
+click,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,020s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,051s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,027s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,027s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,018s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,021s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,021s",PASSED
+click,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,035s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,058s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,022s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,020s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,020s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,022s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,021s",PASSED
+click,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,021s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,062s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,025s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,018s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,021s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,031s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,028s",PASSED
+click,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,019s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:49,"0,043s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:47:49,2018-03-22 18:47:50,"0,067s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/56_Testfall,Safari 11,,2018-03-22 18:47:50,2018-03-22 18:47:59,"9,915s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:47:50,2018-03-22 18:47:52,"2,467s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:47:52,2018-03-22 18:47:52,"0,027s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:47:52,2018-03-22 18:47:52,"0,005s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:47:52,2018-03-22 18:47:54,"2,086s",PASSED
+delay,Safari 11,,2018-03-22 18:47:54,2018-03-22 18:47:59,"5,003s",PASSED
+"Statement - wes = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(filial_map), 5)",Safari 11,,2018-03-22 18:47:59,2018-03-22 18:47:59,"0,037s",PASSED
+"Statement - For ([i = 0, i < wes.size(), (i++)])",Safari 11,,2018-03-22 18:47:59,2018-03-22 18:47:59,"0,061s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:47:59,2018-03-22 18:47:59,"0,065s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/57_Testfall,Safari 11,"Erweiterte Suche (bei Auswahl eines Ortes (z.B. Berlin)\n\nErweiterte Suche soll richtig funktionieren, wie erwartet",2018-03-22 18:47:59,2018-03-22 18:48:29,"29,607s",FAILED
+openBrowser,Safari 11,,2018-03-22 18:48:00,2018-03-22 18:48:01,"1,336s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:48:01,2018-03-22 18:48:01,"0,020s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:48:01,2018-03-22 18:48:01,"0,005s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:48:01,2018-03-22 18:48:03,"2,299s",PASSED
+delay,Safari 11,,2018-03-22 18:48:03,2018-03-22 18:48:08,"5,004s",PASSED
+setText,Safari 11,,2018-03-22 18:48:08,2018-03-22 18:48:09,"0,300s",PASSED
+delay,Safari 11,,2018-03-22 18:48:09,2018-03-22 18:48:14,"5,036s",PASSED
+submit,Safari 11,,2018-03-22 18:48:14,2018-03-22 18:48:14,"0,033s",PASSED
+delay,Safari 11,,2018-03-22 18:48:14,2018-03-22 18:48:19,"5,001s",PASSED
+click,Safari 11,,2018-03-22 18:48:19,2018-03-22 18:48:19,"0,054s",PASSED
+delay,Safari 11,,2018-03-22 18:48:19,2018-03-22 18:48:24,"5,006s",PASSED
+scrollToElement,Safari 11,,2018-03-22 18:48:24,2018-03-22 18:48:24,"0,051s",PASSED
+delay,Safari 11,,2018-03-22 18:48:24,2018-03-22 18:48:29,"5,005s",PASSED
+click,Safari 11,1-4 Checkbox ausgew\u00E4hlt,2018-03-22 18:48:29,2018-03-22 18:48:29,"0,304s",FAILED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/58_Testfall,Safari 11,"Erweiterte Suche (initial)\nErweiterte Suche soll initial richtig funktionieren, wie erwartet\n\nChrome: Sortierung-Fehler \n\nSOLL (1.Seite): \nBerliner Volksbank eG, Filiale Karl-Marx-Stra\u00DFe\nBerliner Volksbank eG, Filiale Leopoldplatz\n\nIST (1.Seite):\nBerliner Volksbank eG, FinanzCenter Neuk\u00F6lln\nBerliner Volksbank eG, Filiale Karl-Marx-Stra\u00DFe",2018-03-22 18:48:29,2018-03-22 18:48:46,"17,367s",FAILED
+openBrowser,Safari 11,,2018-03-22 18:48:29,2018-03-22 18:48:32,"2,532s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:48:32,2018-03-22 18:48:32,"0,023s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:48:32,2018-03-22 18:48:32,"0,004s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:48:32,2018-03-22 18:48:36,"3,929s",PASSED
+delay,Safari 11,,2018-03-22 18:48:36,2018-03-22 18:48:41,"5,002s",PASSED
+click,Safari 11,,2018-03-22 18:48:41,2018-03-22 18:48:41,"0,062s",PASSED
+delay,Safari 11,,2018-03-22 18:48:41,2018-03-22 18:48:46,"5,036s",PASSED
+click,Safari 11,1-4 Checkbox ausgew\u00E4hlt,2018-03-22 18:48:46,2018-03-22 18:48:46,"0,614s",FAILED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/59_Testfall,Safari 11,Initial sind alle Filialen einer Bank angezeigt\nFilial-count=20\n(Akk. und Filial-Icons)\n\nFEHLER:\nAnzahl akk. = 20\nMaps= 29,2018-03-22 18:48:46,2018-03-22 18:48:59,"12,383s",FAILED
+openBrowser,Safari 11,,2018-03-22 18:48:47,2018-03-22 18:48:49,"2,477s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:48:49,2018-03-22 18:48:49,"0,005s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:48:49,2018-03-22 18:48:49,"0,021s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:48:49,2018-03-22 18:48:54,"4,488s",PASSED
+delay,Safari 11,,2018-03-22 18:48:54,2018-03-22 18:48:59,"5,001s",PASSED
+"Statement - wes1 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(filial_map), 5)",Safari 11,,2018-03-22 18:48:59,2018-03-22 18:48:59,"0,044s",PASSED
+"Statement - wes2 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(loc_steet_filialsuche), 5)",Safari 11,,2018-03-22 18:48:59,2018-03-22 18:48:59,"0,047s",PASSED
+Statement - filial_maps_count = wes1.size(),Safari 11,,2018-03-22 18:48:59,2018-03-22 18:48:59,"0,000s",PASSED
+Statement - filial_accordeon_count = wes2.size(),Safari 11,,2018-03-22 18:48:59,2018-03-22 18:48:59,"0,000s",PASSED
+Statement - filial_count = 20,Safari 11,,2018-03-22 18:48:59,2018-03-22 18:48:59,"0,001s",PASSED
+Statement - If (filial_maps_count != filial_count),Safari 11,,2018-03-22 18:48:59,2018-03-22 18:48:59,"0,084s",PASSED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/60_Testfall,Safari 11,"\""Es werden immer nur 2 bestimmte Ergebnisse pro Suche angezeigt. \nEin Filial-Akk. ist aufgeklappt, anderes zugeklappt\""",2018-03-22 18:48:59,2018-03-22 18:49:11,"12,542s",FAILED
+openBrowser,Safari 11,,2018-03-22 18:48:59,2018-03-22 18:49:01,"2,412s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:49:01,2018-03-22 18:49:01,"0,005s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:49:01,2018-03-22 18:49:01,"0,020s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:49:01,2018-03-22 18:49:04,"2,359s",PASSED
+delay,Safari 11,,2018-03-22 18:49:04,2018-03-22 18:49:06,"2,005s",PASSED
+setText,Safari 11,,2018-03-22 18:49:06,2018-03-22 18:49:06,"0,180s",PASSED
+submit,Safari 11,,2018-03-22 18:49:06,2018-03-22 18:49:06,"0,044s",PASSED
+delay,Safari 11,,2018-03-22 18:49:06,2018-03-22 18:49:11,"5,036s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:49:11,2018-03-22 18:49:11,"0,017s",PASSED
+scrollToElement,Safari 11,,2018-03-22 18:49:11,2018-03-22 18:49:11,"0,016s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:49:11,2018-03-22 18:49:11,"0,016s",PASSED
+verifyTextNotPresent,Safari 11,,2018-03-22 18:49:11,2018-03-22 18:49:11,"0,315s",FAILED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/61_Testfall,Safari 11,"Es werden 4 bestimmte Ergebnisse bei Eingabe von \""Rechberghausen\""angezeigt. \n \n\nEin bestimmtes Akkordeon ist aufgeklappt, andere 3 zugeklappt",2018-03-22 18:49:11,2018-03-22 18:49:42,"30,775s",FAILED
+openBrowser,Safari 11,,2018-03-22 18:49:12,2018-03-22 18:49:14,"2,497s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:49:14,2018-03-22 18:49:14,"0,006s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:49:14,2018-03-22 18:49:14,"0,024s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:49:14,2018-03-22 18:49:16,"2,399s",PASSED
+delay,Safari 11,,2018-03-22 18:49:16,2018-03-22 18:49:22,"5,047s",PASSED
+scrollToElement,Safari 11,,2018-03-22 18:49:22,2018-03-22 18:49:22,"0,040s",PASSED
+delay,Safari 11,,2018-03-22 18:49:22,2018-03-22 18:49:27,"5,005s",PASSED
+setText,Safari 11,,2018-03-22 18:49:27,2018-03-22 18:49:27,"0,211s",PASSED
+delay,Safari 11,,2018-03-22 18:49:27,2018-03-22 18:49:32,"5,033s",PASSED
+submit,Safari 11,,2018-03-22 18:49:32,2018-03-22 18:49:32,"0,031s",PASSED
+delay,Safari 11,,2018-03-22 18:49:32,2018-03-22 18:49:37,"5,005s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:49:37,2018-03-22 18:49:37,"0,017s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:49:37,2018-03-22 18:49:37,"0,018s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:49:37,2018-03-22 18:49:37,"0,015s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:49:37,2018-03-22 18:49:37,"0,014s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:49:37,2018-03-22 18:49:37,"0,015s",PASSED
+verifyTextPresent,Safari 11,,2018-03-22 18:49:37,2018-03-22 18:49:37,"0,015s",PASSED
+delay,Safari 11,,2018-03-22 18:49:37,2018-03-22 18:49:42,"5,002s",PASSED
+verifyTextNotPresent,Safari 11,,2018-03-22 18:49:42,2018-03-22 18:49:42,"0,261s",FAILED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/62_Testfall,Safari 11,"Sortierung (Bad Hersfeld, Bebra): \nAufsteigend nach Entfernung um die Hauptstelle",2018-03-22 18:49:42,2018-03-22 18:49:57,"14,559s",FAILED
+openBrowser,Safari 11,,2018-03-22 18:49:42,2018-03-22 18:49:45,"2,476s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:49:45,2018-03-22 18:49:45,"0,005s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:49:45,2018-03-22 18:49:45,"0,018s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:49:45,2018-03-22 18:49:47,"1,913s",PASSED
+waitForPageLoad,Safari 11,,2018-03-22 18:49:47,2018-03-22 18:49:48,"1,538s",PASSED
+delay,Safari 11,,2018-03-22 18:49:48,2018-03-22 18:49:52,"4,032s",PASSED
+click,Safari 11,,2018-03-22 18:49:52,2018-03-22 18:49:52,"0,059s",PASSED
+delay,Safari 11,,2018-03-22 18:49:52,2018-03-22 18:49:54,"2,002s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:49:54,2018-03-22 18:49:54,"0,040s",PASSED
+delay,Safari 11,,2018-03-22 18:49:54,2018-03-22 18:49:56,"2,004s",PASSED
+click,Safari 11,,2018-03-22 18:49:56,2018-03-22 18:49:57,"0,370s",FAILED
+,,,,,,
+Test Cases/Prototyp_Filialsuche (RC 18)/63_Testfall,Safari 11,"Sortierung (Bad Hersfeld): Aufsteigend nach Entfernung um die Hauptstelle\n\nFehler: Step 29, 24",2018-03-22 18:49:57,2018-03-22 18:50:19,"22,511s",FAILED
+openBrowser,Safari 11,,2018-03-22 18:49:57,2018-03-22 18:49:59,"2,426s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:49:59,2018-03-22 18:49:59,"0,024s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:49:59,2018-03-22 18:49:59,"0,004s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:49:59,2018-03-22 18:50:03,"4,022s",PASSED
+delay,Safari 11,,2018-03-22 18:50:03,2018-03-22 18:50:08,"5,002s",PASSED
+setText,Safari 11,,2018-03-22 18:50:08,2018-03-22 18:50:09,"0,232s",PASSED
+delay,Safari 11,,2018-03-22 18:50:09,2018-03-22 18:50:11,"2,003s",PASSED
+submit,Safari 11,,2018-03-22 18:50:11,2018-03-22 18:50:11,"0,040s",PASSED
+delay,Safari 11,,2018-03-22 18:50:11,2018-03-22 18:50:19,"8,035s",PASSED
+verifyElementText,Safari 11,,2018-03-22 18:50:19,2018-03-22 18:50:19,"0,631s",FAILED

@@ -31,11 +31,11 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('002/Page_Filialsuche - BVR HTML Prototy (1)/svg_dropdown-icons'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.mouseOver(findTestObject('berlin/Page_Filialsuche - BVR HTML Prototy/div_Berlin'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('berlin/Page_Filialsuche - BVR HTML Prototy/div_Berlin'))
 

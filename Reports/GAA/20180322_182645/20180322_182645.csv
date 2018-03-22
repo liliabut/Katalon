@@ -1,0 +1,150 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+GAA,Safari 11,,2018-03-22 18:50:32,2018-03-22 18:53:01,"2m - 28,757s",FAILED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/01_Testfall,Safari 11,Fehler:\nAkk=100\nGAA_Maps=99\n\n\nInitial: Die ersten 100 GAAs der Bank sind angezeigt\ncount=100,2018-03-22 18:50:33,2018-03-22 18:50:55,"22,058s",FAILED
+openBrowser,Safari 11,,2018-03-22 18:50:33,2018-03-22 18:50:45,"11,509s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:50:45,2018-03-22 18:50:45,"0,073s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:50:45,2018-03-22 18:50:45,"0,054s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:50:45,2018-03-22 18:50:48,"3,043s",PASSED
+delay,Safari 11,,2018-03-22 18:50:48,2018-03-22 18:50:53,"5,063s",PASSED
+"Statement - wes1 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(gaa_map), 5)",Safari 11,,2018-03-22 18:50:53,2018-03-22 18:50:54,"1,138s",PASSED
+"Statement - wes2 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(loc_steet_filialsuche), 5)",Safari 11,,2018-03-22 18:50:54,2018-03-22 18:50:54,"0,111s",PASSED
+Statement - filial_maps_count = wes1.size(),Safari 11,,2018-03-22 18:50:54,2018-03-22 18:50:54,"0,002s",PASSED
+Statement - filial_accordeon_count = wes2.size(),Safari 11,,2018-03-22 18:50:54,2018-03-22 18:50:54,"0,002s",PASSED
+Statement - filial_count = 100,Safari 11,,2018-03-22 18:50:54,2018-03-22 18:50:54,"0,001s",PASSED
+Statement - If (filial_maps_count != filial_count),Safari 11,,2018-03-22 18:50:54,2018-03-22 18:50:55,"0,262s",PASSED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/03_Testfall,Safari 11,initial: Alle Filial-Akk. sind zugeklappt,2018-03-22 18:50:55,2018-03-22 18:51:09,"14,576s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:50:55,2018-03-22 18:50:57,"2,134s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:50:57,2018-03-22 18:50:57,"0,024s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:50:57,2018-03-22 18:50:57,"0,008s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:50:57,2018-03-22 18:50:59,"1,565s",PASSED
+delay,Safari 11,,2018-03-22 18:50:59,2018-03-22 18:51:04,"5,003s",PASSED
+verifyElementNotPresent,Safari 11,,2018-03-22 18:51:04,2018-03-22 18:51:09,"5,497s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:51:09,2018-03-22 18:51:09,"0,105s",PASSED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/04_Testfall,Safari 11,Alle 100 Filialen (GAA-Icons) sind auf der Karte angezeigt,2018-03-22 18:51:09,2018-03-22 18:51:22,"13,037s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:51:10,2018-03-22 18:51:12,"2,098s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:51:12,2018-03-22 18:51:12,"0,007s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:51:12,2018-03-22 18:51:12,"0,028s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:51:12,2018-03-22 18:51:13,"1,556s",PASSED
+delay,Safari 11,,2018-03-22 18:51:13,2018-03-22 18:51:21,"8,034s",PASSED
+"Statement - wes = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(gaa_map), 5)",Safari 11,,2018-03-22 18:51:21,2018-03-22 18:51:21,"0,055s",PASSED
+"Statement - For ([i = 0, i < wes.size(), (i++)])",Safari 11,,2018-03-22 18:51:21,2018-03-22 18:51:22,"0,873s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:51:22,2018-03-22 18:51:22,"0,080s",PASSED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/05_Testfall,Safari 11,Entfernungsangabe wird nicht angezeigt,2018-03-22 18:51:22,2018-03-22 18:51:33,"10,661s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:51:23,2018-03-22 18:51:25,"2,412s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:51:25,2018-03-22 18:51:25,"0,020s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:51:25,2018-03-22 18:51:25,"0,007s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:51:25,2018-03-22 18:51:28,"2,589s",PASSED
+delay,Safari 11,,2018-03-22 18:51:28,2018-03-22 18:51:33,"5,038s",PASSED
+verifyElementNotPresent,Safari 11,,2018-03-22 18:51:33,2018-03-22 18:51:33,"0,285s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:51:33,2018-03-22 18:51:33,"0,067s",PASSED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/06_Testfall,Safari 11,"GAA-count=70 (Dropdown: Ergebnis bei Auswahl eines Ortes z.B. Berlin)\n\nAlle Filialen, bei denen im Feld \""City\"" dieser Ort steht, sind angezeigt (Akk. und Filial-Icons) ",2018-03-22 18:51:33,2018-03-22 18:51:48,"15,056s",FAILED
+openBrowser,Safari 11,,2018-03-22 18:51:33,2018-03-22 18:51:36,"2,185s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:51:36,2018-03-22 18:51:36,"0,007s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:51:36,2018-03-22 18:51:36,"0,020s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:51:36,2018-03-22 18:51:38,"2,545s",PASSED
+delay,Safari 11,,2018-03-22 18:51:38,2018-03-22 18:51:43,"5,023s",PASSED
+click,Safari 11,,2018-03-22 18:51:43,2018-03-22 18:51:43,"0,082s",PASSED
+delay,Safari 11,,2018-03-22 18:51:43,2018-03-22 18:51:45,"2,007s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:51:45,2018-03-22 18:51:46,"0,320s",PASSED
+delay,Safari 11,,2018-03-22 18:51:46,2018-03-22 18:51:48,"2,002s",PASSED
+click,Safari 11,,2018-03-22 18:51:48,2018-03-22 18:51:48,"0,498s",FAILED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/15_Testfall,Safari 11,Es wird Paginierung bei Auswahl eines Ortes (Berlin) gepr\u00FCft,2018-03-22 18:51:48,2018-03-22 18:52:02,"13,512s",FAILED
+openBrowser,Safari 11,,2018-03-22 18:51:48,2018-03-22 18:51:50,"2,128s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:51:50,2018-03-22 18:51:50,"0,030s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:51:50,2018-03-22 18:51:51,"0,008s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:51:51,2018-03-22 18:51:52,"1,325s",PASSED
+delay,Safari 11,,2018-03-22 18:51:52,2018-03-22 18:51:57,"5,007s",PASSED
+click,Safari 11,,2018-03-22 18:51:57,2018-03-22 18:51:57,"0,249s",PASSED
+delay,Safari 11,,2018-03-22 18:51:57,2018-03-22 18:51:59,"2,005s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:51:59,2018-03-22 18:51:59,"0,058s",PASSED
+delay,Safari 11,,2018-03-22 18:51:59,2018-03-22 18:52:01,"2,005s",PASSED
+click,Safari 11,,2018-03-22 18:52:01,2018-03-22 18:52:02,"0,475s",FAILED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/16_Testfall,Safari 11,Es wird Paginierung bei Auswahl eines Ortes (Berlin) gepr\u00FCft,2018-03-22 18:52:02,2018-03-22 18:52:17,"15,010s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:52:02,2018-03-22 18:52:05,"2,661s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:52:05,2018-03-22 18:52:05,"0,019s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:52:05,2018-03-22 18:52:05,"0,008s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:52:05,2018-03-22 18:52:06,"1,195s",PASSED
+delay,Safari 11,,2018-03-22 18:52:06,2018-03-22 18:52:11,"5,006s",PASSED
+delay,Safari 11,,2018-03-22 18:52:11,2018-03-22 18:52:13,"2,007s",PASSED
+click,Safari 11,,2018-03-22 18:52:13,2018-03-22 18:52:13,"0,392s",PASSED
+click,Safari 11,,2018-03-22 18:52:13,2018-03-22 18:52:14,"0,661s",PASSED
+click,Safari 11,,2018-03-22 18:52:14,2018-03-22 18:52:14,"0,313s",PASSED
+click,Safari 11,,2018-03-22 18:52:14,2018-03-22 18:52:14,"0,211s",PASSED
+click,Safari 11,,2018-03-22 18:52:14,2018-03-22 18:52:14,"0,099s",PASSED
+click,Safari 11,,2018-03-22 18:52:14,2018-03-22 18:52:15,"0,109s",PASSED
+click,Safari 11,,2018-03-22 18:52:15,2018-03-22 18:52:15,"0,115s",PASSED
+click,Safari 11,,2018-03-22 18:52:15,2018-03-22 18:52:15,"0,082s",PASSED
+click,Safari 11,,2018-03-22 18:52:15,2018-03-22 18:52:15,"0,079s",PASSED
+click,Safari 11,,2018-03-22 18:52:15,2018-03-22 18:52:15,"0,123s",PASSED
+click,Safari 11,,2018-03-22 18:52:15,2018-03-22 18:52:15,"0,140s",PASSED
+click,Safari 11,,2018-03-22 18:52:15,2018-03-22 18:52:15,"0,081s",PASSED
+click,Safari 11,,2018-03-22 18:52:15,2018-03-22 18:52:15,"0,119s",PASSED
+click,Safari 11,,2018-03-22 18:52:15,2018-03-22 18:52:15,"0,087s",PASSED
+click,Safari 11,,2018-03-22 18:52:15,2018-03-22 18:52:15,"0,097s",PASSED
+click,Safari 11,,2018-03-22 18:52:15,2018-03-22 18:52:16,"0,084s",PASSED
+click,Safari 11,,2018-03-22 18:52:16,2018-03-22 18:52:16,"0,113s",PASSED
+click,Safari 11,,2018-03-22 18:52:16,2018-03-22 18:52:16,"0,082s",PASSED
+click,Safari 11,,2018-03-22 18:52:16,2018-03-22 18:52:16,"0,418s",PASSED
+click,Safari 11,,2018-03-22 18:52:16,2018-03-22 18:52:16,"0,179s",PASSED
+click,Safari 11,,2018-03-22 18:52:16,2018-03-22 18:52:16,"0,085s",PASSED
+click,Safari 11,,2018-03-22 18:52:16,2018-03-22 18:52:17,"0,067s",PASSED
+click,Safari 11,,2018-03-22 18:52:17,2018-03-22 18:52:17,"0,066s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:52:17,2018-03-22 18:52:17,"0,070s",PASSED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/17_Testfall,Safari 11,"Es wird Paginierung nach Eingabe von Berlin gepr\u00FCft.\nCheck \""Bargeld im Einzelhandel\"" wird angeklickt.",2018-03-22 18:52:17,2018-03-22 18:52:35,"18,248s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:52:17,2018-03-22 18:52:23,"6,454s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:52:23,2018-03-22 18:52:23,"0,016s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:52:23,2018-03-22 18:52:23,"0,006s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:52:23,2018-03-22 18:52:27,"3,257s",PASSED
+click,Safari 11,,2018-03-22 18:52:27,2018-03-22 18:52:27,"0,484s",PASSED
+delay,Safari 11,,2018-03-22 18:52:27,2018-03-22 18:52:29,"2,005s",PASSED
+setText,Safari 11,,2018-03-22 18:52:29,2018-03-22 18:52:29,"0,248s",PASSED
+delay,Safari 11,,2018-03-22 18:52:29,2018-03-22 18:52:31,"2,007s",PASSED
+click,Safari 11,,2018-03-22 18:52:31,2018-03-22 18:52:31,"0,044s",PASSED
+delay,Safari 11,,2018-03-22 18:52:31,2018-03-22 18:52:34,"2,046s",PASSED
+click,Safari 11,,2018-03-22 18:52:34,2018-03-22 18:52:34,"0,639s",PASSED
+click,Safari 11,,2018-03-22 18:52:34,2018-03-22 18:52:34,"0,058s",PASSED
+click,Safari 11,,2018-03-22 18:52:34,2018-03-22 18:52:34,"0,041s",PASSED
+click,Safari 11,,2018-03-22 18:52:34,2018-03-22 18:52:34,"0,095s",PASSED
+click,Safari 11,,2018-03-22 18:52:34,2018-03-22 18:52:34,"0,040s",PASSED
+click,Safari 11,,2018-03-22 18:52:34,2018-03-22 18:52:34,"0,052s",PASSED
+click,Safari 11,,2018-03-22 18:52:34,2018-03-22 18:52:35,"0,059s",PASSED
+click,Safari 11,,2018-03-22 18:52:35,2018-03-22 18:52:35,"0,051s",PASSED
+click,Safari 11,,2018-03-22 18:52:35,2018-03-22 18:52:35,"0,045s",PASSED
+click,Safari 11,,2018-03-22 18:52:35,2018-03-22 18:52:35,"0,080s",PASSED
+click,Safari 11,,2018-03-22 18:52:35,2018-03-22 18:52:35,"0,053s",PASSED
+click,Safari 11,,2018-03-22 18:52:35,2018-03-22 18:52:35,"0,059s",PASSED
+click,Safari 11,,2018-03-22 18:52:35,2018-03-22 18:52:35,"0,079s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:52:35,2018-03-22 18:52:35,"0,040s",PASSED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/18_Testfall,Safari 11,"GAA-count=70 (Dropdown: Ergebnis bei Auswahl eines Ortes Potsdam (count=2))\nAlle Filialen, bei denen im Feld \""City\"" dieser Ort steht, sind angezeigt (Akk. und Filial-Icons) ",2018-03-22 18:52:35,2018-03-22 18:52:49,"13,947s",FAILED
+openBrowser,Safari 11,,2018-03-22 18:52:35,2018-03-22 18:52:37,"2,060s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:52:37,2018-03-22 18:52:37,"0,006s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:52:37,2018-03-22 18:52:38,"0,021s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:52:38,2018-03-22 18:52:39,"1,645s",PASSED
+delay,Safari 11,,2018-03-22 18:52:39,2018-03-22 18:52:44,"5,024s",PASSED
+click,Safari 11,,2018-03-22 18:52:44,2018-03-22 18:52:44,"0,172s",PASSED
+delay,Safari 11,,2018-03-22 18:52:44,2018-03-22 18:52:46,"2,009s",PASSED
+mouseOver,Safari 11,,2018-03-22 18:52:46,2018-03-22 18:52:46,"0,115s",PASSED
+delay,Safari 11,,2018-03-22 18:52:46,2018-03-22 18:52:48,"2,012s",PASSED
+click,Safari 11,,2018-03-22 18:52:48,2018-03-22 18:52:49,"0,459s",FAILED
+,,,,,,
+Test Cases/Prototyp_GAA_Suche (RC18)/19TF,Safari 11,Es wird Paginierung nach Eingabe von Berlin gepr\u00FCft,2018-03-22 18:52:49,2018-03-22 18:53:01,"11,594s",PASSED
+openBrowser,Safari 11,,2018-03-22 18:52:49,2018-03-22 18:52:52,"2,580s",PASSED
+maximizeWindow,Safari 11,,2018-03-22 18:52:52,2018-03-22 18:52:52,"0,024s",PASSED
+deleteAllCookies,Safari 11,,2018-03-22 18:52:52,2018-03-22 18:52:52,"0,006s",PASSED
+navigateToUrl,Safari 11,,2018-03-22 18:52:52,2018-03-22 18:52:54,"2,221s",PASSED
+click,Safari 11,,2018-03-22 18:52:54,2018-03-22 18:52:54,"0,078s",PASSED
+delay,Safari 11,,2018-03-22 18:52:54,2018-03-22 18:52:56,"2,010s",PASSED
+setText,Safari 11,,2018-03-22 18:52:56,2018-03-22 18:52:56,"0,294s",PASSED
+delay,Safari 11,,2018-03-22 18:52:56,2018-03-22 18:52:58,"2,010s",PASSED
+click,Safari 11,,2018-03-22 18:52:58,2018-03-22 18:52:58,"0,038s",PASSED
+delay,Safari 11,,2018-03-22 18:52:58,2018-03-22 18:53:01,"2,038s",PASSED
+closeBrowser,Safari 11,,2018-03-22 18:53:01,2018-03-22 18:53:01,"0,067s",PASSED

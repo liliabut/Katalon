@@ -26,9 +26,11 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-1-0/filialsuche.html')
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('44_TF/Page_Filialsuche - BVR HTML Prototy/a_Weiter'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('44_TF/Page_Filialsuche - BVR HTML Prototy/a_Weiter'))
 

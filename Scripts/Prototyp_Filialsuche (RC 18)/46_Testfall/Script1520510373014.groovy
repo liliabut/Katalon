@@ -35,7 +35,7 @@ WebUI.delay(2)
 
 WebUI.submit(findTestObject('Filialsuche_submit_button'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.verifyTextPresent('Geschäftsstelle Rechberghausen', false)
 
@@ -57,7 +57,7 @@ WebUI.delay(2)
 
 WebUI.submit(findTestObject('Filialsuche_submit_button'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.verifyTextPresent('Geschäftsstelle Börtlingen', false)
 
@@ -79,7 +79,7 @@ WebUI.delay(2)
 
 WebUI.submit(findTestObject('Filialsuche_submit_button'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.verifyTextPresent('Geschäftsstelle Uhingen-Holzhausen', false)
 

@@ -29,11 +29,11 @@ WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-1-0/filialsuche.htm
 
 WebUI.waitForPageLoad(0)
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('03/Page_Filialsuche-rotenburg - BVR HT/svg_dropdown-icons'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.mouseOver(findTestObject('002/Page_Filialsuche - BVR HTML Prototy/div_Berlin'))
 

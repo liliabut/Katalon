@@ -74,7 +74,7 @@ WebUI.mouseOver(findTestObject('03/Page_Filialsuche-rotenburg - BVR HT/div_Kirch
 
 WebUI.click(findTestObject('03/Page_Filialsuche-rotenburg - BVR HT/div_Kirchheim'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.verifyTextPresent('Hauptstr. 11', false)
 

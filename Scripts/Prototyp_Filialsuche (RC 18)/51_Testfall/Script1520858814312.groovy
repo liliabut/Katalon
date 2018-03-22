@@ -140,7 +140,7 @@ WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralba
 
 WebUI.click(findTestObject('naechsteSeite'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/43ErgebnisTest'), 'Berliner Volksbank eG, Filiale Bernau')
 
@@ -156,7 +156,7 @@ WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralba
 
 WebUI.click(findTestObject('naechsteSeite'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/49ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Strausberg')
 
@@ -172,7 +172,7 @@ WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralba
 
 WebUI.click(findTestObject('naechsteSeite'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/55ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Neuruppin')
 
@@ -182,13 +182,7 @@ WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralba
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/58ErgebnisTest'), 'Berliner Volksbank eG, Filiale Treuenbrietzen')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/59ErgebnisTest'), 'Berliner Volksbank eG, Filiale Fürstenberg')
-
 WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/60ErgebnisTest'), 'Berliner Volksbank eG, Filiale Kyritz')
-
-WebUI.click(findTestObject('naechsteSeite'))
-
-WebUI.delay(2)
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/61ErgebnisTest'), 'Berliner Volksbank eG, Filiale Wittstock')
 

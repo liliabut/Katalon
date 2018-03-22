@@ -44,7 +44,7 @@ int filial_maps_count = wes1.size()
 
 int filial_accordeon_count = wes2.size()
 
-int filial_count = 61
+int filial_count = 60
 
 if (filial_maps_count != filial_count) {
     WebUI.comment((('Anzahl Maps ' + filial_maps_count) + ' ist NICHT gleich Anzahl Filialen ') + filial_count)
