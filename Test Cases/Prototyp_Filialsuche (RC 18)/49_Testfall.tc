@@ -6,7 +6,9 @@ http://kundentest.dev-unitb.de/vr/ogrhtmlprototyp/filialsuche-rotenburg.html
 Test ob die Ergebnisse korrekt nach Abstand zur Zentralbank Rotenburg sortiert sind in dem mit einer vorgegebenen Liste verglichen wird.
 
 Zugehöriges Repository ist:
-OGRPrototypFilialsuche - DistanzRotenburg</description>
+OGRPrototypFilialsuche - DistanzRotenburg
+
+FEHLER: Sortierung prüfen!!!</description>
    <name>49_Testfall</name>
    <tag></tag>
    <comment></comment>

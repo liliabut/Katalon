@@ -6,7 +6,9 @@ http://kundentest.dev-unitb.de/vr/ogrhtmlprototyp/filialsuche.html
 Test ob die Ergebnisse bei Suche &quot;Alle Orte anzeigen&quot; korrekt nach Abstand zur Zentralbank sortiert sind in dem mit einer vorgegebenen Liste verglichen wird.
 
 Zugehöriges Repository ist:
-OGRPrototypFilialsuche - DistanzZentralbank</description>
+OGRPrototypFilialsuche - DistanzZentralbank
+
+Fehler: Sortierung prüfen!!!</description>
    <name>51_Testfall</name>
    <tag></tag>
    <comment></comment>
