@@ -41,9 +41,7 @@ ArrayList<WebElement> wes1 = WebUiCommonHelper.findWebElements(findTestObject('g
 ArrayList<WebElement> wes2 = WebUiCommonHelper.findWebElements(findTestObject('loc_steet_filialsuche'), 5)
 
 int filial_maps_count = wes1.size()
-
 int filial_accordeon_count = wes2.size()
-
 int filial_count = 100
 
 if (filial_maps_count != filial_count) {
@@ -62,4 +60,3 @@ if (filial_maps_count != filial_count) {
 }
 
 WebUI.closeBrowser()
-

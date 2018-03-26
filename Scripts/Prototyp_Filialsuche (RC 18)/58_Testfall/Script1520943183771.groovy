@@ -47,7 +47,7 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('57TF/Page_Filialsuche-textinput - BVR HT (1)/button_Aktualisieren'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 'Sortierung geprüft'
 WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/01ErgebnisText'), 'Berliner Volksbank eG, Filiale Karl-Marx-Straße')

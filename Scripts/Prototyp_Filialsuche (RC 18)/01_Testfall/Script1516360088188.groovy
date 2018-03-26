@@ -34,7 +34,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-1-0/filialsuche.html')
 
-WebUI.delay(5)
+WebUI.delay(7)
 
 ArrayList<WebElement> wes = WebUiCommonHelper.findWebElements(findTestObject('filial_map'), 5)
 

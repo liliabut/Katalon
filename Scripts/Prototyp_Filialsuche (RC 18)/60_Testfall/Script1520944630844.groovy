@@ -64,7 +64,7 @@ WebUI.setText(findTestObject('41_TF/Page_Filialsuche-nuernberg-textinpu/input_ci
 
 WebUI.submit(findTestObject('Filialsuche_submit_button'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.verifyTextPresent('PSD Bank Nürnberg eG, Filiale Bamberg', false)
 

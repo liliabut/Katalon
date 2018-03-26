@@ -62,13 +62,9 @@ WebUI.verifyTextNotPresent('Hauptstr.44', false)
 
 WebUI.verifyTextNotPresent('73117 Wangen', false)
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('40_TF/Page_Filialsuche-wangen - BVR HTML/svg_dropdown-icons'))
-
 WebUI.delay(5)
 
-WebUI.scrollToElement(findTestObject('40_TF/Page_Filialsuche-wangen - BVR HTML/div_Rechberghausen'), 0)
+WebUI.click(findTestObject('40_TF/Page_Filialsuche-wangen - BVR HTML/svg_dropdown-icons'))
 
 WebUI.delay(5)
 
@@ -80,10 +76,6 @@ WebUI.click(findTestObject('40_TF/Page_Filialsuche-wangen - BVR HTML/div_Rechber
 
 WebUI.delay(5)
 
-WebUI.verifyTextNotPresent('73104 Börtlingen', false)
-
-WebUI.verifyTextNotPresent('Hauptstr. 56', false)
-
 WebUI.verifyTextPresent('73098 Rechberghausen', false)
 
 WebUI.verifyTextPresent('Hauptstr. 37', false)
@@ -93,6 +85,10 @@ WebUI.verifyTextNotPresent('Dorfstr. 17 a', false)
 WebUI.verifyTextNotPresent('73066 Uhingen', false)
 
 WebUI.verifyTextNotPresent('Hauptstr.44', false)
+
+WebUI.verifyTextNotPresent('73104 Börtlingen', false)
+
+WebUI.verifyTextNotPresent('Hauptstr. 56', false)
 
 WebUI.verifyTextNotPresent('73117 Wangen', false)
 
@@ -133,10 +129,6 @@ WebUI.verifyTextNotPresent('73117 Wangen', false)
 WebUI.delay(2)
 
 WebUI.click(findTestObject('40_TF/Page_Filialsuche-wangen - BVR HTML/svg_dropdown-icons'))
-
-WebUI.delay(5)
-
-WebUI.scrollToElement(findTestObject('40_TF/Page_Filialsuche-wangen - BVR HTML/div_Wangen'), 0)
 
 WebUI.delay(5)
 

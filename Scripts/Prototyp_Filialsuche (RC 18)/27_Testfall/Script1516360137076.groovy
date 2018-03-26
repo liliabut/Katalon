@@ -44,7 +44,7 @@ WebUI.delay(2)
 
 WebUI.mouseOver(findTestObject('002/Page_Detail - BVR HTML Prototyp (1)/div_Berlin'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('002/Page_Detail - BVR HTML Prototyp (1)/div_Berlin'))
 
