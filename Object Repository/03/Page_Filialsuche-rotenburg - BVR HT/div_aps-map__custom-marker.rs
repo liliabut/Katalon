@@ -4,6 +4,16 @@
    <name>div_aps-map__custom-marker</name>
    <tag></tag>
    <elementGuidId>4653d925-bb07-4f98-a03b-9f7b33a789e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;main-content&quot;)/div[@class=&quot;wrapper ym-cbox-right&quot;]/div[@class=&quot;module-aps ym-clearfix&quot;]/div[@class=&quot;aps-map&quot;]/div[@class=&quot;aps-map__canvas&quot;]/div[1]/div[@class=&quot;gm-style&quot;]/div[1]/div[4]/div[1]/div[@class=&quot;aps-map__custom-marker&quot;]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

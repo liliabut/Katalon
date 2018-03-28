@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Filial-count=47
+Initial sind alle Filialen einer Bank angezeigt
+(Akk. und Filial-Icons)
+
+</description>
+   <name>13_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>101e58aa-c84e-4bdf-ae7d-be5cae8b0896</testCaseGuid>
+</TestCaseEntity>

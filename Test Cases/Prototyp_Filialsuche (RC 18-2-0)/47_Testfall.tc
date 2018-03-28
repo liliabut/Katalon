@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Seitenaddresse: 
+http://kundentest.dev-unitb.de/ogrhtmlprototyp/ogrhtmlprototyp/filialsuche-textinput.html
+
+Test ob die Ergebnisse korrekt nach Abstand zum Zentrum Berlins sortiert sind in dem mit einer vorgegebenen Liste verglichen wird.
+
+Zugehöriges Repository ist:
+OGRPrototypFilialsuche - Berlin Zentrum
+
+FEHLER: Sortierung prüfen!!!</description>
+   <name>47_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>68dfdb6c-3f1c-47c0-9d80-2dc100abfa50</testCaseGuid>
+</TestCaseEntity>

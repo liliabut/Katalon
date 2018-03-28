@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Sortierung (Bad Hersfeld): Aufsteigend nach Entfernung um die Hauptstelle
+
+Fehler: Step 29, 24</description>
+   <name>63_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cdf951d0-e197-4134-ad30-b129b65b26ab</testCaseGuid>
+</TestCaseEntity>

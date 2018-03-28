@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>initial: Alle Filial-Akk. sind zugeklappt</description>
+   <name>03_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a39774fa-d7bb-4b22-adac-3210dfcfa5ac</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>&quot;Es werden immer nur 2 bestimmte Ergebnisse pro Suche angezeigt. 
+Ein Filial-Akk. ist aufgeklappt, anderes zugeklappt&quot;</description>
+   <name>60_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9de23755-d3d4-4053-a03f-f5aded6a5fde</testCaseGuid>
+</TestCaseEntity>

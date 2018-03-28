@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Erweiterte Suche (initial)
+Erweiterte Suche soll initial richtig funktionieren, wie erwartet
+
+Chrome: Sortierung-Fehler 
+
+SOLL (1.Seite): 
+Berliner Volksbank eG, Filiale Karl-Marx-Straße
+Berliner Volksbank eG, Filiale Leopoldplatz
+
+IST (1.Seite):
+Berliner Volksbank eG, FinanzCenter Neukölln
+Berliner Volksbank eG, Filiale Karl-Marx-Straße</description>
+   <name>58_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c7f4b4d4-6191-4534-8030-f5230fe2b11c</testCaseGuid>
+</TestCaseEntity>

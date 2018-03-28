@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Initial sind alle Filialen einer Bank angezeigt
+Filial-count=20
+(Akk. und Filial-Icons)
+
+FEHLER:
+Anzahl akk. = 20
+Maps= 29</description>
+   <name>59_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>425d0bf8-8292-4d6a-b8cb-ae82222b66ed</testCaseGuid>
+</TestCaseEntity>

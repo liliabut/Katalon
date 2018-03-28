@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Sortierung nach entfernung beim Eingabe &quot;Berlin&quot;</description>
+   <name>15_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5df45db4-8962-46e1-a3e3-dc68db2cbf30</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Es wird Paginierung nach Eingabe von Berlin geprüft</description>
+   <name>19TF</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>991c4093-82b2-4738-8799-e971093d861c</testCaseGuid>
+</TestCaseEntity>

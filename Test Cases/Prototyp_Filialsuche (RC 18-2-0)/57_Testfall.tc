@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Erweiterte Suche (bei Auswahl eines Ortes (z.B. Berlin)
+
+Erweiterte Suche soll richtig funktionieren, wie erwartet</description>
+   <name>57_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5965fec2-8903-45b6-bccd-340d0e94a4ba</testCaseGuid>
+</TestCaseEntity>

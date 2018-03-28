@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Entfernungsangabe wird nicht angezeigt</description>
+   <name>05_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0a4689e7-a7b2-49b1-b404-2b0397c4ad26</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Seitenaddresse: 
+http://kundentest.dev-unitb.de/vr/ogrhtmlprototyp/filialsuche-rotenburg.html
+
+Test ob die Ergebnisse korrekt nach Abstand zur Zentralbank Rotenburg sortiert sind in dem mit einer vorgegebenen Liste verglichen wird.
+
+Zugehöriges Repository ist:
+OGRPrototypFilialsuche - DistanzRotenburg
+
+FEHLER: Sortierung prüfen!!!</description>
+   <name>49_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3467c3fe-37bd-4646-9191-cba63ca0d598</testCaseGuid>
+</TestCaseEntity>
