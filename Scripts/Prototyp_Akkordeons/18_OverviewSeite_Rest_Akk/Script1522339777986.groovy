@@ -19,12 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.WebDriver as WebDriver
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-import org.openqa.selenium.By as By
-import com.kms.katalon.core.exception.StepFailedException as StepFailedException
-import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
-import org.openqa.selenium.WebElement as WebElement
 
 WebUI.openBrowser('')
 
@@ -32,25 +26,31 @@ WebUI.maximizeWindow()
 
 WebUI.deleteAllCookies()
 
-WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-2-0/filialsuche.html')
+WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-2-0/accordion-overview.html')
 
-WebUI.waitForPageLoad(0)
+WebUI.scrollToElement(findTestObject('Akk_18TF/Page_Accordion-overview - BVR HTML/a_Akkordeon 2'), 0)
 
-WebUI.delay(7)
+WebUI.delay(2)
 
-ArrayList<WebElement> wes = WebUiCommonHelper.findWebElements(findTestObject('filial_map'), 5)
+WebUI.click(findTestObject('Akk_18TF/Page_Accordion-overview - BVR HTML/a_Akkordeon 2'))
 
-for (int i = 0; i < wes.size(); i++) {
-    el = wes.get(i)
+WebUI.delay(2)
 
-    if (!(el.isDisplayed())) {
-        WebUI.comment('Nicht alle Filiale sind angezeigt auf der Karte!')
+WebUI.scrollToElement(findTestObject('Akk_18TF/Page_Accordion-overview - BVR HTML/a_Akkordeon 1'), 0)
 
-        WebUI.closeBrowser()
+WebUI.delay(2)
 
-        throw new StepFailedException('Eine Filiale ist nicht sichtbar.')
-    }
-}
+WebUI.click(findTestObject('Akk_18TF/Page_Accordion-overview - BVR HTML/a_Akkordeon 1'))
+
+WebUI.delay(2)
+
+WebUI.scrollToElement(findTestObject('Akk_18TF/Page_Accordion-overview - BVR HTML/a_Akkordeon 2'), 0)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Akk_18TF/Page_Accordion-overview - BVR HTML/a_Akkordeon 2'))
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

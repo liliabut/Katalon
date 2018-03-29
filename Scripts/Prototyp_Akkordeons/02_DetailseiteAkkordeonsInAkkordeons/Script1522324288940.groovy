@@ -21,11 +21,13 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-1-0/detail.html')
-
-WebUI.waitForPageLoad(0)
+WebUI.deleteAllCookies()
 
 WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-2-0/detail.html')
+
+WebUI.waitForPageLoad(0)
 
 'Akkordeon 01 geschlossen - schließen aller offenen Akkordeons, da offene Akkordeons die Xpath indezes durcheinander bringen\r\n'
 WebUI.click(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon01Active'), FailureHandling.STOP_ON_FAILURE)
@@ -41,7 +43,7 @@ WebUI.scrollToElement(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon04'), 0
 'Öffnen Akkordeon 04 - Wir öffnen das Äußere Akkordeon das andere beinhaltet'
 WebUI.click(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon04'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 'Ist Akkordeon04 jetzt offen\r\n'
 WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon01Active'), 'text').replaceAll('[^a-zA-Z0-9]', 
@@ -50,11 +52,11 @@ WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonDetailSeiteXpath/A
 'Öffnen Akkordeon 05 - Wir öffnen das erste innere Akkordeon (Index ist 4 da ein anderes Akkordeon bereits offen ist)'
 WebUI.click(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon04'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 'Ist Akkordeon05 jetzt offen\r\n'
-WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon02Active'), 'text').replaceAll('[^a-zA-Z0-9]',
-		''), 'Akkordeon1', false)
+WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon02Active'), 'text').replaceAll('[^a-zA-Z0-9]', 
+        ''), 'Akkordeon1', false)
 
 'Schließen Akkordeon 04 - Wir schließen das Äußere Akkordeon um zu testen ob das innere beim schließen und wieder öffnen des Äußeren offen bleibt'
 WebUI.click(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon01Active'), FailureHandling.STOP_ON_FAILURE)
@@ -70,10 +72,10 @@ WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonDetailSeiteXpath/A
 WebUI.click(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon04'), FailureHandling.STOP_ON_FAILURE)
 
 'Ist Akkordeon06 jetzt offen\r\n'
-WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon02Active'), 'text').replaceAll('[^a-zA-Z0-9]',
-		''), 'Akkordeon2', false)
+WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon02Active'), 'text').replaceAll('[^a-zA-Z0-9]', 
+        ''), 'Akkordeon2', false)
 
-WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 'Schließen Akkordeon 04 - Wir schließen das Äußere Akkordeon um zu testen ob das innere beim schließen und wieder öffnen des Äußeren offen bleibt'
 WebUI.click(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon01Active'), FailureHandling.STOP_ON_FAILURE)
@@ -82,8 +84,8 @@ WebUI.click(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon01Active'), Failu
 WebUI.click(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon04'), FailureHandling.STOP_ON_FAILURE)
 
 'Ist Akkordeon06 offen - Wir testen ob das innere Akkordeons weiterhin offen ist\r\n'
-WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon02Active'), 'text').replaceAll('[^a-zA-Z0-9]',
-		''), 'Akkordeon2', false)
+WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon02Active'), 'text').replaceAll('[^a-zA-Z0-9]', 
+        ''), 'Akkordeon2', false)
 
 'Wir schließen das innere Akkordeon 06'
 WebUI.click(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon02Active'), FailureHandling.STOP_ON_FAILURE)
@@ -94,20 +96,20 @@ WebUI.click(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon01Active'), Failu
 'Öffnen Akkordeon 07 - Wir öffnen das Äußere Akkordeon das andere beinhaltet'
 WebUI.click(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon07'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 'Ist Akkordeon07 jetzt offen\r\n'
-WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon01Active'), 'text').replaceAll('[^a-zA-Z0-9]',
-		''), 'Akkordeon2', false)
+WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon01Active'), 'text').replaceAll('[^a-zA-Z0-9]', 
+        ''), 'Akkordeon2', false)
 
 'Öffnen Akkordeon 08- Wir öffnen das erste innere Akkordeon (Index ist 7 da ein anderes Akkordeon bereits offen ist)'
 WebUI.click(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon07'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 'Ist Akkordeon08 offen\r\n'
-WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon02Active'), 'text').replaceAll('[^a-zA-Z0-9]',
-		''), 'Akkordeon1', false)
+WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon02Active'), 'text').replaceAll('[^a-zA-Z0-9]', 
+        ''), 'Akkordeon1', false)
 
 'Schließen Akkordeon 07 - Wir schließen das Äußere Akkordeon um zu testen ob das innere beim schließen und wieder öffnen des Äußeren offen bleibt'
 WebUI.click(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon01Active'), FailureHandling.STOP_ON_FAILURE)
@@ -116,17 +118,17 @@ WebUI.click(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon01Active'), Failu
 WebUI.click(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon07'), FailureHandling.STOP_ON_FAILURE)
 
 'Ist Akkordeon08 offen - Wirt esten ob das innere Akkordeon weiterhin offen ist\r\n'
-WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon02Active'), 'text').replaceAll('[^a-zA-Z0-9]',
-		''), 'Akkordeon1', false)
+WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon02Active'), 'text').replaceAll('[^a-zA-Z0-9]', 
+        ''), 'Akkordeon1', false)
 
 'Öffnen Akkordeon 09 - Wir öffnen das zweite innere Akkordeon (Index ist weiterhin 7, das momentan 2 Andere Akk. offen sind)'
 WebUI.click(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon07'), FailureHandling.STOP_ON_FAILURE)
 
 'Ist Akkordeon09 offen\r\n'
-WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon02Active'), 'text').replaceAll('[^a-zA-Z0-9]',
-		''), 'Akkordeon2', false)
+WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon02Active'), 'text').replaceAll('[^a-zA-Z0-9]', 
+        ''), 'Akkordeon2', false)
 
-WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 'Schließen Akkordeon 07 - Wir schließen das Äußere Akkordeon um zu testen ob das innere beim schließen und wieder öffnen des Äußeren offen bleibt'
 WebUI.click(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon01Active'), FailureHandling.STOP_ON_FAILURE)
@@ -135,5 +137,8 @@ WebUI.click(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon01Active'), Failu
 WebUI.click(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon07'), FailureHandling.STOP_ON_FAILURE)
 
 'Ist Akkordeon09 offen - Wirt esten ob das innere Akkordeon weiterhin offen ist\r\n'
-WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon02Active'), 'text').replaceAll('[^a-zA-Z0-9]',
-		''), 'Akkordeon2', false)
+WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon02Active'), 'text').replaceAll('[^a-zA-Z0-9]', 
+        ''), 'Akkordeon2', false)
+
+WebUI.closeBrowser()
+

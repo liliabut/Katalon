@@ -18,39 +18,22 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.WebDriver as WebDriver
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-import org.openqa.selenium.By as By
-import com.kms.katalon.core.exception.StepFailedException as StepFailedException
-import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
-import org.openqa.selenium.WebElement as WebElement
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
-
 WebUI.deleteAllCookies()
 
-WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-2-0/filialsuche.html')
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-2-0/suchergebnis-2.html')
 
 WebUI.waitForPageLoad(0)
 
-WebUI.delay(7)
+WebUI.maximizeWindow()
 
-ArrayList<WebElement> wes = WebUiCommonHelper.findWebElements(findTestObject('filial_map'), 5)
-
-for (int i = 0; i < wes.size(); i++) {
-    el = wes.get(i)
-
-    if (!(el.isDisplayed())) {
-        WebUI.comment('Nicht alle Filiale sind angezeigt auf der Karte!')
-
-        WebUI.closeBrowser()
-
-        throw new StepFailedException('Eine Filiale ist nicht sichtbar.')
-    }
-}
+'Ist Akkordeon01 offen\r\n'
+WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonSuchergebnisXpath/Akkordeon01Active'), 'text').replaceAll(
+        '[^a-zA-Z0-9]', ''), 'Produkte110', false)
 
 WebUI.closeBrowser()
 

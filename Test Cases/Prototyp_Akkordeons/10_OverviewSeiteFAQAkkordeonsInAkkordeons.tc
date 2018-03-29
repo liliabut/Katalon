@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Overview-Seite: FAQ-Accordion innerhalb Standard Accordion wird getestet</description>
+   <name>10_OverviewSeiteFAQAkkordeonsInAkkordeons</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c7cd8134-a2eb-47d7-87f6-32b49aeb1371</testCaseGuid>
+</TestCaseEntity>

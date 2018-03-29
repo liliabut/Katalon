@@ -25,21 +25,47 @@ WebUI.deleteAllCookies()
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-2-0/detail.html')
+WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-2-0/faq.html')
 
 WebUI.waitForPageLoad(0)
 
-'Ist Akkordeon01 (Das ist noch eine weitere Absatzheadline) offen\r\n'
-WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon01Active'), 'text').replaceAll('[^a-zA-Z0-9]', 
-        ''), 'Akkordeon1', false)
+WebUI.maximizeWindow()
 
-'Ist Akkordeon01 (erstes Akkordeon mit Akkordeons) offen\r\n'
-WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon02Active'), 'text').replaceAll('[^a-zA-Z0-9]', 
-        ''), 'Akkordeon1', false)
+'Ist FAQ Akkordeon01 geschlossen - Wir testen ab hier ob zu Anfang alle FAQ Akk. geschlossen sind'
+WebUI.verifyElementPresent(findTestObject('AkkordeonFAQXpath/Akkordeon01'), 0)
 
-'Ist Akkordeon01 (erstes Akkordeon mit Bild) offen\r\n'
-WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonDetailSeiteXpath/Akkordeon03Active'), 'text').replaceAll('[^a-zA-Z0-9]', 
-        ''), 'Akkordeon1', false)
+'Ist FAQ Akkordeon02 geschlossen'
+WebUI.verifyElementPresent(findTestObject('AkkordeonFAQXpath/Akkordeon02'), 0)
+
+'Ist FAQ Akkordeon03 geschlossen'
+WebUI.verifyElementPresent(findTestObject('AkkordeonFAQXpath/Akkordeon03'), 0)
+
+'Ist FAQ Akkordeon04 geschlossen'
+WebUI.verifyElementPresent(findTestObject('AkkordeonFAQXpath/Akkordeon04'), 0)
+
+'Ist FAQ Akkordeon05 geschlossen'
+WebUI.verifyElementPresent(findTestObject('AkkordeonFAQXpath/Akkordeon05'), 0)
+
+'Ist FAQ Akkordeon06 geschlossen'
+WebUI.verifyElementPresent(findTestObject('AkkordeonFAQXpath/Akkordeon06'), 0)
+
+'Ist FAQ Akkordeon08 geschlossen'
+WebUI.verifyElementPresent(findTestObject('AkkordeonFAQXpath/Akkordeon08'), 0)
+
+'Ist FAQ Akkordeon09 geschlossen'
+WebUI.verifyElementPresent(findTestObject('AkkordeonFAQXpath/Akkordeon09'), 0)
+
+'Ist FAQ Akkordeon10 geschlossen'
+WebUI.verifyElementPresent(findTestObject('AkkordeonFAQXpath/Akkordeon10'), 0)
+
+'Ist FAQ Akkordeon11 geschlossen'
+WebUI.verifyElementPresent(findTestObject('AkkordeonFAQXpath/Akkordeon11'), 0)
+
+'Ist FAQ Akkordeon12 geschlossen'
+WebUI.verifyElementPresent(findTestObject('AkkordeonFAQXpath/Akkordeon12'), 0)
+
+'Ist FAQ Akkordeon13 geschlossen'
+WebUI.verifyElementPresent(findTestObject('AkkordeonFAQXpath/Akkordeon13'), 0)
 
 WebUI.closeBrowser()
 
