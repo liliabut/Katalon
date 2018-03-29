@@ -58,7 +58,7 @@ int filial_maps_count = wes1.size()
 
 int filial_accordeon_count = wes2.size()
 
-int filial_count = 70
+int filial_count = 65
 
 String city_name = 'Berlin'
 

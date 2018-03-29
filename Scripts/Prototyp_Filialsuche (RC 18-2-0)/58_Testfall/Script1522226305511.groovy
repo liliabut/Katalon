@@ -117,7 +117,5 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('57TF/Page_Filialsuche-textinput - BVR HT (1)/a_Erweiterte Suche'))
 
-WebUI.delay(5)
-
 WebUI.closeBrowser()
 

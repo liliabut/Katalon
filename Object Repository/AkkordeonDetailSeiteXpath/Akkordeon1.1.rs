@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Akkordeon1.1</name>
+   <tag></tag>
+   <elementGuidId>6db4c214-205b-4c1c-b729-b210a2ad9e0e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[2]/div[3]/div[4]/main/div/div[16]/div[1]/div/div/div/div[1]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[2]/div[3]/div[4]/main/div/div[16]/div[1]/div/div/div/div[1]/a</value>
+   </webElementProperties>
+</WebElementEntity>

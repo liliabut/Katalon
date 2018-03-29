@@ -6,12 +6,11 @@
    <elementGuidId>d9474716-72cf-4945-bb0e-85b46f6f3b7a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//a[@href = '#' and (text() = '3' or . = '3')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

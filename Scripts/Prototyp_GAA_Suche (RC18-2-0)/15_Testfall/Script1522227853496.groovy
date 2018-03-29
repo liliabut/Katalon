@@ -72,8 +72,6 @@ WebUI.click(findTestObject('GAA/Page_Geldautomatensuche - BVR HTML (1)/a_10'))
 
 WebUI.click(findTestObject('GAA/Page_Geldautomatensuche - BVR HTML (1)/a_11'))
 
-WebUI.click(findTestObject('GAA/Page_Geldautomatensuche - BVR HTML (1)/a_12'))
-
 WebUI.click(findTestObject('GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck'))
 
 WebUI.click(findTestObject('GAA/Page_Geldautomatensuche - BVR HTML (1)/a_Zurck'))

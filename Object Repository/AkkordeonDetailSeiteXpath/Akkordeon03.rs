@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Akkordeon03</name>
+   <tag></tag>
+   <elementGuidId>31e55c5b-d053-4eca-b5e5-040b97f195aa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>((//div[@class=&quot;acc-wrapper&quot;])[3]//a[@class=&quot;acc-header&quot;])[1]</value>
+   </webElementProperties>
+</WebElementEntity>

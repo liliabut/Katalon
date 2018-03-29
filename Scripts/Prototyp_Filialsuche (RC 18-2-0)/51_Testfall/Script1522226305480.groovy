@@ -30,6 +30,7 @@ WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-1-0/filialsuche.htm
 
 WebUI.delay(5)
 
+'1.Seite'
 WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/01ErgebnisText'), 'Berliner Volksbank eG')
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/02ErgebnisText'), 'Berliner Volksbank eG, FinanzCenter Tegel')
@@ -46,145 +47,154 @@ WebUI.click(findTestObject('naechsteSeite'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/07ErgebnisTest'), 'Berliner Volksbank eG, Filiale Moabit')
+'2.Seite'
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/07ErgebnisTest'), 'Berliner Volksbank eG, Filiale Prenzlauer Berg')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/08ErgebnisTest'), 'Berliner Volksbank eG, Filiale Prenzlauer Berg')
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/08ErgebnisTest'), 'Berliner Volksbank eG, Filiale Hennigsdorf')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/09ErgebnisTest'), 'Berliner Volksbank eG, Filiale Hennigsdorf')
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/09ErgebnisTest'), 'Berliner Volksbank eG, Filiale Westend')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/10ErgebnisTest'), 'Berliner Volksbank eG, Filiale Westend')
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/10ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Spandau')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/11ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Spandau')
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/11ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Friedrichstraße')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/12ErgebnisTest'), 'Berliner Volksbank eG, Filiale Hohen Neuendorf')
-
-WebUI.click(findTestObject('naechsteSeite'))
-
-WebUI.delay(2)
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/13ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Friedrichstraße')
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/14ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Charlottenburg')
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/15ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Kurfürstendamm')
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/16ErgebnisTest'), 'Berliner Volksbank eG, Filiale Wittenbergplatz')
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/17ErgebnisTest'), 'Berliner Volksbank eG, Filiale Halensee')
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/18ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Weißensee')
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/12ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Charlottenburg')
 
 WebUI.click(findTestObject('naechsteSeite'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/19ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Wilmersdorf')
+'3.Seite'
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/13ErgebnisTest', [('variable') : '']), 
+    'Berliner Volksbank eG, FinanzCenter Kurfürstendamm')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/20ErgebnisTest'), 'Berliner Volksbank eG, Filiale Kreuzberg')
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/14ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Weißensee')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/21ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Friedrichshain')
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/15ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Wilmersdorf')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/22ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Neukölln')
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/16ErgebnisTest'), 'Berliner Volksbank eG, Filiale Kreuzberg')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/23ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Falkensee')
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/17ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Friedrichshain')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/24ErgebnisTest'), 'Berliner Volksbank eG, Filiale Karl-Marx-Straße')
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/18ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Neukölln')
 
-WebUI.click(findTestObject('naechsteSeite'))
-
-WebUI.delay(2)
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/25ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Steglitz')
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/26ErgebnisTest'), 'Berliner Volksbank eG, Filiale Tempelhof')
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/27ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Mariendorf')
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/28ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Zehlendorf')
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/29ErgebnisTest'), 'Berliner Volksbank eG, Filiale Ahrensfelde')
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/30ErgebnisTest'), 'Berliner Volksbank eG, Filiale Lichterfelde-Ost')
+WebUI.scrollToElement(findTestObject('naechsteSeite'), 0)
 
 WebUI.click(findTestObject('naechsteSeite'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/31ErgebnisTest'), 'Berliner Volksbank eG, Filiale Treptow')
+'4.Seite'
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/19ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Falkensee')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/32ErgebnisTest'), 'Berliner Volksbank eG, Filiale Kladow')
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/20ErgebnisTest'), 'Berliner Volksbank eG, Filiale Karl-Marx-Straße')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/33ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Oranienburg')
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/21ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Steglitz')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/34ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Kaulsdorf')
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/22ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Mariendorf')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/35ErgebnisTest'), 'Berliner Volksbank eG, Filiale Helle Mitte')
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/23ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Zehlendorf')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/36ErgebnisTest'), 'Berliner Volksbank eG, Filiale Wannsee')
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/24ErgebnisTest'), 'Berliner Volksbank eG, Filiale Ahrensfelde')
+
+WebUI.click(findTestObject('naechsteSeite'))
+
+'5.Seite'
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/25ErgebnisTest'), 'Berliner Volksbank eG, Filiale Lichterfelde-Ost')
+
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/26ErgebnisTest'), 'Berliner Volksbank eG, Filiale Treptow')
+
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/27ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Oranienburg')
+
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/28ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Kaulsdorf')
+
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/29ErgebnisTest'), 'Berliner Volksbank eG, Filiale Rudow')
+
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/30ErgebnisTest'), 'Berliner Volksbank eG, Filiale Adlershof')
 
 WebUI.click(findTestObject('naechsteSeite'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/37ErgebnisTest'), 'Berliner Volksbank eG, Filiale Teltow')
+'6.Seite'
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/31ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Lichtenrade')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/38ErgebnisTest'), 'Berliner Volksbank eG, Filiale Wandlitz')
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/32ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Köpenick')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/39ErgebnisTest'), 'Berliner Volksbank eG, Filiale Rudow')
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/33ErgebnisTest'), 'Berliner Volksbank eG, Filiale Bernau')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/40ErgebnisTest'), 'Berliner Volksbank eG, Filiale Adlershof')
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/34ErgebnisTest'), 'Berliner Volksbank eG, Filiale Großbeeren')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/41ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Lichtenrade')
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/35ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Potsdam')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/42ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Köpenick')
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/36ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Strausberg')
+
+WebUI.click(findTestObject('naechsteSeite'))
+
+WebUI.delay(2)
+
+'7.Seite'
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/37ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Königs Wusterhausen')
+
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/38ErgebnisTest'), 'Berliner Volksbank eG, Filiale Zehdenick')
+
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/39ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Eberswalde')
+
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/40ErgebnisTest'), 'Berliner Volksbank eG, Filiale Beelitz')
+
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/41ErgebnisTest'), 'Berliner Volksbank eG, Filiale Gransee')
+
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/42ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Neuruppin')
 
 WebUI.click(findTestObject('naechsteSeite'))
 
 WebUI.delay(5)
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/43ErgebnisTest'), 'Berliner Volksbank eG, Filiale Bernau')
+'8.Seite'
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/43ErgebnisTest'), 'Berliner Volksbank eG, Filiale Joachimsthal')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/44ErgebnisTest'), 'Berliner Volksbank eG, Filiale Allende-Viertel')
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/44ErgebnisTest'), 'Berliner Volksbank eG, Filiale Halbe')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/45ErgebnisTest'), 'Berliner Volksbank eG, Filiale Großbeeren')
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/45ErgebnisTest'), 'Berliner Volksbank eG, Filiale Treuenbrietzen')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/46ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Potsdam')
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/46ErgebnisTest'), 'Berliner Volksbank eG, Filiale Kyritz')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/47ErgebnisTest'), 'Berliner Volksbank eG, Filiale Nauen')
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/48ErgebnisTest'), 'Berliner Volksbank eG, Filiale Eichwalde')
-
-WebUI.click(findTestObject('naechsteSeite'))
-
-WebUI.delay(5)
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/49ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Strausberg')
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/50ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Königs Wusterhausen')
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/51ErgebnisTest'), 'Berliner Volksbank eG, Filiale Zehdenick')
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/52ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Eberswalde')
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/53ErgebnisTest'), 'Berliner Volksbank eG, Filiale Beelitz')
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/54ErgebnisTest'), 'Berliner Volksbank eG, Filiale Gransee')
-
-WebUI.click(findTestObject('naechsteSeite'))
-
-WebUI.delay(5)
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/55ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Neuruppin')
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/56ErgebnisTest'), 'Berliner Volksbank eG, Filiale Joachimsthal')
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/57ErgebnisTest'), 'Berliner Volksbank eG, Filiale Halbe')
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/58ErgebnisTest'), 'Berliner Volksbank eG, Filiale Treuenbrietzen')
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/60ErgebnisTest'), 'Berliner Volksbank eG, Filiale Kyritz')
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/61ErgebnisTest'), 'Berliner Volksbank eG, Filiale Wittstock')
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/47ErgebnisTest'), 'Berliner Volksbank eG, Filiale Wittstock')
 
 WebUI.closeBrowser()
+
+
+//WebUI.click(findTestObject('naechsteSeite'))
+
+//WebUI.delay(5)
+
+//WebUI.click(findTestObject('naechsteSeite'))
+
+//WebUI.delay(5)
+
+//WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/07ErgebnisTest'), 'Berliner Volksbank eG, Filiale Moabit')
+
+//WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/16ErgebnisTest'), 'Berliner Volksbank eG, Filiale Wittenbergplatz')
+
+//WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/12ErgebnisTest'), 'Berliner Volksbank eG, Filiale Hohen Neuendorf')
+
+//WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/17ErgebnisTest'), 'Berliner Volksbank eG, Filiale Halensee')
+
+//WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/26ErgebnisTest'), 'Berliner Volksbank eG, Filiale Tempelhof')
+
+//WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/32ErgebnisTest'), 'Berliner Volksbank eG, Filiale Kladow')
+
+//WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/35ErgebnisTest'), 'Berliner Volksbank eG, Filiale Helle Mitte')
+
+//WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/36ErgebnisTest'), 'Berliner Volksbank eG, Filiale Wannsee')
+
+//WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/37ErgebnisTest'), 'Berliner Volksbank eG, Filiale Teltow')
+
+//WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/38ErgebnisTest'), 'Berliner Volksbank eG, Filiale Wandlitz')
+
+//WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/44ErgebnisTest'), 'Berliner Volksbank eG, Filiale Allende-Viertel')
+
+//WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/43ErgebnisTest'), 'Berliner Volksbank eG, Filiale Nauen')
+
+//WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/48ErgebnisTest'), 'Berliner Volksbank eG, Filiale Eichwalde')
 
