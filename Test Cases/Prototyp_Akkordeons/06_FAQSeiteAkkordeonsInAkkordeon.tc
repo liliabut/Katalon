@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>FAQ:
-1. Akkordeon: Wir testen ab hier, ob die inneren FAQ Akkordeons weiterhin beim Klick funktioneren (s. faq-Akkordeons im 1.Akkordeon)</description>
-   <name>06_FAQSeiteAkkordeonsInAkkordeon</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>987f4eb0-baf2-4716-a651-ef20ec4d959d</testCaseGuid>
-</TestCaseEntity>

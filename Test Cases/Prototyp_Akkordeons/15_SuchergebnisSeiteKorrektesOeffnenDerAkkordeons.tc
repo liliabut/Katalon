@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Suchergebnis-Seite: Accordion-Verhalten wird geprüft</description>
-   <name>15_SuchergebnisSeiteKorrektesOeffnenDerAkkordeons</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>95e5e0ea-7849-4a35-be89-af77b45fe7e3</testCaseGuid>
-</TestCaseEntity>

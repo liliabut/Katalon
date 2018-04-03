@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Overview-Seite: es wird FAQ-Accordion innerhalb Standart Accordion, Accordion einzeln, Suchergebnis in Accordion (1), Suchergebnis in Accordion (2)</description>
-   <name>13_OverviewSeiteKorrektesOeffnenDerAkkordeonsTeil2</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>ed4196b4-c765-41ac-8735-f1524299d77f</testCaseGuid>
-</TestCaseEntity>

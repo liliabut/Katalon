@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Overview-Seite
+Accordion in einem Accordion funktionieren beim Klick wie erwartet</description>
+   <name>09_OverviewSeiteAkkordeonsInAkkordeons</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>38213287-47af-4e7f-9216-91b9729b5d48</testCaseGuid>
+</TestCaseEntity>
