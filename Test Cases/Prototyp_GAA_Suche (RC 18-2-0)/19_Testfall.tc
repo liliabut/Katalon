@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ergebnis bei Auswahl eines Ortes (z.B. Berlin): Alle GAA (Akk.) sind zugeklappt</description>
+   <name>19_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f812f276-6f2b-47fc-b2d6-d94085944921</testCaseGuid>
+</TestCaseEntity>

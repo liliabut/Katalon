@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Sortierung (Bad Hersfeld, Bebra): 
-Aufsteigend nach Entfernung um die Hauptstelle</description>
-   <name>62_Testfall</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>57ff08b7-2f12-4fd9-a1f6-3160642601be</testCaseGuid>
-</TestCaseEntity>
