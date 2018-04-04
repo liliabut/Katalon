@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Entfernungsangabe wird nicht angezeigt</description>
+   <description>initial: Entfernungsangabe wird nicht angezeigt</description>
    <name>05_Testfall</name>
    <tag></tag>
    <comment></comment>

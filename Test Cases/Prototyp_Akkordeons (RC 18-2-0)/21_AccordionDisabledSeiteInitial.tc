@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Accordion-disabled-Seite 
+Initial: 1.Akkordeon ist geöffnet, weitere sind geschlossen.</description>
+   <name>21_AccordionDisabledSeiteInitial</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>02fa8eed-b962-4ec1-a3d1-0e340855f286</testCaseGuid>
+</TestCaseEntity>

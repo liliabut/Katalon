@@ -18,6 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
@@ -25,13 +26,19 @@ WebUI.maximizeWindow()
 
 WebUI.deleteAllCookies()
 
-WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-2-0/geldautomatensuche.html')
+WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche-bundesweit.html')
 
 WebUI.delay(5)
 
-WebUI.verifyElementNotPresent(findTestObject('Entfernung_filialsuche'), 5)
+WebUI.setText(findTestObject('13GAA/Page_Geldautomatensuche-bundesweit/input_city'), 'Berlin')
 
-WebUI.verifyTextNotPresent('km', false)
+WebUI.click(findTestObject('13GAA/Page_Geldautomatensuche-bundesweit/button_Suchen'))
+
+WebUI.delay(5)
+
+WebUI.verifyElementPresent(findTestObject('Entfernung_filialsuche'), 5)
+
+WebUI.verifyTextPresent('km', false)
 
 WebUI.closeBrowser()
 

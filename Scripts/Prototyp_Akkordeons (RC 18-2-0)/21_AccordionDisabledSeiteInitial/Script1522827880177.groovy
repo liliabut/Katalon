@@ -18,20 +18,49 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.exception.StepFailedException as StepFailedException
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
-
 WebUI.deleteAllCookies()
 
-WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-2-0/geldautomatensuche.html')
+WebUI.maximizeWindow()
 
-WebUI.delay(5)
+WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-2-0/accordion-disabled.html')
 
-WebUI.verifyElementNotPresent(findTestObject('Entfernung_filialsuche'), 5)
+WebUI.waitForPageLoad(0)
 
-WebUI.verifyTextNotPresent('km', false)
+WebUI.delay(3)
+
+ArrayList<WebElement> wes = WebUiCommonHelper.findWebElements(findTestObject('Akkordion'), 5)
+
+el = wes.get(0)
+
+cl = el.getAttribute('class')
+
+if (!(cl.contains('active'))) {
+    WebUI.comment('1. Akkordion ist geschlossen!')
+
+    WebUI.closeBrowser()
+
+    throw new StepFailedException('1. Akkordion ist geschlossen!')
+}
+
+for (int i = 1; i < wes.size(); i++) {
+    el = wes.get(i)
+
+    cl = el.getAttribute('class')
+
+    if (cl.contains('active')) {
+        WebUI.comment(i + '. Akkordion ist offen!')
+
+        WebUI.closeBrowser()
+
+        throw new StepFailedException(i + '. Akkordion ist offen!')
+    }
+}
 
 WebUI.closeBrowser()
 

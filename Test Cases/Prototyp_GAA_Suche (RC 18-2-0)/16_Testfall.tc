@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Es wird Paginierung bei Auswahl eines Ortes (Berlin) geprüft</description>
+   <description>initial: Es wird Paginierung geprüft</description>
    <name>16_Testfall</name>
    <tag></tag>
    <comment></comment>

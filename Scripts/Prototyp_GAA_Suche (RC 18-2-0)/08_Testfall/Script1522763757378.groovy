@@ -29,6 +29,18 @@ WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-2-0/geldautomatensu
 
 WebUI.delay(5)
 
+WebUI.click(findTestObject('002/Page_Filialsuche-rotenburg - BVR HT/svg_dropdown-icons'))
+
+WebUI.delay(2)
+
+WebUI.mouseOver(findTestObject('Berlin_option'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Berlin_option'))
+
+WebUI.delay(5)
+
 WebUI.verifyElementNotPresent(findTestObject('Entfernung_filialsuche'), 5)
 
 WebUI.verifyTextNotPresent('km', false)

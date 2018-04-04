@@ -18,6 +18,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebDriver as WebDriver
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.By as By
+import com.kms.katalon.core.exception.StepFailedException as StepFailedException
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 WebUI.openBrowser('')
 
@@ -25,13 +32,22 @@ WebUI.maximizeWindow()
 
 WebUI.deleteAllCookies()
 
-WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-2-0/geldautomatensuche.html')
+WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche-bundesweit.html')
 
 WebUI.delay(5)
 
-WebUI.verifyElementNotPresent(findTestObject('Entfernung_filialsuche'), 5)
+try {
+    WebUI.verifyElementNotVisible(findTestObject('Accordeon_filialsuche'))
+}
+catch (StepFailedException ex) {
+    WebUI.comment('Accordeon ist sichtbar!')
 
-WebUI.verifyTextNotPresent('km', false)
+    WebUI.closeBrowser()
+
+    throw new StepFailedException('Accordeon ist sichtbar!')
+} 
+
+WebUI.verifyElementNotPresent(findTestObject('gaa_map'), 2)
 
 WebUI.closeBrowser()
 
