@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>61ErgebnisTest</name>
+   <name>65ErgebnisTest</name>
    <tag></tag>
-   <elementGuidId>9561d0cf-c76b-4ed5-8455-cf5e17abc954</elementGuidId>
+   <elementGuidId>dfc6c6b3-dbe5-4376-ae26-c34a1cc45739</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@class=&quot;accordeon has-pager&quot;]//span[@class=&quot;loc-name&quot;])[61]</value>
+         <value>(//div[@class=&quot;accordeon has-pager&quot;]//span[@class=&quot;loc-name&quot;])[65]</value>
       </entry>
       <entry>
          <key>BASIC</key>

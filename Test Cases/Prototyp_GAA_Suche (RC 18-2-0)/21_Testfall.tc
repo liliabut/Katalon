@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ergebnis bei Auswahl eines Ortes (z.B Berlin):
+65 GAAs für Berlin sind aufgelistet
+</description>
+   <name>21_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2b81dbd3-5868-41af-8951-678657afb432</testCaseGuid>
+</TestCaseEntity>
