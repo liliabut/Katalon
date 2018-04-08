@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Berliner Volksbank eG Fil_10</name>
+   <name>span_Berliner Volksbank eG Fil</name>
    <tag></tag>
-   <elementGuidId>17c7a428-411a-47e2-9990-6c8a078ec254</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//span[(text() = 'Berliner Volksbank eG, Filiale Westend' or . = 'Berliner Volksbank eG, Filiale Westend')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>7014876c-048d-4598-8c63-9f25678ef829</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -35,13 +25,13 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Berliner Volksbank eG, Filiale Westend</value>
+      <value>Berliner Volksbank eG, Filiale Charlottenburg</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ogr-accordion-241939579856&quot;)/div[@class=&quot;accordeon has-pager&quot;]/div[@class=&quot;acc-wrapper&quot;]/a[@class=&quot;acc-header&quot;]/span[@class=&quot;loc-name&quot;]</value>
+      <value>id(&quot;ogr-accordion-60490909515&quot;)/div[@class=&quot;accordeon has-pager&quot;]/div[@class=&quot;acc-wrapper&quot;]/a[@class=&quot;acc-header&quot;]/span[@class=&quot;loc-name&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

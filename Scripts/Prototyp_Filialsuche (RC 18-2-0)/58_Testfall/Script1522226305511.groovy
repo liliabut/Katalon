@@ -50,11 +50,12 @@ WebUI.click(findTestObject('57TF/Page_Filialsuche-textinput - BVR HT (1)/button_
 WebUI.delay(5)
 
 'Sortierung geprüft'
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/01ErgebnisText'), 'Berliner Volksbank eG, Filiale Karl-Marx-Straße')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/01ErgebnisText'), 'Berliner Volksbank eG, Filiale Charlottenburg')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/02ErgebnisText'), 'Berliner Volksbank eG, Filiale Leopoldplatz')
+'Sortierung geprüft'
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/02ErgebnisText'), 'Berliner Volksbank eG, Filiale Karl-Marx-Straße')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/03ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Charlottenburg')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/03ErgebnisTest'), 'Berliner Volksbank eG, Filiale Leopoldplatz')
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/04ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Eberswalde')
 

@@ -58,7 +58,7 @@ WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralba
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/11ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Friedrichstraße')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/12ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Charlottenburg')
+WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/12ErgebnisTest'), 'Berliner Volksbank eG, Filiale Charlottenburg')
 
 WebUI.click(findTestObject('naechsteSeite'))
 
@@ -162,39 +162,4 @@ WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralba
 WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/47ErgebnisTest'), 'Berliner Volksbank eG, Filiale Wittstock')
 
 WebUI.closeBrowser()
-
-
-//WebUI.click(findTestObject('naechsteSeite'))
-
-//WebUI.delay(5)
-
-//WebUI.click(findTestObject('naechsteSeite'))
-
-//WebUI.delay(5)
-
-//WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/07ErgebnisTest'), 'Berliner Volksbank eG, Filiale Moabit')
-
-//WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/16ErgebnisTest'), 'Berliner Volksbank eG, Filiale Wittenbergplatz')
-
-//WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/12ErgebnisTest'), 'Berliner Volksbank eG, Filiale Hohen Neuendorf')
-
-//WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/17ErgebnisTest'), 'Berliner Volksbank eG, Filiale Halensee')
-
-//WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/26ErgebnisTest'), 'Berliner Volksbank eG, Filiale Tempelhof')
-
-//WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/32ErgebnisTest'), 'Berliner Volksbank eG, Filiale Kladow')
-
-//WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/35ErgebnisTest'), 'Berliner Volksbank eG, Filiale Helle Mitte')
-
-//WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/36ErgebnisTest'), 'Berliner Volksbank eG, Filiale Wannsee')
-
-//WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/37ErgebnisTest'), 'Berliner Volksbank eG, Filiale Teltow')
-
-//WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/38ErgebnisTest'), 'Berliner Volksbank eG, Filiale Wandlitz')
-
-//WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/44ErgebnisTest'), 'Berliner Volksbank eG, Filiale Allende-Viertel')
-
-//WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/43ErgebnisTest'), 'Berliner Volksbank eG, Filiale Nauen')
-
-//WebUI.verifyElementText(findTestObject('OGRPrototypFiliasuche - DistanzZentralbank/48ErgebnisTest'), 'Berliner Volksbank eG, Filiale Eichwalde')
 

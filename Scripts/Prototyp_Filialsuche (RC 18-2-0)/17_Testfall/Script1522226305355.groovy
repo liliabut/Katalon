@@ -232,7 +232,7 @@ WebUI.verifyTextPresent('12165 Berlin', false)
 
 WebUI.click(findTestObject('TF17/Page_Filialsuche - BVR HTML Prototy (1)/span_Berliner Volksbank eG Fin_9'))
 
-WebUI.click(findTestObject('TF17/Page_Filialsuche - BVR HTML Prototy (1)/span_Berliner Volksbank eG Fin_10'))
+WebUI.click(findTestObject('TF17 Fil/Page_Filialsuche - BVR HTML Prototy/span_Berliner Volksbank eG Fil'))
 
 WebUI.delay(2)
 

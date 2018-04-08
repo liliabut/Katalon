@@ -56,19 +56,19 @@ WebUI.click(findTestObject('AkkordeonDisabledXpath/Akkordeon02'), FailureHandlin
 WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonDisabledXpath/Akkordeon01Active'), 'text').replaceAll('[^a-zA-Z0-9]', 
         ''), 'Akkordeon3', false)
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 'Ist Aktives Element im Viewport'
 WebUI.verifyElementInViewport(findTestObject('AkkordeonDisabledXpath/Akkordeon01Active'), 0)
 
 WebUI.click(findTestObject('05Akk/Page_Accordion-disabled - BVR HTML/a_Akkordeon 3'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 'Wir scrollen zum nächsten element (dessen index durch das aktive Element um eins reduziert wurde)'
 WebUI.scrollToElement(findTestObject('AkkordeonDisabledXpath/Akkordeon04'), 0)
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 'Akkordeon 05 offen'
 WebUI.click(findTestObject('AkkordeonDisabledXpath/Akkordeon04'), FailureHandling.STOP_ON_FAILURE)
@@ -79,7 +79,7 @@ WebUI.verifyElementInViewport(findTestObject('AkkordeonDisabledXpath/Akkordeon05
 'Wir scrollen zum nächsten element (dessen index durch das aktive Element um eins reduziert wurde)'
 WebUI.scrollToElement(findTestObject('AkkordeonDisabledXpath/Akkordeon05'), 0)
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 'Akkordeon 06 offen'
 WebUI.click(findTestObject('AkkordeonDisabledXpath/Akkordeon05'), FailureHandling.STOP_ON_FAILURE)
@@ -90,7 +90,7 @@ WebUI.verifyElementInViewport(findTestObject('AkkordeonDisabledXpath/Akkordeon06
 'Wir scrollen zum nächsten element (dessen index durch das aktive Element um eins reduziert wurde)'
 WebUI.scrollToElement(findTestObject('AkkordeonDisabledXpath/Akkordeon06'), 0)
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 'Akkordeon 07 offen'
 WebUI.click(findTestObject('AkkordeonDisabledXpath/Akkordeon06'), FailureHandling.STOP_ON_FAILURE)

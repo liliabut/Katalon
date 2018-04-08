@@ -56,7 +56,7 @@ WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/08ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Friedrichstraße')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/09ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Charlottenburg')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/09ErgebnisTest'), 'Berliner Volksbank eG, Filiale Charlottenburg')
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/10ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Kurfürstendamm')
 
