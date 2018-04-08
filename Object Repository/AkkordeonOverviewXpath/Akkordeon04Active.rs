@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>((//div[@class=&quot;acc-wrapper active&quot;])[4]//a[@class=&quot;acc-header active&quot;])[1]</value>
+         <value>((//div[@class=&quot;acc-wrapper active&quot;])[2]//a[@class=&quot;acc-header active&quot;])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>((//div[@class=&quot;acc-wrapper active&quot;])[4]//a[@class=&quot;acc-header active&quot;])[1]</value>
+      <value>((//div[@class=&quot;acc-wrapper active&quot;])[2]//a[@class=&quot;acc-header active&quot;])[1]</value>
    </webElementProperties>
 </WebElementEntity>

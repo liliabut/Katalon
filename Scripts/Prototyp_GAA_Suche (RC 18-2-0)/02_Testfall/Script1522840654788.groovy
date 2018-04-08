@@ -37,10 +37,10 @@ WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-2-0/geldautomatensu
 WebUI.delay(5)
 
 ArrayList<WebElement> wes = WebUiCommonHelper.findWebElements(findTestObject('loc_city_filialsuche'), 5)
+ArrayList<WebElement> wes2 = WebUiCommonHelper.findWebElements(findTestObject('loc_steet_filialsuche'), 5)
 
 for (int i = 1; i < wes.size(); i++) {
     el = wes.get(i)
-
     el_prev = wes.get(i - 1)
 
     String text = el.getAttribute('innerHTML')
@@ -71,6 +71,9 @@ for (int i = 1; i < wes.size(); i++) {
 
     text_prev = text_prev.replaceAll('Ü', 'U')
 
+	text = text.split(" ")[1]
+	text_prev = text_prev.split(" ")[1]
+	
     char ch = text.charAt(0)
 
     char ch_prev = el_prev.getAttribute('innerHTML').charAt(0)
@@ -94,7 +97,6 @@ for (int i = 1; i < wes.size(); i++) {
             throw new StepFailedException((('Sortierung ist NICHT alphabetisch: ' + text) + ' und ') + text_prev)
         } else if (ch_prev == ch) {
             ch = text.charAt(2)
-
             ch_prev = text_prev.charAt(2)
 
             if (ch_prev > ch) {
@@ -103,10 +105,66 @@ for (int i = 1; i < wes.size(); i++) {
                 WebUI.closeBrowser()
 
                 throw new StepFailedException((('Sortierung ist NICHT alphabetisch: ' + text) + ' und ') + text_prev)
-            }
+            } else if (ch_prev == ch) {
+				el2 = wes2.get(i)
+				el_prev2 = wes2.get(i - 1)
+		
+				String text2 = el2.getAttribute('innerHTML')
+				String text_prev2 = el_prev2.getAttribute('innerHTML')
+		
+				text2 = text2.replaceAll('ö', 'o')	
+				text2 = text2.replaceAll('Ö', 'O')
+		
+				text_prev2 = text_prev2.replaceAll('ö', 'o')	
+				text_prev2 = text_prev2.replaceAll('Ö', 'O')
+		
+				text2 = text2.replaceAll('ä', 'a')	
+				text2 = text2.replaceAll('Ä', 'A')
+		
+				text_prev2 = text_prev2.replaceAll('ä', 'a')		
+				text_prev2 = text_prev2.replaceAll('Ä', 'A')
+		
+				text2 = text2.replaceAll('ü', 'u')		
+				text2 = text2.replaceAll('Ü', 'U')
+		
+				text_prev2 = text_prev2.replaceAll('ü', 'u')		
+				text_prev2 = text_prev2.replaceAll('Ü', 'U')
+		
+				ch2 = text2.charAt(0)
+				ch_prev2 = text_prev2.charAt(0)
+	
+				if (ch_prev2 > ch2) {
+					WebUI.comment((('Sortierung ist NICHT alphabetisch: ' + text2) + ' und ') + text_prev2)
+	
+					WebUI.closeBrowser()
+	
+					throw new StepFailedException((('Sortierung ist NICHT alphabetisch: ' + text2) + ' und ') + text_prev2)
+				} else if (ch_prev2 == ch2) {
+					ch2 = text2.charAt(1)
+					ch_prev2 = text_prev2.charAt(1)
+					
+					if (ch_prev2 > ch2) {
+						WebUI.comment((('Sortierung ist NICHT alphabetisch: ' + text2) + ' und ') + text_prev2)
+		
+						WebUI.closeBrowser()
+		
+						throw new StepFailedException((('Sortierung ist NICHT alphabetisch: ' + text2) + ' und ') + text_prev2)
+					} else if (ch_prev2 == ch2) {
+						ch2 = text2.charAt(2)
+						ch_prev2 = text_prev2.charAt(2)
+						
+						if (ch_prev2 > ch2) {
+							WebUI.comment((('Sortierung ist NICHT alphabetisch: ' + text2) + ' und ') + text_prev2)
+			
+							WebUI.closeBrowser()
+			
+							throw new StepFailedException((('Sortierung ist NICHT alphabetisch: ' + text2) + ' und ') + text_prev2)
+						}
+					}
+				}
+			}
         }
     }
 }
 
 WebUI.closeBrowser()
-
