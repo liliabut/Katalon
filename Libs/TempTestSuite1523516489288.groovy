@@ -27,7 +27,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 
 
 
-RunConfiguration.setExecutionSettingFile("C:\\Users\\vr-test\\git\\Katalon\\Reports\\Filialsuche\\20180406_095145\\execution.properties")
+RunConfiguration.setExecutionSettingFile("C:\\Users\\vr-test\\git\\Katalon\\Reports\\Filialsuche\\20180412_090129\\execution.properties")
 
 TestCaseMain.beforeStart()
 

@@ -123,12 +123,16 @@ WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 'Öffnen Akkordeon 18'
 WebUI.click(findTestObject('AkkordeonOverviewXpath/Akkordeon15 - Aeusseres'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.verifyTextPresent('Mit unserem kostenlosen Tagesgeldkonto sind Sie immer auf der sicheren Seite und verfügen rund um die Uhr unabhängig über Ihr Erspartes.', 
     false)
 
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
 'Ist Akkordeon18 offen\r\n'
 WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonOverviewXpath/Akkordeon04Active'), 'text').replaceAll('[^a-zA-Z0-9]', 
-        ''), 'WieveleZinsengibtes', false)
+        ''), 'WerbrauchtdieseVersicherung', false)
 
 'Öffnen Akkordeon 19'
 WebUI.click(findTestObject('AkkordeonOverviewXpath/Akkordeon15 - Aeusseres'), FailureHandling.STOP_ON_FAILURE)
@@ -177,7 +181,7 @@ WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonOverviewXpath/Akko
 
 'Ist Akkordeon18 offen\r\n'
 WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonOverviewXpath/Akkordeon04Active'), 'text').replaceAll('[^a-zA-Z0-9]', 
-        ''), 'WieveleZinsengibtes', false)
+        ''), 'WerbrauchtdieseVersicherung', false)
 
 'Ist Akkordeon19 offen\r\n'
 WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonOverviewXpath/Akkordeon05Active'), 'text').replaceAll('[^a-zA-Z0-9]', 
