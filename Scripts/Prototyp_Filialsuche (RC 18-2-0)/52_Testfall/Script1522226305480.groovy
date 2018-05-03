@@ -112,9 +112,7 @@ WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Footer/26Ergebn
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Footer/27ErgebnisTest'), 'Berliner Volksbank eG, Filiale Charlottenburg')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Footer/28ErgebnisTest'), 'Berliner Volksbank eG')
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Footer/29ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Pankow')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Footer/28ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Pankow')
 
 WebUI.closeBrowser()
 
