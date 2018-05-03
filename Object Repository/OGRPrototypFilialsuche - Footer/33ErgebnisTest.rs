@@ -6,11 +6,11 @@
    <elementGuidId>f0b25d65-7e60-4416-bbd6-ed2b4c87ae0c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//div[@class=&quot;accordeon has-pager&quot;]//span[@class=&quot;loc-name&quot;])[33]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>(//div[@class=&quot;acc-wrapper&quot;]//span[@class=&quot;loc-name&quot;])[33]</value>
       </entry>
       <entry>
          <key>BASIC</key>

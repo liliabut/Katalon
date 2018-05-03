@@ -6,16 +6,15 @@
    <elementGuidId>08796e7b-5c2b-4c53-b856-b13bcc97922b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/div[2]/div[3]/main/div/div[2]/div[2]/div[2]/div/div[20]/ul/li[4]/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//li[@class=&quot;page&quot;])[1]</value>
+         <value>(//li[@class=&quot;page&quot;])[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[2]/div[3]/main/div/div[2]/div[2]/div[2]/div/div[20]/ul/li[4]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

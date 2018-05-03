@@ -17,7 +17,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@class = 'accordeon has-pager']/div[@class = 'acc-wrapper'])[2]/div[@class = 'acc-content']/div[@class = 'loc-details']/div[@class = 'loc-action']/a[@class = 'btn-route']</value>
+         <value>(//div[@class = 'accordeon is-animated has-pager']/div[@class = 'acc-wrapper active'])/div[@class = 'acc-content active']/div[@class = 'loc-details']/div[@class = 'loc-action']/a[@class = 'btn-route']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

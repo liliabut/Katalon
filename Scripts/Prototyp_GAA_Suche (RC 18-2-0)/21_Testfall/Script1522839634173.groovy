@@ -210,6 +210,8 @@ WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Footer/64Ergebn
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Footer/65ErgebnisTest'), 'Geldautomat: Berliner Volksbank eG')
 
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Footer/66ErgebnisTest'), 'Geldautomat: Berliner Volksbank eG')
+
 WebUI.closeBrowser()
 
 WebUI.closeBrowser()

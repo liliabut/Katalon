@@ -6,12 +6,12 @@
    <elementGuidId>04d8fcd0-51a4-4e2e-9923-d80e60a8662d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//div[@class = 'accordeon has-pager']/div[@class = 'acc-wrapper']/a[@class = 'acc-header'])[2]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//div[count(. | id(&quot;ogr-accordion-409040062949&quot;)/div[@class=&quot;accordeon has-pager&quot;]/div[@class=&quot;acc-wrapper&quot;]) = count(id(&quot;ogr-accordion-409040062949&quot;)/div[@class=&quot;accordeon has-pager&quot;]/div[@class=&quot;acc-wrapper&quot;])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@class = 'accordeon is-animated has-pager']/div[@class = 'acc-wrapper']/a[@class = 'acc-header'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

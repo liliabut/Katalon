@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='accordeon']</value>
+         <value>//div[@class='acc-wrapper']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

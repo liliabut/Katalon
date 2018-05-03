@@ -240,8 +240,6 @@ WebUI.verifyTextPresent('Wilmersdorfer Straße 65/66', false)
 
 WebUI.verifyTextPresent('10627 Berlin', false)
 
-WebUI.click(findTestObject('TF17/Page_Filialsuche - BVR HTML Prototy (1)/span_Berliner Volksbank eG'))
-
 WebUI.click(findTestObject('TF17/Page_Filialsuche - BVR HTML Prototy (1)/span_Berliner Volksbank eG Fin_11'))
 
 WebUI.closeBrowser()
