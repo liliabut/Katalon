@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ergebnis, initialer Aufruf:
+Die ersten 100 GAAs der Bank alphabetisch sortiert nach 
+a) Ortsname (1.) und Straßenname (2.)
+
+
+Fehler: Berlin/Basdorf padaet, es muss noch erweiter werden für street!!!</description>
+   <name>02_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da787327-8e38-4364-aa9c-f3ae3dfeaec7</testCaseGuid>
+</TestCaseEntity>

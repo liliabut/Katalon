@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Detailseite:
+Accordions in Tab &quot;Beratung&quot; funktionieren beim Klick wie erwartet</description>
+   <name>19_AccordionInTabBeratung</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>247dd89e-3c31-4c1d-af35-77f4ce8cc2b6</testCaseGuid>
+</TestCaseEntity>

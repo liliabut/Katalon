@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>&quot;s. Widget in der Marginalspalte
+Ergebnis bei Auswahl eines Ortes:
+ z.B Berlin => Karte: Übersichtsansicht aller Filialen&quot;</description>
+   <name>27_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>319c3247-2ac4-4bd2-a831-68e243032231</testCaseGuid>
+</TestCaseEntity>

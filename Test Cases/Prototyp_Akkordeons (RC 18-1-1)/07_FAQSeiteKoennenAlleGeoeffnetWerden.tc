@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Alle FAQ-Akkordeons funktionieren beim Klick wie erwartet (man kann gleichzeitig mehrere FAQ-Akkordeons aufmachen)</description>
+   <name>07_FAQSeiteKoennenAlleGeoeffnetWerden</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e65cdfbe-aa34-49eb-9a97-b9e6fc9ef870</testCaseGuid>
+</TestCaseEntity>

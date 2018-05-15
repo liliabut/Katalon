@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Overview-Sete: Es wird FAQ-Accordion Allgemein getestet</description>
+   <name>11_OverviewSeiteKoennenAlleFAQsGeoeffnetWerden</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>63f29df9-7517-47db-b941-35835bec35b0</testCaseGuid>
+</TestCaseEntity>

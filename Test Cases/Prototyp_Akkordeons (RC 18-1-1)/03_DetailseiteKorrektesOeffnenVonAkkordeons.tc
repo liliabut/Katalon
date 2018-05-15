@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Detailseite: Akkordeons funktionieren beim Klick wie erwartet und aktives Akkordeon befindet sich im Viewport</description>
+   <name>03_DetailseiteKorrektesOeffnenVonAkkordeons</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>80f226c5-fd1c-4f19-9385-2a4cd521f47c</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Seitenaddresse: 
+http://kundentest.dev-unitb.de/vr/ogrhtmlprototyp/filialsuche-nuernberg.html
+
+Test ob die Ergebnisse korrekt nach Abstand zur Zentralbank Nürnberg sortiert sind in dem mit einer vorgegebenen Liste verglichen wird.
+
+Zugehöriges Repository ist:
+OGRPrototypFilialsuche - DistanzNuernberg</description>
+   <name>48_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ba2a8b32-ebc5-491b-a791-3f1004ddf92a</testCaseGuid>
+</TestCaseEntity>

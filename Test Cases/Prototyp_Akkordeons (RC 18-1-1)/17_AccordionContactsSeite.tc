@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Accordion-contacts -Seite:
+Es werden Accordion-Verhalten geprüft</description>
+   <name>17_AccordionContactsSeite</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>985bd3c6-cc54-4c48-89b6-525f5f81b551</testCaseGuid>
+</TestCaseEntity>

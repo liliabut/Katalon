@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Es werden Funktionalitäten von &quot;Meine Bank&quot; im Header geprüft</description>
+   <name>01_MeineBank</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>67706574-d35b-4391-a661-96b9f670e835</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_MiasBensEmmasJonasHannahsL</name>
+   <tag></tag>
+   <elementGuidId>f3fda28d-0aae-4b92-9cab-df9f50966dbd</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>logo-meine-bank__wrapper</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>MiasBensEmmasJonasHannahsLeonsSofiasEliasAnnasFinnsEmiliasNoahsLinasPaulsMariesLuisLenasLukasMilasFelixUrsulasPetersCarinsMichaelsHelgasThomasSabinesAndreasIngridsWolfgangsRenatesKlausMonicasJürgensSusannesGünthersGiselasStefansPetrasChristiansVolksbankRaiffeisenbank</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;logo&quot;)/a[@class=&quot;logo-meine-bank&quot;]/div[@class=&quot;logo-meine-bank__wrapper&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

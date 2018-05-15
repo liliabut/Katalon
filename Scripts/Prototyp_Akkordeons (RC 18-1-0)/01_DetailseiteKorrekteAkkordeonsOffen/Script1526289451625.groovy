@@ -25,7 +25,7 @@ WebUI.deleteAllCookies()
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-2-0/detail.html')
+WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-1-0/detail.html')
 
 WebUI.waitForPageLoad(0)
 

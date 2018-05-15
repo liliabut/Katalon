@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Initial: Keine GAA angezeigt.
+Keine Treffer sind angezeigt (keine Filial-Akk., keine Filial-Icons)
+</description>
+   <name>09_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca1ff119-4feb-490e-b636-0624d54ce1f0</testCaseGuid>
+</TestCaseEntity>

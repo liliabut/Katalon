@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Paginierung soll beim Klick richtig funktionieren</description>
+   <name>19_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>60a024eb-32c0-4fff-88a2-03d4f058c3e3</testCaseGuid>
+</TestCaseEntity>

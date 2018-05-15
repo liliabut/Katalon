@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>initial: Entfernungsangabe wird nicht angezeigt</description>
+   <name>05_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>09b8d00f-82da-4f41-880f-7dd0d0353ddb</testCaseGuid>
+</TestCaseEntity>

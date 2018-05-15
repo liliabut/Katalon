@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Detailseite: Akkordeons In Akkordeons funktionieren beim Klick wie erwartet</description>
+   <name>02_DetailseiteAkkordeonsInAkkordeons</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f12be879-49af-4825-b775-0d193d107029</testCaseGuid>
+</TestCaseEntity>

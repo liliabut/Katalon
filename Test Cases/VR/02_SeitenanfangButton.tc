@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Es werden Funktionalitäten von Seitenanfang-Button auf verschiedenen Seiten geprüft</description>
+   <name>02_SeitenanfangButton</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a582972c-c4da-4517-847f-a9da2c35a6a4</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>2ed5ea1d-45ee-4ab4-8cc2-7b993dae8743</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://www.vr.de/karriere/wir-als-arbeitgeber/arbeitgeber-volksbanken-raiffeisenbanken/_jcr_content/kampagnenbereich/kampagnecomponent/kampagne/bild.img.png/1456023089744/vbrb-als-arbeitgeber-1600x270.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Volksbanken Raiffeisenbanken als Arbeitgeber</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Volksbanken Raiffeisenbanken als Arbeitgeber</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>border</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wcbody&quot;)/div[@class=&quot;campaign-area&quot;]/div[@class=&quot;module module-carousel   l-fade&quot;]/div[@class=&quot;carousel-wrapper&quot;]/div[@class=&quot;carousel-item-wrap count_0 carousel__item--primary carousel__item--visible&quot;]/div[@class=&quot;section-teaser js-ready&quot;]/div[@class=&quot;c-image&quot;]/img[1]</value>
+   </webElementProperties>
+</WebElementEntity>

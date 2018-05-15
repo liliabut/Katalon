@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Akkordeons und Paginierung beim Klick funktionieren richtig. Es werden noch Straßen und Hausnummern mit Prototyp verglichen.</description>
+   <name>17_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>58db20a7-7995-4393-b386-1423a2e17d3b</testCaseGuid>
+</TestCaseEntity>

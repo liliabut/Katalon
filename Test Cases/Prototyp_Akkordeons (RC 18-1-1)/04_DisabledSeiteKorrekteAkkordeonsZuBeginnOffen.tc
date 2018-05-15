@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Akkordeon-Dicabled
+initial: 1. Akkordeon ist offen</description>
+   <name>04_DisabledSeiteKorrekteAkkordeonsZuBeginnOffen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d595730e-789f-4fd8-a533-7bc8a0082cca</testCaseGuid>
+</TestCaseEntity>

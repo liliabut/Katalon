@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Detailseite
+Initial: 1.Akkordeon ist geöffnet, weitere sollen geschloßen sein.</description>
+   <name>01_DetailseiteKorrekteAkkordeonsOffen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8db1820f-f2ae-40bf-b2f1-b1ccb0678958</testCaseGuid>
+</TestCaseEntity>

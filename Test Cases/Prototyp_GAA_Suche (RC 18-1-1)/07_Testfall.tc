@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ergebnis bei Auswahl eines Ortes (z.B Berlin):
+70 GAAs für Berlin sind alphabetisch sortiert nach 
+a) Ortsname (1.) und Straßenname (2.)
+
+Wichtig: Es werden nur 3 Buchstaben bei Straßenname alphabetisch verglichen!!!</description>
+   <name>07_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4213cc47-b904-4f32-ba00-f2277338a8a5</testCaseGuid>
+</TestCaseEntity>
