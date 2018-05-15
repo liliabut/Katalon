@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>initial: Ergebnis nach Eingabe (z.B. Berlin): 
+Entfernungsangabe wird angezeigt</description>
+   <name>13_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5868964b-580f-4d9b-af7d-66380bbbb6fc</testCaseGuid>
+</TestCaseEntity>

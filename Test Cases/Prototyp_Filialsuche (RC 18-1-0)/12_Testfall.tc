@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Überprüfen, ob Entfernung in km nicht angezeigt wind </description>
+   <name>12_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a87a054f-52be-46e6-b639-4b145757840f</testCaseGuid>
+</TestCaseEntity>

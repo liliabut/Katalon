@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Es wird geprüft, ob Entfernung in km angezeigt wird</description>
+   <name>20_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed1a1590-82ca-4180-89e0-2b13d609e16c</testCaseGuid>
+</TestCaseEntity>

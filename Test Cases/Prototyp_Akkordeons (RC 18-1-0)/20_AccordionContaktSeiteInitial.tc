@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Accordion-contacts-Seite 
+Initial: 1.Akkordeon ist geöffnet, weitere sind geschlossen.</description>
+   <name>20_AccordionContaktSeiteInitial</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a541e1f5-fc0b-412b-a294-df713a6870f5</testCaseGuid>
+</TestCaseEntity>

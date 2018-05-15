@@ -26,7 +26,7 @@ WebUI.maximizeWindow()
 
 WebUI.deleteAllCookies()
 
-WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche-bundesweit.html')
+WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-2-0/geldautomatensuche-bundesweit.html')
 
 WebUI.delay(5)
 
@@ -100,7 +100,7 @@ WebUI.click(findTestObject('naechsteSeite'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/25ErgebnisTest'), 'Geldautomat: Berliner Volksbank eG')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/25ErgebnisTest'), 'Geldautomat: Berliner Volksbank eG, FinanzCenter Friedrichshain')
 
 WebUI.closeBrowser()
 

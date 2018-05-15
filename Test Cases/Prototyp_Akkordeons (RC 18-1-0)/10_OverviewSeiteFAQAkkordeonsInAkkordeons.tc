@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Overview-Seite: FAQ-Accordion innerhalb Standard Accordion funktionieren beim Klick wie erwartet</description>
+   <name>10_OverviewSeiteFAQAkkordeonsInAkkordeons</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3108ac83-7a15-44a5-842b-97e5f7c9b4ac</testCaseGuid>
+</TestCaseEntity>

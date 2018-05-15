@@ -32,7 +32,7 @@ WebUI.deleteAllCookies()
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-1-0/geldautomatensuche-bundesweit.html')
+WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-2-0/geldautomatensuche-bundesweit.html')
 
 WebUI.delay(5)
 

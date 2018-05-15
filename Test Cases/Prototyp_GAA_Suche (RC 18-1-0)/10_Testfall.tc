@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ergebnis nach Eingabe (z.B. Berlin):
+Es werden 25 GAA von Berlin angezeigt
+
+count = 25,
+city_name = 'Berlin'
+</description>
+   <name>10_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b7e40937-63a0-41bd-a654-8e547bcf5089</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Overview-Seite: Standart Accordion und Accordion mit Kontakt funktionieren beim Klick wie erwartet und aktives Akkordeon befindet sich im Viewport</description>
+   <name>12_OverviewSeiteKorrektesOeffnenDerAkkordeons</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3cfbe9b-92ec-4eef-b421-bc97601cc13f</testCaseGuid>
+</TestCaseEntity>

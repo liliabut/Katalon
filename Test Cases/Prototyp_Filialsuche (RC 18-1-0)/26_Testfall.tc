@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>&quot;s. Widget in der Kontakt-Box
+Ergebnis bei Auswahl eines Ortes:
+ z.B Berlin => Karte: Übersichtsansicht aller Filialen&quot;</description>
+   <name>26_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>74ca66eb-20e7-42c8-a289-928c2e641676</testCaseGuid>
+</TestCaseEntity>

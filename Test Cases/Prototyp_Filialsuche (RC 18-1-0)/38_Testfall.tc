@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ergebnis, initialer Aufruf:
+Sortiert nach
+a) Ortsname (1.) und Straßenname (2.) </description>
+   <name>38_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5ab527f3-626a-4666-bcc9-2742a5a26e97</testCaseGuid>
+</TestCaseEntity>

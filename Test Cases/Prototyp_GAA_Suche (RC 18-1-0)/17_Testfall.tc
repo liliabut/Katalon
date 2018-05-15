@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Es wird Paginierung nach Eingabe von Berlin geprüft.
+Check &quot;Bargeld im Einzelhandel&quot; wird angeklickt.</description>
+   <name>17_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4ae00319-5fa4-4c09-89a5-6b85a6a56222</testCaseGuid>
+</TestCaseEntity>

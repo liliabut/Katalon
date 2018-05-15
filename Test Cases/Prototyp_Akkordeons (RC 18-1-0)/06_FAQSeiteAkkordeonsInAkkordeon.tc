@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>FAQ-Akkordeons im 1.Akkordeon funktionieren beim Klick wie erwartet (man kann gleich zeitig mehrere FAQ-Akkordeons aufmachen)</description>
+   <name>06_FAQSeiteAkkordeonsInAkkordeon</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d50b235f-fcf6-4d08-ac7f-78467e4f3c54</testCaseGuid>
+</TestCaseEntity>

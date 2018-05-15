@@ -10,11 +10,11 @@
          <value>/html/body/div[2]/div[3]/main/div/div[2]/div[2]/div[2]/div/div[61]/a/span</value>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>(//div[@class=&quot;acc-wrapper&quot;]//span[@class=&quot;loc-name&quot;])[61]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//div[@class=&quot;accordeon has-pager&quot;]//span[@class=&quot;loc-name&quot;])[61]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

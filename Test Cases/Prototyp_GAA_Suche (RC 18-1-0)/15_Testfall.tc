@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Es wird Paginierung bei Auswahl eines Ortes (Berlin) geprüft</description>
+   <name>15_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d8254d4a-f60a-401a-869d-b9d9b2cd054e</testCaseGuid>
+</TestCaseEntity>
