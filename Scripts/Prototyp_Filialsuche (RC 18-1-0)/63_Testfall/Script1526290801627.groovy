@@ -50,7 +50,7 @@ WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenbur
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/06ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Kirchheim')
 
-WebUI.click(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/2teSeite'))
+WebUI.click(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/2teSeite - Copy'))
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/07ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Niederaula')
 

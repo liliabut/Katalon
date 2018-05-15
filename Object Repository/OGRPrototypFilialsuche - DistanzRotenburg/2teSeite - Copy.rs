@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>2teSeite</name>
+   <name>2teSeite - Copy</name>
    <tag></tag>
-   <elementGuidId>08796e7b-5c2b-4c53-b856-b13bcc97922b</elementGuidId>
+   <elementGuidId>468c1a33-d12b-4057-a1b1-da33e0d9d05e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//li[@class=&quot;page&quot;])[2]</value>
+         <value>(//li[@class=&quot;page&quot;])[1]</value>
       </entry>
       <entry>
          <key>CSS</key>

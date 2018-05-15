@@ -46,11 +46,11 @@ WebUI.click(findTestObject('03/Page_Filialsuche-rotenburg - BVR HT/div_Bad Hersf
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('03/Page_Filialsuche-rotenburg - BVR HT/div_acc-wrapper'))
+WebUI.click(findTestObject('03/Page_Filialsuche-rotenburg - BVR HT/div_acc-wrapper - Copy'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('03/Page_Filialsuche-rotenburg - BVR HT/a_Anfahrt'))
+WebUI.click(findTestObject('03/Page_Filialsuche-rotenburg - BVR HT/a_Anfahrt - Copy'))
 
 WebUI.setText(findTestObject('03/Page_Filialsuche-rotenburg - BVR HT/input_street'), '10555')
 
