@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>-goeppingen.html
+
+Ergebnis bei Auswahl eines Ortes (z.B Göppingen):
+8 GAAs für Berlin sind alphabetisch aufgelistet
+</description>
+   <name>34_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6d584099-80f2-4625-b673-b2f575773050</testCaseGuid>
+</TestCaseEntity>

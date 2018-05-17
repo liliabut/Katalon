@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>-bonn.html
+
+Ergebnis initial:
+43 GAAs für Bonn sind aufgelistet und alphabetisch sortiert nach Ortname (1.) und Scraßenname (2.)
+</description>
+   <name>26_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c2326d97-6a00-4c4c-b862-6e954187c63b</testCaseGuid>
+</TestCaseEntity>

@@ -4,6 +4,7 @@
    <name>Filialsuche 18-1-1</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-05-16T11:19:50</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

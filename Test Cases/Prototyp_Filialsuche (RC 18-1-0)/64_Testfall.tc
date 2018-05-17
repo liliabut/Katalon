@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>filialsuche,html (initial) 
+
+Klick auf Kartenmarker offnetdas dazugehörige Ergebnis in der Liste (Akk.)</description>
+   <name>64_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fed8eece-809f-4c4c-b757-19998044bebf</testCaseGuid>
+</TestCaseEntity>

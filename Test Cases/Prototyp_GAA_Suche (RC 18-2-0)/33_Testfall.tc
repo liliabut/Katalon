@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ergebnis bei Auswahl eines Ortes (z.B Königswinter):
+5 GAAs für Berlin sind alphabetisch aufgelistet
+</description>
+   <name>33_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8cbc9182-d6ac-415d-aaa6-bc8e1656afaa</testCaseGuid>
+</TestCaseEntity>
