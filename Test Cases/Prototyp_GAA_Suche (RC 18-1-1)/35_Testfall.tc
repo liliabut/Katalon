@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>GAA-count=5 (Dropdown: Ergebnis bei Auswahl eines Ortes z.B. Königswinter)
+
+Alle Filialen, bei denen im Feld &quot;City&quot; dieser Ort steht, sind angezeigt (Akk. und Filial-Icons) </description>
+   <name>35_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>45b86389-aec8-4a2f-807e-3485d8fe7c5e</testCaseGuid>
+</TestCaseEntity>

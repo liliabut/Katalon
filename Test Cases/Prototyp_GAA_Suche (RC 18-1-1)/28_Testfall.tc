@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>GAA-count=5 (Dropdown: Ergebnis bei Auswahl eines Ortes z.B. Bornheim)
+
+Alle Filialen, bei denen im Feld &quot;City&quot; dieser Ort steht, sind angezeigt (Akk. und Filial-Icons) </description>
+   <name>28_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9bdfe716-ae7d-4d5e-be36-d7efad0d7009</testCaseGuid>
+</TestCaseEntity>
