@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Es werden Funktionalitäten von Navi_secondary auf Firmenkunden-Seite geprüft.</description>
+   <name>11_Navi_secondary_Firmenkunden</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a06563a1-33b4-4b8d-a55d-3e3be33f1e47</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ALT: Es werden Funktionalitäten von APP via SMS-Versand geprüft</description>
+   <name>08_BankingApp</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>add8175c-5130-4141-b5ab-f9d9ac680031</testCaseGuid>
+</TestCaseEntity>

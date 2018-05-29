@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_q</name>
+   <tag></tag>
+   <elementGuidId>eb569d5e-5378-4296-b086-3b29ee7224ae</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>q</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-input store-search-zip</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>z. B. PLZ, Ort, Straße</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wcbody&quot;)/div[@class=&quot;module module-localisation localisation-sticky&quot;]/div[@class=&quot;location-detail&quot;]/div[@class=&quot;location-detail-inner&quot;]/div[@class=&quot;module-storesearch&quot;]/div[@class=&quot;store-wrapper&quot;]/form[@class=&quot;store-search&quot;]/fieldset[1]/div[@class=&quot;combo-field&quot;]/input[@class=&quot;text-input store-search-zip&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Es werden Funktionalitäten von Cookies (Header) geprüft</description>
+   <name>07_Cookies</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4902c141-3d5f-4afa-93b4-b83543f29a8c</testCaseGuid>
+</TestCaseEntity>

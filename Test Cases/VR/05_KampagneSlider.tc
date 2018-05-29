@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Es werden Funktionalitäten von Kampagnen Slider auf verschiedenen Seiten geprüft</description>
    <name>05_KampagneSlider</name>
    <tag></tag>
    <comment></comment>

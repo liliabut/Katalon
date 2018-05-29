@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>ab2e7fa2-a6b3-453a-af70-a0438e7d056c</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://www.vr.de/firmenkunden/_jcr_content/kampagnenbereich/karussell/parsys/kampagnecomponent_294052373/kampagne/bild.img.png/1523545245590/mittelstand-innovation-fk-bvr-henn-1600x550.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Webserie &quot;Von Mittelstand zu Mittelstand&quot;</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Webserie &quot;Von Mittelstand zu Mittelstand&quot;</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>border</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wcbody&quot;)/div[@class=&quot;campaign-area&quot;]/div[@class=&quot;module module-carousel   l-fade has-swipe&quot;]/div[@class=&quot;carousel-wrapper&quot;]/div[@class=&quot;carousel-item-wrap count_0 carousel__item--visible carousel__item--primary&quot;]/div[@class=&quot;section-teaser js-ready&quot;]/a[@class=&quot;-cta&quot;]/div[@class=&quot;c-image&quot;]/img[1]</value>
+   </webElementProperties>
+</WebElementEntity>

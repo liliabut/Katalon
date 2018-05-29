@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Suchen</name>
+   <tag></tag>
+   <elementGuidId>087a493f-d24a-4042-ac75-cc31b0121cd5</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icons-search</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Suchen</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wcbody&quot;)/div[@class=&quot;module module-localisation localisation-sticky&quot;]/div[@class=&quot;location-detail&quot;]/div[@class=&quot;location-detail-inner&quot;]/div[@class=&quot;module-storesearch&quot;]/div[@class=&quot;store-wrapper&quot;]/form[@class=&quot;store-search&quot;]/fieldset[1]/div[@class=&quot;combo-field&quot;]/button[1]/span[@class=&quot;icons-search&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

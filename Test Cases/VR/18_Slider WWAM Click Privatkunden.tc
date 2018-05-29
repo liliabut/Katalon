@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Es werden Funktionalitäten (Klick) von Slider &quot;Was wir anderes machen&quot; auf Privatkunden-Seite geprüft.</description>
+   <name>18_Slider WWAM Click Privatkunden</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>685b793e-6cbf-4861-86a2-ce22ba48a860</testCaseGuid>
+</TestCaseEntity>

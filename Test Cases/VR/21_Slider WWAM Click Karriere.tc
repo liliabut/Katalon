@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Es werden Funktionalitäten (Klick) von Slider &quot;Was wir anderes machen&quot; auf Karriere-Seite geprüft.</description>
+   <name>21_Slider WWAM Click Karriere</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0bc695b3-eb9c-40c6-adf2-f2a549ecca14</testCaseGuid>
+</TestCaseEntity>

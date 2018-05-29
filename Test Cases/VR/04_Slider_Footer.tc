@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Es werden Funktionalitäten von Slider im Footer auf verschiedenen Seiten geprüft.</description>
+   <description>Es werden Funktionalitäten von Slider im Footer auf Startseite geprüft.</description>
    <name>04_Slider_Footer</name>
    <tag></tag>
    <comment></comment>

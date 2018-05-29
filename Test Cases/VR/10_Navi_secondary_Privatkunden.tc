@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Es werden Funktionalitäten von Navi_secondary auf Privatkunden-Seite geprüft.</description>
+   <name>10_Navi_secondary_Privatkunden</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b7cfac43-5f2b-41dc-85dc-2f81c50b19ac</testCaseGuid>
+</TestCaseEntity>

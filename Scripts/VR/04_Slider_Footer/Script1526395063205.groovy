@@ -22,7 +22,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.delay(0)
+WebUI.deleteAllCookies()
 
 WebUI.maximizeWindow()
 

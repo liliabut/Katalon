@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Es werden Funktionalitäten von Navi_secondary auf Karriere-Seite geprüft.</description>
+   <name>13_Navi_secondary_Karriere</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6555ab0b-e754-470e-a8c5-796c1ba4aeaf</testCaseGuid>
+</TestCaseEntity>
