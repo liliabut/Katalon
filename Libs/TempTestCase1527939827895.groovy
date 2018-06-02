@@ -13,13 +13,13 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\vr-test\\AppData\\Local\\Temp\\Katalon\\Test Cases\\VR\\18_Slider WWAM Click\\20180523_172424\\execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/0b/y_r3585j029c_ccdl0b045xc0000gn/T/Katalon/Test Cases/Rest/Tracking/20180602_134347/execution.properties')
 
 TestCaseMain.beforeStart()
 try {
     
-	    TestCaseMain.runTestCase('Test Cases/VR/18_Slider WWAM Click', new TestCaseBinding('Test Cases/VR/18_Slider WWAM Click', [:]), FailureHandling.STOP_ON_FAILURE )
+	    TestCaseMain.runTestCase('Test Cases/Rest/Tracking', new TestCaseBinding('Test Cases/Rest/Tracking', [:]), FailureHandling.STOP_ON_FAILURE )
     
 } catch (Exception e) {
-    TestCaseMain.logError(e, 'Test Cases/VR/18_Slider WWAM Click')
+    TestCaseMain.logError(e, 'Test Cases/Rest/Tracking')
 }
