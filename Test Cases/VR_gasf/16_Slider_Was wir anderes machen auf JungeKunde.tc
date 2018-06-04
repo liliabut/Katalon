@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Es werden Funktionalitäten von Slider &quot;Was wir anderes machen&quot; auf Jungekunden-Seite geprüft.</description>
+   <name>16_Slider_Was wir anderes machen auf JungeKunde</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd6db077-5049-42e1-bbff-21c2287a0052</testCaseGuid>
+</TestCaseEntity>

@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_nav__link--lvl-2 icons-navig</name>
+   <name>a_Kontakt  Filialen</name>
    <tag></tag>
-   <elementGuidId>f15714c7-d1f1-4f0e-947c-d9106529df54</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[@href = 'https://www.vr.de/privatkunden/filialsuche.html']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>b12de381-a3e5-4110-9f1b-54048c886ced</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://www.vr.de/privatkunden/filialsuche.html</value>
+      <value>https://gasfdbvr.vr.de/privatkunden/filialsuche.html</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +33,13 @@
       <name>btattached</name>
       <type>Main</type>
       <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kontakt &amp; Filialen</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

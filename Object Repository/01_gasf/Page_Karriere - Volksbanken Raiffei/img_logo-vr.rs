@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_nav__link--lvl-2 icons-navig</name>
+   <name>img_logo-vr</name>
    <tag></tag>
-   <elementGuidId>f15714c7-d1f1-4f0e-947c-d9106529df54</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[@href = 'https://www.vr.de/privatkunden/filialsuche.html']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>8e503684-c7e5-4a22-aa4b-94cd4ee87822</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,34 +11,41 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>https://www.vr.de/privatkunden/filialsuche.html</value>
+      <value>img</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>nav__link--lvl-2 icons-navigation-store is-loaded has-no-menu has-mouseover</value>
+      <value>logo-vr</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>btattached</name>
+      <name>title</name>
       <type>Main</type>
-      <value>true</value>
+      <value>vr.de</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>vr.de</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/content/dam/f0906-6/individualisierung/internetneu_6/layout/img/logo-vr-icon.svg</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;filialsuche&quot;)/a[@class=&quot;nav__link--lvl-2 icons-navigation-store is-loaded has-no-menu has-mouseover&quot;]</value>
+      <value>id(&quot;logo&quot;)/a[@class=&quot;logo-meine-bank&quot;]/img[@class=&quot;logo-vr&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

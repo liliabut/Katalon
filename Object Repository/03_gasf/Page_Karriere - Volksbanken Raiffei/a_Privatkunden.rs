@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_nav__link--lvl-2 icons-navig</name>
+   <name>a_Privatkunden</name>
    <tag></tag>
-   <elementGuidId>f15714c7-d1f1-4f0e-947c-d9106529df54</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[@href = 'https://www.vr.de/privatkunden/filialsuche.html']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>97a1376c-b3c8-4907-8b5a-9ae393aa5bb9</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,14 +18,21 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://www.vr.de/privatkunden/filialsuche.html</value>
+      <value>https://gasfdbvr.vr.de/privatkunden.html</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_self</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>nav__link--lvl-2 icons-navigation-store is-loaded has-no-menu has-mouseover</value>
+      <value>nav-primary__link</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,10 +42,17 @@
       <value>true</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Privatkunden</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;filialsuche&quot;)/a[@class=&quot;nav__link--lvl-2 icons-navigation-store is-loaded has-no-menu has-mouseover&quot;]</value>
+      <value>id(&quot;nav&quot;)/div[@class=&quot;nav__inner&quot;]/div[@class=&quot;nav-primary&quot;]/ul[@class=&quot;nav-primary__list&quot;]/li[@class=&quot;nav-primary__list-item&quot;]/a[@class=&quot;nav-primary__link&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

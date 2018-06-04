@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_nav__link--lvl-2 icons-navig</name>
+   <name>a_Kontakt aufnehmen</name>
    <tag></tag>
-   <elementGuidId>f15714c7-d1f1-4f0e-947c-d9106529df54</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[@href = 'https://www.vr.de/privatkunden/filialsuche.html']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>7fb410b3-dd1a-4854-a959-18e5ed982591</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,14 +18,14 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://www.vr.de/privatkunden/filialsuche.html</value>
+      <value>https://gasfdbvr.vr.de/service/kontakt-zentral.html</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>nav__link--lvl-2 icons-navigation-store is-loaded has-no-menu has-mouseover</value>
+      <value>btn btn--contact</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,10 +35,17 @@
       <value>true</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>  Kontakt aufnehmen     </value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;filialsuche&quot;)/a[@class=&quot;nav__link--lvl-2 icons-navigation-store is-loaded has-no-menu has-mouseover&quot;]</value>
+      <value>id(&quot;filialsuche&quot;)/div[@class=&quot;nav-flyout nav-flyout--dive is-visible&quot;]/div[@class=&quot;dive-nav-flyout&quot;]/div[@class=&quot;dive-nav-flyout__layer dive-nav-flyout__layer--overview is-active&quot;]/div[@class=&quot;dive__row&quot;]/div[@class=&quot;dive__column dive__column--central-contact&quot;]/div[@class=&quot;dive__inner-column&quot;]/div[@class=&quot;form__group&quot;]/a[@class=&quot;btn btn--contact&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
