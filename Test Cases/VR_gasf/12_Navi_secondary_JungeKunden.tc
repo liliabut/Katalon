@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Es werden Funktionalitäten von Navi_secondary auf Jungekunden-Seite geprüft.</description>
+   <name>12_Navi_secondary_JungeKunden</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cbc4df5a-f7a9-436e-a867-6ff1eb6a2eab</testCaseGuid>
+</TestCaseEntity>

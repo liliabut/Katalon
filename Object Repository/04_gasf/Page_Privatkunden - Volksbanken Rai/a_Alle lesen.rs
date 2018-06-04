@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_nav__link--lvl-2 icons-navig</name>
+   <name>a_Alle lesen</name>
    <tag></tag>
-   <elementGuidId>f15714c7-d1f1-4f0e-947c-d9106529df54</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[@href = 'https://www.vr.de/privatkunden/filialsuche.html']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>fd4389f3-e9c5-4171-aab1-006fd5b1baa8</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,14 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://www.vr.de/privatkunden/filialsuche.html</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>nav__link--lvl-2 icons-navigation-store is-loaded has-no-menu has-mouseover</value>
+      <value>https://gasfdbvr.vr.de/privatkunden/mitarbeiter.html</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,10 +28,17 @@
       <value>true</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Alle lesen</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;filialsuche&quot;)/a[@class=&quot;nav__link--lvl-2 icons-navigation-store is-loaded has-no-menu has-mouseover&quot;]</value>
+      <value>id(&quot;wcbody&quot;)/div[@class=&quot;megafooter&quot;]/div[@class=&quot;megafooter-inner-full&quot;]/div[@class=&quot;more&quot;]/a[1]</value>
    </webElementProperties>
 </WebElementEntity>

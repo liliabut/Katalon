@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Es werden Funktionalitäten von Slider &quot;Was wir anderes machen&quot; auf Karriere-Seite geprüft.</description>
+   <name>17_Slider_Was wir anderes machen auf Karriere</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ffe1b32f-59f1-461c-a3cb-51b9df0e4f95</testCaseGuid>
+</TestCaseEntity>

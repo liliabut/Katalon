@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Es werden Funktionalitäten von Slider im Footer auf Startseite geprüft.</description>
+   <name>04_Slider_Footer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a585bc8f-784f-406e-8d50-6453d608dc52</testCaseGuid>
+</TestCaseEntity>

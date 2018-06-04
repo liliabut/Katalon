@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Es werden Funktionalitäten von Kontakt-Formular  (zentral) geprüft</description>
+   <name>09_Kontakt_Formular</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ff84be74-dca4-4345-afe0-77653656541f</testCaseGuid>
+</TestCaseEntity>
