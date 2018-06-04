@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Das Tracking für die BBBank. Der Test überprüft, ob bestimmte Tracking-Code auf der WEbseite vorhanden ist.
+Es gibt probleme mit ' und &quot; Zeichen in XPath. Wenn der Code beinahltet ' Zeichen, dann bei contains() &quot; Zeichen verwenden und anders rum.</description>
    <name>Tracking</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>fb0bbd14-25fc-4159-ada3-d84ba55e0587</testCaseGuid>
+   <testCaseGuid>7e7c81f6-487d-437f-b3ed-6eeb38c0d50d</testCaseGuid>
 </TestCaseEntity>
