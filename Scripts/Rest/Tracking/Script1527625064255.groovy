@@ -18,21 +18,23 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
-
 WebUI.deleteAllCookies()
 
-WebUI.navigateToUrl('https://www.bbbank.de/homepage.html')
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('https://www.bbbank.de')
+
+WebUI.waitForPageLoad(0)
 
 WebUI.delay(2)
 
-WebUI.verifyElementPresent(findTestObject('Tracking/Page_BBBank  Produkte/tracking_script'), 0)
+WebUI.verifyElementPresent(findTestObject('BBBank_Tracking/piwik_tracking'), 0)
 
-WebUI.delay(2)
+WebUI.verifyElementPresent(findTestObject('BBBank_Tracking/webtrekk_pixel_tracking'), 0)
+
+WebUI.verifyElementPresent(findTestObject('BBBank_Tracking/webtrekk_tracking'), 0)
 
 WebUI.closeBrowser()
-

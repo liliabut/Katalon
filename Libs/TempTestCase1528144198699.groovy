@@ -13,7 +13,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/0b/y_r3585j029c_ccdl0b045xc0000gn/T/Katalon/Test Cases/Rest/Tracking/20180602_133952/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/0b/y_r3585j029c_ccdl0b045xc0000gn/T/Katalon/Test Cases/Rest/Tracking/20180604_222958/execution.properties')
 
 TestCaseMain.beforeStart()
 try {
