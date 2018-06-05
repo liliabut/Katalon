@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ergebnis nach Eingabe (z.B. Berlin): 
+25 Filialen (GAAl-Icons) sind auf der Karte angezeigt</description>
+   <name>14_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3825f020-49f6-4bb0-93f2-db4819efc3e0</testCaseGuid>
+</TestCaseEntity>

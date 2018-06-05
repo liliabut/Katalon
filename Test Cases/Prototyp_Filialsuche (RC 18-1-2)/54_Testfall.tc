@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Seitenaddresse: 
+http://rc-ogrhtmlprototyp.testintern/18-1-0/filialsuche-wangen.html
+
+Test ob die Ergebnisse bei Suche korrekt nach Ortsnamen sortiert sind in dem mit einer vorgegebenen Liste verglichen wird.
+
+Zugehöriges Repository ist:
+OGRPrototypFilialsuche - Ort
+</description>
+   <name>54_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc0f2838-c274-49d7-80c6-7cb0001d61a8</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Es werden 4 bestimmte Ergebnisse bei Eingabe von &quot;Rechberghausen&quot;angezeigt. 
+ 
+
+Ein bestimmtes Akkordeon ist aufgeklappt, andere 3 zugeklappt</description>
+   <name>61_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>10ba39e6-cfe9-46cc-ae88-d7665078b013</testCaseGuid>
+</TestCaseEntity>

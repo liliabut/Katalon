@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ergebnis bei Auswahl eines Ortes:
+ z.B Berlin => Ergebnisliste: Alle Filialen sind zugeklappt</description>
+   <name>21_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3a6d591-309c-402d-bb27-650ade5b7ff1</testCaseGuid>
+</TestCaseEntity>

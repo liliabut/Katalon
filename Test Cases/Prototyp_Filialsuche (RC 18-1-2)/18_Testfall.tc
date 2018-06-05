@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Es werden Funktionalitäten geprüft:
+Dropdown, Akk. , Anfahrt/Zurück-Buttons, Eingabefelder (street/city) etc.</description>
+   <name>18_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c9473460-a81c-4c4f-b236-de1269a74807</testCaseGuid>
+</TestCaseEntity>

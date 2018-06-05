@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>-goeppingen.html
+
+Ergebnis bei Auswahl eines Ortes (z.B Geislingen):
+5 GAAs für Berlin sind alphabetish aufgelistet
+</description>
+   <name>27_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8c8c2a24-424b-4bf0-8710-a8679cb18837</testCaseGuid>
+</TestCaseEntity>

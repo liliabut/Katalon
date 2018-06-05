@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>GAA-count=70 (Dropdown: Ergebnis bei Auswahl eines Ortes Potsdam (count=2))
+Alle Filialen, bei denen im Feld &quot;City&quot; dieser Ort steht, sind angezeigt (Akk. und Filial-Icons) </description>
+   <name>18_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b309df4a-8c0d-4f01-b641-dfaa9a7fbd0b</testCaseGuid>
+</TestCaseEntity>

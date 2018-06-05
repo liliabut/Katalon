@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>s. Widget im Footer
+Ergebnis bei Auswahl eines Ortes:
+ z.B Berlin => Ergebnisliste: Alle Filialen sind zugeklappt</description>
+   <name>24_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8617ef64-d7f3-426b-b01a-6225c4ffc515</testCaseGuid>
+</TestCaseEntity>

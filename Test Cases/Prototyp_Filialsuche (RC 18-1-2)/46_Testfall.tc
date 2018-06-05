@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Wenn es nach Börtlingen, Rechberghausen, Uhingen wird gesucht, dann 1 Akk (kann nicht erstes sein) auf ist, rest zu. Es wird durch TextVerify (Ort/Straße) geprüft</description>
+   <name>46_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf269fec-f1c9-4179-bb86-8f70f9bc2da4</testCaseGuid>
+</TestCaseEntity>

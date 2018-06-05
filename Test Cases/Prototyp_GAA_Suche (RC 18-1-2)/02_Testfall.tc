@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ergebnis, initialer Aufruf:
+Die ersten 100 GAAs der Bank alphabetisch sortiert nach 
+a) Ortsname (1.) und Straßenname (2.)
+
+
+</description>
+   <name>02_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2fda7321-5c3a-4095-9baa-5741875c2015</testCaseGuid>
+</TestCaseEntity>

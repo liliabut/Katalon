@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Initial: Alle Filial-Icon sind auf der Karte angezeigt</description>
+   <name>04_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f8233d84-063f-498e-88e5-90b109cbc04d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>GAA-count=5 (Dropdown: Ergebnis bei Auswahl eines Ortes z.B. Geislingen)
+
+Alle Filialen, bei denen im Feld &quot;City&quot; dieser Ort steht, sind angezeigt (Akk. und Filial-Icons) </description>
+   <name>29_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>edbbf860-4c9b-4c3c-8a19-bd6eae09aa0c</testCaseGuid>
+</TestCaseEntity>

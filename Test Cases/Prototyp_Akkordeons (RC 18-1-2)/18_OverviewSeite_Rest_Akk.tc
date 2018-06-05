@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Overview-Seite: Accordions mit Bildern funktionieren beim Klick wie erwartet</description>
+   <name>18_OverviewSeite_Rest_Akk</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ba014787-4ecb-430d-af85-a7f77de9193c</testCaseGuid>
+</TestCaseEntity>

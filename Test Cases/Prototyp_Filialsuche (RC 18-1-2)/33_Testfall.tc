@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>&quot;Initial: 
+Keine Treffer sind angezeigt (keine Filial-Akk., keine Filial-Icons, keine Entfernung&quot;</description>
+   <name>33_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cfd1bafa-cb61-4972-90e0-1c1524ca0d89</testCaseGuid>
+</TestCaseEntity>

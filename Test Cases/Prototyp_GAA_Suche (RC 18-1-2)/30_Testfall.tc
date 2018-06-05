@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>-bonn.html
+
+Initial:
+30 GAAs für Berlin sind alphabetisch sortiert nach 
+a) Ortsname (1.) und Straßenname (2.)
+
+Wichtig: Es werden nur 3 Buchstaben bei Ortname alphabetisch verglichen!!!
+
+Liefert Fehler, obwohl alphabetisch ist</description>
+   <name>30_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3ed64374-ee52-45dd-8d5c-3bcfb33185b0</testCaseGuid>
+</TestCaseEntity>

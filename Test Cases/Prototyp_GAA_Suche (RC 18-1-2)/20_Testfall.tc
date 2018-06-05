@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ergebnis nach Eingabe (z.B. Berlin):
+Es werden 25 GAA von Berlin nach Entfernung zum geographischen Mittelpunkt sortiert</description>
+   <name>20_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c138e43f-d9d6-4b3b-874a-01dcc7a81c90</testCaseGuid>
+</TestCaseEntity>

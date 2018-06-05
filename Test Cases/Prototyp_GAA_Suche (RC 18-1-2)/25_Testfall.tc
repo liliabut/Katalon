@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ergebnis bei Auswahl eines Ortes (z.B Bornheim):
+5 GAAs für Berlin sind alphabetisch aufgelistet
+</description>
+   <name>25_Testfall</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>67e41eec-bfb7-4c86-9167-766c232d91c4</testCaseGuid>
+</TestCaseEntity>

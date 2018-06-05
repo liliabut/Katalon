@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>FAQ
+initial: 
+Es wird geprüft, ob zu Anfang alle FAQ Akk. geschlossen sind</description>
+   <name>08_FAQSeiteSindAlleZuBeginnGeschlossen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>82db4791-999a-4df8-bf39-b7d40f01a9e0</testCaseGuid>
+</TestCaseEntity>
