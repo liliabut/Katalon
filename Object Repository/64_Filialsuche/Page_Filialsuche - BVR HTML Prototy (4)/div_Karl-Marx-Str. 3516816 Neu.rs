@@ -4,6 +4,52 @@
    <name>div_Karl-Marx-Str. 3516816 Neu</name>
    <tag></tag>
    <elementGuidId>cee3e1cb-d114-48d4-9cfd-0ec3d0d60660</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = '
+				
+					Karl-Marx-Str. 35
+					16816 NeuruppinBarrierefreier Zugang
+					030 3063-3300
+					service@berliner-volksbank.de
+					 Details
+					
+						
+							
+								
+							
+							Anfahrt
+						
+					
+				
+			' or . = '
+				
+					Karl-Marx-Str. 35
+					16816 NeuruppinBarrierefreier Zugang
+					030 3063-3300
+					service@berliner-volksbank.de
+					 Details
+					
+						
+							
+								
+							
+							Anfahrt
+						
+					
+				
+			')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

@@ -4,6 +4,7 @@
    <name>Akk 18-1-2</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-06-06T12:18:08</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

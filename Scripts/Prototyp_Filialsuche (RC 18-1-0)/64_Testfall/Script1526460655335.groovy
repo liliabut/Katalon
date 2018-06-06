@@ -58,7 +58,7 @@ WebUI.verifyTextPresent('service@berliner-volksbank.de', false)
 
 WebUI.delay(1)
 
-WebUI.verifyElementInViewport(findTestObject('64_Filialsuche/Page_Filialsuche - BVR HTML Prototy (4)/div_Karl-Marx-Str. 3516816 Neu'), 
+WebUI.verifyElementInViewport(findTestObject('64_Filialsuche/Page_Filialsuche - BVR HTML Prototy (6)/div_Brnicker Chaussee 116321 B'), 
     0)
 
 WebUI.closeBrowser()
