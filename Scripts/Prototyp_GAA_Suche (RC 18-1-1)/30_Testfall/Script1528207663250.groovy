@@ -73,6 +73,8 @@ for (int i = 1; i < wes.size(); i++) {
 
     text_prev = text_prev.replaceAll('Ü', 'U')
 
+	text = text.substring(6);
+	
     char ch = text.charAt(0)
 
     char ch_prev = el_prev.getAttribute('innerHTML').charAt(0)
