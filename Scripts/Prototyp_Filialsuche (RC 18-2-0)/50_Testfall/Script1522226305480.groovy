@@ -42,7 +42,7 @@ WebUI.delay(2)
 'Berlin auswählen'
 WebUI.click(findTestObject('Belitz_option'))
 
-WebUI.delay(2)
+WebUI.delay(4)
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Footer/01ErgebnisText'), 'Berliner Volksbank eG, Filiale Rudow')
 

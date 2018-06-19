@@ -48,7 +48,7 @@ WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Footer/02Ergebn
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Footer/03ErgebnisTest'), 'Geldautomat: Volksbank Köln Bonn eG - Dollendorf')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Footer/04ErgebnisTest'), 'Geldautomat: Volksbank Bonn Rhein-Sieg eG, Filiale Stieldorf')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Footer/04ErgebnisTest'), 'Geldautomat: Volksbank Köln Bonn eG - Filiale Stieldorf')
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Footer/05ErgebnisTest'), 'Geldautomat: Volksbank Köln Bonn eG - Thomasberg')
 

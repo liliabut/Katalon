@@ -32,7 +32,7 @@ WebUI.delay(5)
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Footer/01ErgebnisText'), 'Geldautomat: Volksbank Köln Bonn eG - bei ALDI')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Footer/02ErgebnisText'), 'Geldautomat: Volksbank Köln Bonn eG - SB Uni-Klinik')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Footer/02ErgebnisText'), 'Geldautomat: Volksbank Köln Bonn eG - Filiale Bad Honnef')
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Footer/03ErgebnisTest'), 'Geldautomat: Volksbank Köln Bonn eG - Auerberg')
 
@@ -80,7 +80,7 @@ WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Footer/19Ergebn
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Footer/20ErgebnisTest'), 'Geldautomat: Volksbank Köln Bonn eG - Zollstock')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Footer/21ErgebnisTest'), 'Geldautomat: Volksbank Köln Bonn eG - Filiale 11')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Footer/21ErgebnisTest'), 'Geldautomat: Volksbank Köln Bonn eG - Kalk')
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Footer/22ErgebnisTest'), 'Geldautomat: Volksbank Köln Bonn eG - Merheim')
 
@@ -100,7 +100,7 @@ WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Footer/27Ergebn
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Footer/28ErgebnisTest'), 'Geldautomat: Volksbank Köln Bonn eG - Dollendorf')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Footer/29ErgebnisTest'), 'Geldautomat: Volksbank Bonn Rhein-Sieg eG, Filiale Stieldorf')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Footer/29ErgebnisTest'), 'Geldautomat: Volksbank Köln Bonn eG - Filiale Stieldorf')
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Footer/30ErgebnisTest'), 'Geldautomat: Volksbank Köln Bonn eG - Thomasberg')
 

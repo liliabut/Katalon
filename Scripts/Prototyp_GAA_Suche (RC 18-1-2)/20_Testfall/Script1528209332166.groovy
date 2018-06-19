@@ -52,7 +52,7 @@ WebUI.click(findTestObject('naechsteSeite'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/07ErgebnisTest'), 'Geldautomat: Berliner Volksbank eG')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/07ErgebnisTest'), 'Geldautomat: Berliner Volksbank eG, FinanzCenter Friedrichstraße')
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/08ErgebnisTest'), 'Geldautomat: Sparda-Bank Berlin eG')
 
