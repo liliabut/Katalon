@@ -13,13 +13,13 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\vr-test\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Prototyp_GAA_Suche (RC 18-2-0)\\06_Testfall\\20180619_095921\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\vr-test\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Prototyp_Filialsuche (RC 18-2-0)\\33_Testfall\\20180620_221403\\execution.properties')
 
 TestCaseMain.beforeStart()
 try {
     
-	    TestCaseMain.runTestCase('Test Cases/Prototyp_GAA_Suche (RC 18-2-0)/06_Testfall', new TestCaseBinding('Test Cases/Prototyp_GAA_Suche (RC 18-2-0)/06_Testfall', [:]), FailureHandling.STOP_ON_FAILURE )
+	    TestCaseMain.runTestCase('Test Cases/Prototyp_Filialsuche (RC 18-2-0)/33_Testfall', new TestCaseBinding('Test Cases/Prototyp_Filialsuche (RC 18-2-0)/33_Testfall', [:]), FailureHandling.STOP_ON_FAILURE )
     
 } catch (Exception e) {
-    TestCaseMain.logError(e, 'Test Cases/Prototyp_GAA_Suche (RC 18-2-0)/06_Testfall')
+    TestCaseMain.logError(e, 'Test Cases/Prototyp_Filialsuche (RC 18-2-0)/33_Testfall')
 }

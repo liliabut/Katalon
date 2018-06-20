@@ -13,7 +13,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\vr-test\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Prototyp_Akkordeons (RC 18-2-0)\\20_AccordionContaktSeiteInitial\\20180619_092234\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\vr-test\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Prototyp_Akkordeons (RC 18-2-0)\\20_AccordionContaktSeiteInitial\\20180620_215408\\execution.properties')
 
 TestCaseMain.beforeStart()
 try {

@@ -34,10 +34,10 @@ WebUI.deleteAllCookies()
 
 WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-2-0/filialsuche-textinput.html')
 
-WebUI.delay(5)
+WebUI.delay(5s)
 
 try {
-    WebUI.verifyElementNotVisible(findTestObject('Accordeon_filialsuche'))
+    WebUI.verifyElementNotPresent(findTestObject('Accordeon_filialsuche'), 0)
 }
 catch (StepFailedException ex) {
     WebUI.comment('Accordeon ist sichtbar!')

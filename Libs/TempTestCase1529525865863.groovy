@@ -13,13 +13,13 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\vr-test\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Prototyp_Akkordeons (RC 18-2-0)\\20_AccordionContaktSeiteInitial\\20180619_092314\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\vr-test\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Prototyp_GAA_Suche (RC 18-2-0)\\09_Testfall\\20180620_221745\\execution.properties')
 
 TestCaseMain.beforeStart()
 try {
     
-	    TestCaseMain.runTestCase('Test Cases/Prototyp_Akkordeons (RC 18-2-0)/20_AccordionContaktSeiteInitial', new TestCaseBinding('Test Cases/Prototyp_Akkordeons (RC 18-2-0)/20_AccordionContaktSeiteInitial', [:]), FailureHandling.STOP_ON_FAILURE )
+	    TestCaseMain.runTestCase('Test Cases/Prototyp_GAA_Suche (RC 18-2-0)/09_Testfall', new TestCaseBinding('Test Cases/Prototyp_GAA_Suche (RC 18-2-0)/09_Testfall', [:]), FailureHandling.STOP_ON_FAILURE )
     
 } catch (Exception e) {
-    TestCaseMain.logError(e, 'Test Cases/Prototyp_Akkordeons (RC 18-2-0)/20_AccordionContaktSeiteInitial')
+    TestCaseMain.logError(e, 'Test Cases/Prototyp_GAA_Suche (RC 18-2-0)/09_Testfall')
 }
