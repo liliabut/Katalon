@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>VR_PROD</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'~/VR_PROD'</initValue>
+      <name>dump_folder</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Test Suites/VR_PROD/sitemap.txt'</initValue>
+      <name>urls_list</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Test Suites/VR_PROD/hide_elements.js'</initValue>
+      <name>hide_elements</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Test Suites/VR_PROD/sitemap_mobile.txt'</initValue>
+      <name>urls_list_mobile</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

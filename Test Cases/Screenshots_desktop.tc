@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Screenshots</name>
+   <name>Screenshots_desktop</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>da1b0286-5e98-44c6-80bc-5900160dc157</testCaseGuid>

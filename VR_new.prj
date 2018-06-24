@@ -4,5 +4,6 @@
    <name>VR_new</name>
    <tag></tag>
    <UUID>1ca364aa-8e80-4524-a5df-470916841d5a</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
 </Project>

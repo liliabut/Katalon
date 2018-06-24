@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Prototyp</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'~/Prototyp'</initValue>
+      <name>dump_folder</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Test Suites/Prototyp/sitemap.txt'</initValue>
+      <name>urls_list</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Test Suites/Prototyp/hide_elements.js'</initValue>
+      <name>hide_elements</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Test Suites/Prototyp/sitemap_mobile.txt'</initValue>
+      <name>urls_list_mobile</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

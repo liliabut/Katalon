@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>INDI</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'~/INDI_Mobile'</initValue>
+      <name>dump_folder</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Test Suites/INDI_Mobile/sitemap.txt'</initValue>
+      <name>urls_list</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Test Suites/INDI_Mobile/hide_elements.js'</initValue>
+      <name>hide_elements</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Test Suites/INDI_Mobile/sitemap_mobile.txt'</initValue>
+      <name>urls_list_mobile</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
