@@ -113,7 +113,7 @@ while ((url = br.readLine()) != null) {
 	
 	WebUI.navigateToUrl(native_url)
 	
-	WebUI.waitForPageLoad(2)
+	WebUI.waitForPageLoad(10)
 	
 	WebDriver driver = DriverFactory.getWebDriver()
 	
@@ -121,7 +121,7 @@ while ((url = br.readLine()) != null) {
 		WebUI.executeJavaScript(jst, null)
 	}
 	
-	WebUI.delay(2)
+	WebUI.delay(5)
 	
 	for(String jst : js) {
 		WebUI.executeJavaScript(jst, null)

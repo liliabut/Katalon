@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Accordion-contacts-Seite 
-Initial: 1.Akkordeon ist geöffnet, weitere sind geschlossen.</description>
+Initial: 1.Akkordeon ist geöffnet, weitere sind geschlossen. Paginierung, Akk-Funktionen geprüft.</description>
    <name>20_AccordionContaktSeiteInitial</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b3b225b8-d75b-4ce0-a10e-4cdebc8730dc</testCaseGuid>
+   <testCaseGuid>449df27e-4cb9-4a31-a36b-6860b552ec55</testCaseGuid>
 </TestCaseEntity>

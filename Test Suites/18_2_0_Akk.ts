@@ -126,12 +126,6 @@
       <testCaseId>Test Cases/Prototyp_Akkordeons (RC 18-2-0)/19_AccordionInTabBeratung</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8de134cb-2515-4f84-b184-7898f2e827a6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Prototyp_Akkordeons (RC 18-2-0)/20_AccordionContaktSeiteInitial</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>b1722f1f-9e5d-4bbf-b2e5-5ca6cb4227c9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
