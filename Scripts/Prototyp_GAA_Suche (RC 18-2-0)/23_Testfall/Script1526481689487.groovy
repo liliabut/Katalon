@@ -32,7 +32,7 @@ WebUI.maximizeWindow()
 
 WebUI.deleteAllCookies()
 
-WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-2-0/geldautomatensuche-goeppinhen.html')
+WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-2-0/geldautomatensuche-goeppingen.html')
 
 WebUI.delay(5)
 

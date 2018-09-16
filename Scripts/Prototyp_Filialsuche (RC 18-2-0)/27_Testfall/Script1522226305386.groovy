@@ -48,7 +48,7 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('002/Page_Detail - BVR HTML Prototyp (1)/div_Berlin'))
 
-WebUI.delay(5)
+WebUI.delay(7)
 
 ArrayList<WebElement> wes = WebUiCommonHelper.findWebElements(findTestObject('filial_map'), 5)
 

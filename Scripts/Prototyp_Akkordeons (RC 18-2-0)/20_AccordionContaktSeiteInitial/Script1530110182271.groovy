@@ -97,6 +97,8 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Akk_20/Page_Accordion-contacts - BVR HTML/a_20 Kontakte'))
 
+WebUI.delay(2)
+
 WebUI.verifyElementVisible(findTestObject('Akk_20/Page_Accordion-contacts - BVR HTML (2)/div_Renate Musterfrau 11Anlage'))
 
 WebUI.delay(2)

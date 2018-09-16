@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description>filialsuche,html (initial) 
 
-Klick auf Kartenmarker offnetdas dazugehörige Ergebnis in der Liste (Akk.)</description>
+Klick auf Kartenmarker offnet das dazugehörige Ergebnis in der Liste (Akk.)</description>
    <name>64_Testfall</name>
    <tag></tag>
    <comment></comment>

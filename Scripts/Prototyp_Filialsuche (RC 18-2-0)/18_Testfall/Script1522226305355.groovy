@@ -19,6 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.openBrowser('')
 
@@ -32,53 +33,55 @@ WebUI.waitForPageLoad(0)
 
 WebUI.delay(4)
 
-WebUI.click(findTestObject('03/Page_Filialsuche-rotenburg - BVR HT/svg_dropdown-icons'))
+WebUI.click(findTestObject('Object Repository/18tt/Page_Filialsuche-rotenburg - BVR HT/svg_dropdown-icons'))
 
 WebUI.delay(5)
 
-WebUI.scrollToElement(findTestObject('002/Page_Filialsuche-rotenburg - BVR HT/div_Bad Hersfeld'), 0)
+WebUI.scrollToElement(findTestObject('Object Repository/18tt/Page_Filialsuche-rotenburg - BVR HT/div_Bad Hersfeld'), 0)
 
-WebUI.mouseOver(findTestObject('002/Page_Filialsuche-rotenburg - BVR HT/div_Bad Hersfeld'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('03/Page_Filialsuche-rotenburg - BVR HT/div_Bad Hersfeld'))
+WebUI.mouseOver(findTestObject('Object Repository/18tt/Page_Filialsuche-rotenburg - BVR HT/div_Bad Hersfeld'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('03/Page_Filialsuche-rotenburg - BVR HT/div_acc-wrapper'))
+WebUI.click(findTestObject('Object Repository/18tt/Page_Filialsuche-rotenburg - BVR HT/div_Bad Hersfeld (1)'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('03/Page_Filialsuche-rotenburg - BVR HT/a_Anfahrt'))
-
-WebUI.setText(findTestObject('03/Page_Filialsuche-rotenburg - BVR HT/input_street'), '10555')
-
-WebUI.setText(findTestObject('03/Page_Filialsuche-rotenburg - BVR HT/input_city'), '10555')
-
-WebUI.setText(findTestObject('03/Page_Filialsuche-rotenburg - BVR HT/input_street'), 'agricolastr')
+WebUI.click(findTestObject('Object Repository/18tt/Page_Filialsuche-rotenburg - BVR HT/div_acc-wrapper'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('03/Page_Filialsuche-rotenburg - BVR HT/a_Zurck'))
+WebUI.click(findTestObject('Object Repository/18tt/Page_Filialsuche-rotenburg - BVR HT/a_Anfahrt'))
+
+WebUI.setText(findTestObject('Object Repository/18tt/Page_Filialsuche-rotenburg - BVR HT/input_street'), '10555')
+
+WebUI.setText(findTestObject('Object Repository/18tt/Page_Filialsuche-rotenburg - BVR HT/input_city'), '10555')
+
+WebUI.setText(findTestObject('Object Repository/18tt/Page_Filialsuche-rotenburg - BVR HT/input_street'), 'agricolastr')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/18tt/Page_Filialsuche-rotenburg - BVR HT/a_Zurck'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('18TF/Page_Filialsuche-rotenburg - BVR HT/div_aps-map__custom-marker'))
+WebUI.click(findTestObject('18tt/Page_Filialsuche-rotenburg - BVR HT/div_ffnet eine Lightbox mit Ak'))
+
+WebUI.delay(4)
+
+WebUI.click(findTestObject('Object Repository/18tt/Page_Filialsuche-rotenburg - BVR HT/a_Anfahrt_1'))
+
+WebUI.click(findTestObject('Object Repository/18tt/Page_Filialsuche-rotenburg - BVR HT/a_Zurck'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('03/Page_Filialsuche-rotenburg - BVR HT/a_Anfahrt_1'))
+WebUI.scrollToElement(findTestObject('18tt/Page_Filialsuche-rotenburg - BVR HT/svg_dropdown-icons'), 0)
 
-WebUI.click(findTestObject('03/Page_Filialsuche-rotenburg - BVR HT/a_Zurck'))
+WebUI.click(findTestObject('18tt/Page_Filialsuche-rotenburg - BVR HT/svg_dropdown-icons'))
 
-WebUI.delay(2)
+WebUI.mouseOver(findTestObject('Object Repository/18tt/Page_Filialsuche-rotenburg - BVR HT/div_Kirchheim'))
 
-WebUI.click(findTestObject('03/Page_Filialsuche-rotenburg - BVR HT/svg_dropdown-icons'))
-
-WebUI.mouseOver(findTestObject('03/Page_Filialsuche-rotenburg - BVR HT/div_Kirchheim'))
-
-WebUI.click(findTestObject('03/Page_Filialsuche-rotenburg - BVR HT/div_Kirchheim'))
+WebUI.click(findTestObject('Object Repository/18tt/Page_Filialsuche-rotenburg - BVR HT/div_Kirchheim'))
 
 WebUI.delay(5)
 

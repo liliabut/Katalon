@@ -19,6 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.openBrowser('')
 
@@ -36,71 +37,71 @@ WebUI.sendKeys(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/input_cit
 
 WebUI.delay(5)
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/01ErgebnisText'), 'Berliner Volksbank eG, FinanzCenter Friedrichstraße')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/01ErgebnisText'), 'Berliner Volksbank eG')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/02ErgebnisText'), 'Berliner Volksbank eG, Filiale Kreuzberg')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/02ErgebnisText'), 'Berliner Volksbank eG, FinanzCenter Kurfürstendamm')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/03ErgebnisTest'), 'Berliner Volksbank eG, Filiale Leopoldplatz')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/03ErgebnisTest'), 'Berliner Volksbank eG, Filiale Charlottenburg')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/04ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Neukölln')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/04ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Wilmersdorf')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/05ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Kurfürstendamm')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/05ErgebnisTest'), 'Berliner Volksbank eG, Filiale Westend')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/06ErgebnisTest'), 'Berliner Volksbank eG, Filiale Prenzlauer Berg')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/06ErgebnisTest'), 'Berliner Volksbank eG, Filiale Kreuzberg')
 
-WebUI.click(findTestObject('naechsteSeite'))
-
-WebUI.delay(2)
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/07ErgebnisTest'), 'Berliner Volksbank eG, Filiale Karl-Marx-Straße')
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/08ErgebnisTest'), 'Berliner Volksbank eG, Filiale Charlottenburg')
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/09ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Wilmersdorf')
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/10ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Friedrichshain')
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/11ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Weißensee')
-
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/12ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Pankow')
-
-WebUI.click(findTestObject('naechsteSeite'))
+WebUI.click(findTestObject('Object Repository/naechsteSeite'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/13ErgebnisTest'), 'Berliner Volksbank eG, Filiale Kurt-Schumacher-Platz')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/07ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Steglitz')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/14ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Mariendorf')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/08ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Friedrichstraße')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/15ErgebnisTest'), 'Berliner Volksbank eG, Filiale Westend')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/09ErgebnisTest'), 'Berliner Volksbank eG, Filiale Leopoldplatz')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/16ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Steglitz')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/10ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Neukölln')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/17ErgebnisTest'), 'Berliner Volksbank eG, Filiale Treptow')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/11ErgebnisTest'), 'Berliner Volksbank eG, Filiale Kurt-Schumacher-Platz')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/18ErgebnisTest'), 'Berliner Volksbank eG, Filiale Lichterfelde-Ost')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/12ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Mariendorf')
 
-WebUI.click(findTestObject('naechsteSeite'))
+WebUI.click(findTestObject('Object Repository/naechsteSeite'))
+
+WebUI.delay(2)
+
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/13ErgebnisTest'), 'Berliner Volksbank eG, Filiale Karl-Marx-Straße')
+
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/14ErgebnisTest'), 'Berliner Volksbank eG, Filiale Lichterfelde-Ost')
+
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/15ErgebnisTest'), 'Berliner Volksbank eG, Filiale Prenzlauer Berg')
+
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/16ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Pankow')
+
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/17ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Friedrichshain')
+
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/18ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Weißensee')
+
+WebUI.click(findTestObject('Object Repository/naechsteSeite'))
 
 WebUI.delay(2)
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/19ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Tegel')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/20ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Spandau')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/20ErgebnisTest'), 'Berliner Volksbank eG, Filiale Treptow')
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/21ErgebnisTest'), 'Berliner Volksbank eG, Filiale Rudow')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/22ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Kaulsdorf')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/22ErgebnisTest'), 'Berliner Volksbank eG, Filiale Adlershof')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/23ErgebnisTest'), 'Berliner Volksbank eG, Filiale Ahrensfelde')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/23ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Kaulsdorf')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/24ErgebnisTest'), 'Berliner Volksbank eG, Filiale Adlershof')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/24ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Köpenick')
 
-WebUI.click(findTestObject('naechsteSeite'))
+WebUI.click(findTestObject('Object Repository/naechsteSeite'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/25ErgebnisTest'), 'Berliner Volksbank eG, FinanzCenter Köpenick')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - Berlin Zentrum/25ErgebnisTest'), 'Berliner Volksbank eG, Filiale Ahrensfelde')
 
 WebUI.closeBrowser()
 

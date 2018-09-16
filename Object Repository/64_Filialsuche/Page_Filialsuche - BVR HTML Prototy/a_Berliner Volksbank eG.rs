@@ -4,6 +4,34 @@
    <name>a_Berliner Volksbank eG</name>
    <tag></tag>
    <elementGuidId>6c6a8fb1-ba83-424f-bf96-95a06165a908</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '#' and (text() = '
+				
+					
+					
+				
+				
+				Berliner Volksbank eG
+			' or . = '
+				
+					
+					
+				
+				
+				Berliner Volksbank eG
+			')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

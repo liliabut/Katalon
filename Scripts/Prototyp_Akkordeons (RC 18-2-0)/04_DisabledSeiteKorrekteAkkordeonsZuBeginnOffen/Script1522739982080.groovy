@@ -35,9 +35,5 @@ WebUI.maximizeWindow()
 WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonDisabledXpath/Akkordeon01Active'), 'text').replaceAll('[^a-zA-Z0-9]', 
         ''), 'Akkordeon1', false)
 
-'Ist Akkordeon04 (Akkordeon 4 Lorem ipsum dolor sit amet) offen\r\n'
-WebUI.verifyMatch(WebUI.getAttribute(findTestObject('AkkordeonDisabledXpath/Akkordeon04Active'), 'text').replaceAll('[^a-zA-Z0-9]', 
-        ''), 'Akkordeon4Loremipsumdolorsitamet', false)
-
 WebUI.closeBrowser()
 

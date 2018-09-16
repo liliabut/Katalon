@@ -50,19 +50,5 @@ WebUI.click(findTestObject('002/Page_Home-6-filialsuche - BVR HTML/div_Berlin'))
 
 WebUI.delay(5)
 
-ArrayList<WebElement> wes = WebUiCommonHelper.findWebElements(findTestObject('filial_map'), 5)
-
-for (int i = 0; i < wes.size(); i++) {
-    el = wes.get(i)
-
-    if (!(el.isDisplayed())) {
-        WebUI.comment('Nicht alle Filiale sind angezeigt auf der Karte!')
-
-        WebUI.closeBrowser()
-
-        throw new StepFailedException('Eine Filiale ist nicht sichtbar.')
-    }
-}
-
 WebUI.closeBrowser()
 

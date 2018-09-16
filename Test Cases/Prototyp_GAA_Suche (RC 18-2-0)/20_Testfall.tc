@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Ergebnis nach Eingabe (z.B. Berlin):
-Es werden 25 GAA von Berlin nach Entfernung zum geographischen Mittelpunkt sortiert</description>
+Es werden 25 GAA von Berlin nach Entfernung zum geographischen Mittelpunkt sortiert
+
+
+Step 17:
+Geldautomat: Berliner Volksbank eG - war
+Geldautomat: Berliner Volksbank eG, FinanzCenter Friedrichstraße - ist
+
+Step 41:
+Geldautomat: Berliner Volksbank eG, FinanzCenter Friedrichshain - war
+Geldautomat: Berliner Volksbank eG - ist</description>
    <name>20_Testfall</name>
    <tag></tag>
    <comment></comment>

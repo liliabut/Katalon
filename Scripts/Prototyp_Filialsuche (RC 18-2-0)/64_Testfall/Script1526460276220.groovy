@@ -28,6 +28,12 @@ WebUI.deleteAllCookies()
 
 WebUI.navigateToUrl('http://rc-ogrhtmlprototyp.testintern/18-2-0/filialsuche.html')
 
+WebUI.delay(4)
+
+WebUI.scrollToElement(findTestObject('64_Filialsuche/Page_Filialsuche - BVR HTML Prototy/a_Berliner Volksbank eG'), 0)
+
+WebUI.delay(4)
+
 WebUI.click(findTestObject('64_Filialsuche/Page_Filialsuche - BVR HTML Prototy/a_Berliner Volksbank eG'))
 
 WebUI.delay(2)

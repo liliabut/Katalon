@@ -40,29 +40,29 @@ WebUI.delay(8)
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/01ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Bad Hersfeld')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/02ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/02ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG SB-Stelle Bad Hersfeld')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/03ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG SB-Stelle Bad Hersfeld')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/03ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG SB-Stelle Autohof Süd')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/04ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG SB-Stelle Autohof Süd')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/04ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Ludwigsau-Friedlos')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/05ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Ludwigsau-Friedlos')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/05ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Kirchheim')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/06ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Kirchheim')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/06ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Niederaula')
 
 WebUI.click(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/2teSeite'))
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/07ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Niederaula')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/07ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG SB-Stelle Bebra')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/08ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG SB-Stelle Bebra')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/08ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Bebra Amalienstraße')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/09ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Bebra Amalienstraße')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/09ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Neuenstein')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/10ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Neuenstein')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/10ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG SB-Filiale Rotenburg')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/11ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG SB-Filiale Rotenburg')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/11ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Rotenburg an der Fulda')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/12ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Rotenburg an der Fulda')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/12ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG')
 
 WebUI.scrollToElement(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/Page_Filialsuche-rotenburg - BVR HT/a_3'), 
     0)
@@ -71,26 +71,28 @@ WebUI.click(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/Page_Filia
 
 WebUI.delay(5)
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/13ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Oberaula')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/13ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG SB-Stelle Rotenburg')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/14ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Breitenbach am Herzberg')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/14ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Oberaula')
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/15ErgebnisTest', [('variable') : '']), 
-    'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Alheim-Heinebach')
+    'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Breitenbach am Herzberg')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/16ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Heringen')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/16ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Alheim-Heinebach')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/17ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Nentershausen')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/17ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Heringen')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/18ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Wildeck-Obersuhl')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/18ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Nentershausen')
 
 WebUI.click(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/Page_Filialsuche-rotenburg - BVR HT/a_4'))
 
 WebUI.delay(3)
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/19ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Sontra Marktplatz')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/19ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Wildeck-Obersuhl')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/20ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Gerstungen')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/20ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Sontra Marktplatz')
+
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/21ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Gerstungen')
 
 WebUI.closeBrowser()
 

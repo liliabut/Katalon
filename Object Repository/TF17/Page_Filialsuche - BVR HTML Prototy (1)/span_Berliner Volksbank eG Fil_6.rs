@@ -4,6 +4,20 @@
    <name>span_Berliner Volksbank eG Fil_6</name>
    <tag></tag>
    <elementGuidId>b96fe84b-7a69-4181-91de-a031524902fe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Berliner Volksbank eG, FinanzCenter Mariendorf' or . = 'Berliner Volksbank eG, FinanzCenter Mariendorf')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +39,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Berliner Volksbank eG, Filiale Ahrensfelde</value>
+      <value>Berliner Volksbank eG, FinanzCenter Mariendorf</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

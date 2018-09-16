@@ -46,9 +46,9 @@ WebUI.delay(5)
 
 WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/01ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG Filiale Bad Hersfeld')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/02ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/02ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG SB-Stelle Bad Hersfeld')
 
-WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/03ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG SB-Stelle Bad Hersfeld')
+WebUI.verifyElementText(findTestObject('OGRPrototypFilialsuche - DistanzRotenburg/03ErgebnisTest'), 'VR-Bankverein Bad Hersfeld-Rotenburg eG SB-Stelle Autohof Süd')
 
 WebUI.delay(2)
 

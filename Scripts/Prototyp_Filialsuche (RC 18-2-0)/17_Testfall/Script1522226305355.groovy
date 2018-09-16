@@ -25,6 +25,7 @@ import org.openqa.selenium.By as By
 import com.kms.katalon.core.exception.StepFailedException as StepFailedException
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.openBrowser('')
 
@@ -39,6 +40,10 @@ WebUI.delay(2)
 WebUI.waitForPageLoad(0)
 
 WebUI.delay(2)
+
+WebUI.scrollToElement(findTestObject('03/Page_Filialsuche-rotenburg - BVR HT/svg_dropdown-icons'), 0)
+
+WebUI.mouseOver(findTestObject('03/Page_Filialsuche-rotenburg - BVR HT/svg_dropdown-icons'))
 
 WebUI.click(findTestObject('03/Page_Filialsuche-rotenburg - BVR HT/svg_dropdown-icons'))
 
@@ -184,7 +189,7 @@ WebUI.verifyTextPresent('Ludolfingerplatz 7', false)
 
 WebUI.verifyTextPresent('13465 Berlin', false)
 
-WebUI.click(findTestObject('TF17/Page_Filialsuche - BVR HTML Prototy (1)/span_Berliner Volksbank eG Fin_6'))
+WebUI.click(findTestObject('TF17/Page_Filialsuche - BVR HTML Prototy (1)/span_Berliner Volksbank eG Fil_6'))
 
 WebUI.delay(2)
 
@@ -192,7 +197,7 @@ WebUI.verifyTextPresent('Mariendorfer Damm 88-90', false)
 
 WebUI.verifyTextPresent('12109 Berlin', false)
 
-WebUI.click(findTestObject('TF17/Page_Filialsuche - BVR HTML Prototy (1)/span_Berliner Volksbank eG Fil_6'))
+WebUI.delay(2)
 
 WebUI.click(findTestObject('TF17/Page_Filialsuche - BVR HTML Prototy (1)/a_4'))
 
@@ -208,11 +213,15 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('TF17/Page_Filialsuche - BVR HTML Prototy (1)/span_Berliner Volksbank eG Fil_10'))
 
+WebUI.click(findTestObject('TF17/Page_Filialsuche - BVR HTML Prototy (1)/a_5'))
+
 WebUI.click(findTestObject('TF17/Page_Filialsuche - BVR HTML Prototy (1)/span_Berliner Volksbank eG Fil_13'))
 
 WebUI.verifyTextPresent('Scharnweberstr. 14', false)
 
 WebUI.verifyTextPresent('13405 Berlin', false)
+
+WebUI.click(findTestObject('TF17/Page_Filialsuche - BVR HTML Prototy (1)/a_4'))
 
 WebUI.click(findTestObject('TF17/Page_Filialsuche - BVR HTML Prototy (1)/span_Berliner Volksbank eG Fil_11'))
 
